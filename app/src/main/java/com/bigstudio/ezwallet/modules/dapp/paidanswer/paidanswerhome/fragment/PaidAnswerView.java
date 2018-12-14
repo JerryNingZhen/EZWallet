@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.PaidAnswerBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.PaidAnswerBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

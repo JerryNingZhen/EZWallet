@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.friendslist.myfriendslist;
+package com.bigstudio.ezwallet.modules.friendslist.myfriendslist;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.User;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.User;
 
 import java.util.ArrayList;
 

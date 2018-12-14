@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.paidanswerhome.activity;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,17 +16,17 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.gyf.barlibrary.ImmersionBar;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.Find_tab_Adapter;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin.ChooseAccountWithCoinActivity;
-import com.oraclechain.ezwallet.modules.dapp.paidanswer.makequestion.MakeQuestionActivity;
-import com.oraclechain.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment.PaidAnswerFragment;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.utils.DensityUtil;
-import com.oraclechain.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.Find_tab_Adapter;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin.ChooseAccountWithCoinActivity;
+import com.bigstudio.ezwallet.modules.dapp.paidanswer.makequestion.MakeQuestionActivity;
+import com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment.PaidAnswerFragment;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.utils.DensityUtil;
+import com.bigstudio.ezwallet.utils.Utils;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

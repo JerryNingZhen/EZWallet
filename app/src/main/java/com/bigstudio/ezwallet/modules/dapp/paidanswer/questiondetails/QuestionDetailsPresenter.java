@@ -1,20 +1,20 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.questiondetails;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.questiondetails;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.ChainInfoBean;
-import com.oraclechain.ezwallet.bean.GetChainJsonBean;
-import com.oraclechain.ezwallet.bean.GetRequiredKeysBean;
-import com.oraclechain.ezwallet.bean.PostChainAnswerJsonBean;
-import com.oraclechain.ezwallet.bean.PostChainPublicKeyBean;
-import com.oraclechain.ezwallet.bean.TransferSuccessBean;
-import com.oraclechain.ezwallet.net.HttpUtils;
-import com.oraclechain.ezwallet.bean.ResponseBean;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.ChainInfoBean;
+import com.bigstudio.ezwallet.bean.GetChainJsonBean;
+import com.bigstudio.ezwallet.bean.GetRequiredKeysBean;
+import com.bigstudio.ezwallet.bean.PostChainAnswerJsonBean;
+import com.bigstudio.ezwallet.bean.PostChainPublicKeyBean;
+import com.bigstudio.ezwallet.bean.TransferSuccessBean;
+import com.bigstudio.ezwallet.net.HttpUtils;
+import com.bigstudio.ezwallet.bean.ResponseBean;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 

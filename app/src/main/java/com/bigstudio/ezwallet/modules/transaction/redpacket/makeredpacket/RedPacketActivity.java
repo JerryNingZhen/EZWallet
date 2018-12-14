@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.transaction.redpacket.makeredpacket;
+package com.bigstudio.ezwallet.modules.transaction.redpacket.makeredpacket;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -14,30 +14,30 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.liaoinstan.springview.container.DefaultFooter;
 import com.liaoinstan.springview.widget.SpringView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.bean.CoinRateBean;
-import com.oraclechain.ezwallet.bean.RedPacketHistoryBean;
-import com.oraclechain.ezwallet.bean.SendRedPacketBean;
-import com.oraclechain.ezwallet.bean.TransferEosMessageBean;
-import com.oraclechain.ezwallet.blockchain.EosDataManger;
-import com.oraclechain.ezwallet.utils.AndroidBug5497Workaround;
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.KeyBoardUtil;
-import com.oraclechain.ezwallet.utils.RotateUtils;
-import com.oraclechain.ezwallet.utils.StringUtils;
-import com.oraclechain.ezwallet.view.ClearEditText;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
-import com.oraclechain.ezwallet.view.popupwindow.BasePopupWindow;
-import com.oraclechain.ezwallet.view.textwatcher.MakeRedPacketMoneyTextWatcher;
-import com.oraclechain.ezwallet.view.textwatcher.MakeRedPacketNumberTextWatcher;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.bean.CoinRateBean;
+import com.bigstudio.ezwallet.bean.RedPacketHistoryBean;
+import com.bigstudio.ezwallet.bean.SendRedPacketBean;
+import com.bigstudio.ezwallet.bean.TransferEosMessageBean;
+import com.bigstudio.ezwallet.blockchain.EosDataManger;
+import com.bigstudio.ezwallet.utils.AndroidBug5497Workaround;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.KeyBoardUtil;
+import com.bigstudio.ezwallet.utils.RotateUtils;
+import com.bigstudio.ezwallet.utils.StringUtils;
+import com.bigstudio.ezwallet.view.ClearEditText;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.view.popupwindow.BasePopupWindow;
+import com.bigstudio.ezwallet.view.textwatcher.MakeRedPacketMoneyTextWatcher;
+import com.bigstudio.ezwallet.view.textwatcher.MakeRedPacketNumberTextWatcher;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -46,7 +46,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-import static com.oraclechain.ezwallet.utils.Utils.getContext;
+import static com.bigstudio.ezwallet.utils.Utils.getContext;
 
 //发红包
 public class RedPacketActivity extends BaseAcitvity<RedPacketView, RedPacketPresenter> implements RedPacketView {

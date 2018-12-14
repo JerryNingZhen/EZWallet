@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.account.backupaccount.fragment;
+package com.bigstudio.ezwallet.modules.account.backupaccount.fragment;
 
 
 import android.os.Bundle;
@@ -8,21 +8,21 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.AppManager;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseFragment;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.modules.blackbox.BlackBoxMainActivity;
-import com.oraclechain.ezwallet.modules.main.MainActivity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.utils.EncryptUtil;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.AppManager;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseFragment;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.modules.blackbox.BlackBoxMainActivity;
+import com.bigstudio.ezwallet.modules.main.MainActivity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.utils.EncryptUtil;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;

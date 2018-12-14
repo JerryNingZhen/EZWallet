@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.convenientbanner.adapter;
+package com.bigstudio.ezwallet.view.convenientbanner.adapter;
 
 /**
  * Created by pocketEos on 2018/1/3.
@@ -13,8 +13,8 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.view.convenientbanner.holder.Holder;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.view.convenientbanner.holder.Holder;
 
 /**
  * 设置加载图片类型

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.service;
+package com.bigstudio.ezwallet.service;
 
 import android.app.Service;
 import android.content.Intent;

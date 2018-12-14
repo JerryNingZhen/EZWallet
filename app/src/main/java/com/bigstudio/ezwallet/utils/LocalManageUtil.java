@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -7,7 +7,7 @@ import android.os.Build;
 import android.os.LocaleList;
 import android.util.DisplayMetrics;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 import java.util.Locale;
 

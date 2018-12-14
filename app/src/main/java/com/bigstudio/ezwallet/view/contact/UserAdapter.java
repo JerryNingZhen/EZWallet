@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.contact;
+package com.bigstudio.ezwallet.view.contact;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,12 +10,12 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.bean.User;
-import com.oraclechain.ezwallet.modules.friendslist.friendsdetails.FriendsDetailsActivity;
-import com.oraclechain.ezwallet.modules.friendslist.pelist.PelistActivity;
-import com.oraclechain.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.bean.User;
+import com.bigstudio.ezwallet.modules.friendslist.friendsdetails.FriendsDetailsActivity;
+import com.bigstudio.ezwallet.modules.friendslist.pelist.PelistActivity;
+import com.bigstudio.ezwallet.view.RoundImageView;
 
 import java.util.ArrayList;
 import java.util.List;

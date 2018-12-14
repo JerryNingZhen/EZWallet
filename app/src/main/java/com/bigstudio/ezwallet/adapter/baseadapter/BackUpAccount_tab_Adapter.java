@@ -1,10 +1,10 @@
-package com.oraclechain.ezwallet.adapter.baseadapter;
+package com.bigstudio.ezwallet.adapter.baseadapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.oraclechain.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
+import com.bigstudio.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
 
 import java.util.List;
 

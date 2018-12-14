@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.blackbox.nowalletlogin;
+package com.bigstudio.ezwallet.modules.blackbox.nowalletlogin;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -7,24 +7,24 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.AppManager;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.UserBean;
-import com.oraclechain.ezwallet.gen.UserBeanDao;
-import com.oraclechain.ezwallet.modules.account.createaccount.CreateAccountActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.systemsetting.RichTextActivity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.modules.wallet.createwallet.login.LoginActivity;
-import com.oraclechain.ezwallet.utils.AndroidBug5497Workaround;
-import com.oraclechain.ezwallet.utils.EncryptUtil;
-import com.oraclechain.ezwallet.utils.FilesUtils;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.ClearEditText;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.AppManager;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.UserBean;
+import com.bigstudio.ezwallet.gen.UserBeanDao;
+import com.bigstudio.ezwallet.modules.account.createaccount.CreateAccountActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.systemsetting.RichTextActivity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.bigstudio.ezwallet.utils.AndroidBug5497Workaround;
+import com.bigstudio.ezwallet.utils.EncryptUtil;
+import com.bigstudio.ezwallet.utils.FilesUtils;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.ClearEditText;
 
 import butterknife.BindView;
 import butterknife.OnClick;

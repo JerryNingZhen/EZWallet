@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.bean;
+package com.bigstudio.ezwallet.bean;
 
 /**
  * Created by pocketEos on 2018/1/11.

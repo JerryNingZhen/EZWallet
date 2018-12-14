@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.textwatcher;
+package com.bigstudio.ezwallet.view.textwatcher;
 
 import android.graphics.Color;
 import android.text.Editable;
@@ -8,8 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
-import com.oraclechain.ezwallet.utils.StringUtils;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.utils.StringUtils;
 
 import java.math.BigDecimal;
 

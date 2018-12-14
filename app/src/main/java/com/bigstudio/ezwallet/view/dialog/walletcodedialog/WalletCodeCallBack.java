@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.walletcodedialog;
+package com.bigstudio.ezwallet.view.dialog.walletcodedialog;
 
 import android.graphics.Bitmap;
 

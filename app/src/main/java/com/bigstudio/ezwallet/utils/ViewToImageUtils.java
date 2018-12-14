@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

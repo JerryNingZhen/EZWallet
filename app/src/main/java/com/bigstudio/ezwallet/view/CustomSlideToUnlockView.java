@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view;
+package com.bigstudio.ezwallet.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,8 +15,8 @@ import android.widget.TextView;
 import com.github.florent37.viewanimator.AnimationListener;
 import com.github.florent37.viewanimator.ViewAnimator;
 import com.nineoldandroids.view.ViewHelper;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.utils.DensityUtil;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.utils.DensityUtil;
 
 /**
  * Created by pocketEos on 2017/12/14.'

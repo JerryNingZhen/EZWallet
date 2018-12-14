@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view;
+package com.bigstudio.ezwallet.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/12/7.

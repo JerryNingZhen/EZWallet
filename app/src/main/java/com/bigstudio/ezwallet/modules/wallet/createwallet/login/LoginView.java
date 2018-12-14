@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.wallet.createwallet.login;
+package com.bigstudio.ezwallet.modules.wallet.createwallet.login;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.CodeAuthBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.CodeAuthBean;
 
 /**
  * Created by pocketEos on 2018/1/18.

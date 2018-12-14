@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.bean;
+package com.bigstudio.ezwallet.bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;

@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.blockchain.bean;
+package com.bigstudio.ezwallet.blockchain.bean;
 
 
 import com.google.gson.annotations.Expose;
-import com.oraclechain.ezwallet.blockchain.chain.SignedTransaction;
+import com.bigstudio.ezwallet.blockchain.chain.SignedTransaction;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.blockchain.types;
+package com.bigstudio.ezwallet.blockchain.types;
 
 import com.google.gson.annotations.Expose;
 

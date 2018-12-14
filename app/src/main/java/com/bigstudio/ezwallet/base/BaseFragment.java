@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.base;
+package com.bigstudio.ezwallet.base;
 
 
 import android.content.Context;
@@ -12,9 +12,9 @@ import android.view.ViewGroup;
 
 import com.gyf.barlibrary.ImmersionBar;
 import com.lzy.okgo.OkGo;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.utils.Utils;
 
 import butterknife.ButterKnife;
 

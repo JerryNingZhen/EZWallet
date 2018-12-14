@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.resourcemanager.resourcehome.fragment.net;
+package com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.net;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.BlockChainAccountInfoBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.blockchain.types;
+package com.bigstudio.ezwallet.blockchain.types;
 
 
-import com.oraclechain.ezwallet.blockchain.util.StringUtils;
+import com.bigstudio.ezwallet.blockchain.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-09-12.

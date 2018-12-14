@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.main;
+package com.bigstudio.ezwallet.modules.main;
 
 
 import android.content.Intent;
@@ -17,37 +17,37 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.AppManager;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.QrCodeWalletBean;
-import com.oraclechain.ezwallet.gen.UserBeanDao;
-import com.oraclechain.ezwallet.modules.dapp.DappFragment;
-import com.oraclechain.ezwallet.modules.friendslist.myfriendslist.FriendsListFragment;
-import com.oraclechain.ezwallet.modules.home.HomeFragment;
-import com.oraclechain.ezwallet.modules.leftdrawer.appupdate.AppUpdateActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.candyintegral.CandyIntegralActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.messagecenter.MessageCenterActivity;
-import com.oraclechain.ezwallet.modules.nodevote.NodeVoteActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.systemsetting.SystemSettingActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.transactionhistory.TransactionHistoryActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.usercenter.UserCenterActivity;
-import com.oraclechain.ezwallet.modules.news.NewsFragment;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.modules.otherloginorshare.BaseUIListener;
-import com.oraclechain.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
-import com.oraclechain.ezwallet.modules.wallet.createwallet.login.LoginActivity;
-import com.oraclechain.ezwallet.modules.wallet.walletmanagement.WalletManagementActivity;
-import com.oraclechain.ezwallet.utils.FilesUtils;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.utils.UpdateUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.RoundImageView;
-import com.oraclechain.ezwallet.view.dialog.walletcodedialog.WalletCodeCallBack;
-import com.oraclechain.ezwallet.view.dialog.walletcodedialog.WalletCodeDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.AppManager;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.QrCodeWalletBean;
+import com.bigstudio.ezwallet.gen.UserBeanDao;
+import com.bigstudio.ezwallet.modules.dapp.DappFragment;
+import com.bigstudio.ezwallet.modules.friendslist.myfriendslist.FriendsListFragment;
+import com.bigstudio.ezwallet.modules.home.HomeFragment;
+import com.bigstudio.ezwallet.modules.leftdrawer.appupdate.AppUpdateActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.candyintegral.CandyIntegralActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.messagecenter.MessageCenterActivity;
+import com.bigstudio.ezwallet.modules.nodevote.NodeVoteActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.systemsetting.SystemSettingActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.transactionhistory.TransactionHistoryActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.usercenter.UserCenterActivity;
+import com.bigstudio.ezwallet.modules.news.NewsFragment;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.modules.otherloginorshare.BaseUIListener;
+import com.bigstudio.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
+import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.bigstudio.ezwallet.modules.wallet.walletmanagement.WalletManagementActivity;
+import com.bigstudio.ezwallet.utils.FilesUtils;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.utils.UpdateUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.view.dialog.walletcodedialog.WalletCodeCallBack;
+import com.bigstudio.ezwallet.view.dialog.walletcodedialog.WalletCodeDialog;
 import com.tencent.connect.common.Constants;
 import com.tencent.connect.share.QQShare;
 import com.tencent.connect.share.QzonePublish;
@@ -59,7 +59,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.oraclechain.ezwallet.R.id.drawer;
+import static com.bigstudio.ezwallet.R.id.drawer;
 
 public class MainActivity extends BaseAcitvity<NormalView, NormalPresenter> implements View.OnClickListener, NormalView, HomeFragment.Openleft {
 

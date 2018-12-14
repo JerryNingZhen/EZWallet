@@ -1,23 +1,23 @@
-package com.oraclechain.ezwallet.modules.transaction.transferaccounts.switchfriend;
+package com.bigstudio.ezwallet.modules.transaction.transferaccounts.switchfriend;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.FriendsListInfoBean;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.FriendsListInfoBean;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 
-import static com.oraclechain.ezwallet.utils.Utils.getContext;
+import static com.bigstudio.ezwallet.utils.Utils.getContext;
 
 public class SwitchFriendActivity extends BaseAcitvity<SwitchFriendView, SwitchFriendPresenter> implements SwitchFriendView {
 

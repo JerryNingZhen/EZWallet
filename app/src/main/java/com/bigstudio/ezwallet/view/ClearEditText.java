@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view;
+package com.bigstudio.ezwallet.view;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,7 +12,7 @@ import android.view.animation.CycleInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.EditText;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 /**
  * 待删除文本输入框

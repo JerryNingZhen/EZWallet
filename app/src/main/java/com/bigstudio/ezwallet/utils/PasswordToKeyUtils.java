@@ -1,6 +1,6 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
-import com.oraclechain.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.app.MyApplication;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.nodevote.gonodevote;
+package com.bigstudio.ezwallet.modules.nodevote.gonodevote;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.ResultNodeListBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.ResultNodeListBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.oraclechain.ezwallet.blockchain.util;
+package com.bigstudio.ezwallet.blockchain.util;
 
 /**
  * Created by swapnibble on 2017-09-28.

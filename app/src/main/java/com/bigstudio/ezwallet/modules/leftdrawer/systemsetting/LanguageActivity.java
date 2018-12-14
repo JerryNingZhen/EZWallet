@@ -1,17 +1,17 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.systemsetting;
+package com.bigstudio.ezwallet.modules.leftdrawer.systemsetting;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.AppManager;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.main.MainActivity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.utils.LocalManageUtil;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.AppManager;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.main.MainActivity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.utils.LocalManageUtil;
 
 import butterknife.BindView;
 import butterknife.OnClick;

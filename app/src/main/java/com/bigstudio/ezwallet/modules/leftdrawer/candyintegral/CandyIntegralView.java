@@ -1,9 +1,9 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.candyintegral;
+package com.bigstudio.ezwallet.modules.leftdrawer.candyintegral;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.CandyScoreBean;
-import com.oraclechain.ezwallet.bean.CandyUserTaskBean;
-import com.oraclechain.ezwallet.bean.HotEquitiesBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.CandyScoreBean;
+import com.bigstudio.ezwallet.bean.CandyUserTaskBean;
+import com.bigstudio.ezwallet.bean.HotEquitiesBean;
 
 import java.util.List;
 

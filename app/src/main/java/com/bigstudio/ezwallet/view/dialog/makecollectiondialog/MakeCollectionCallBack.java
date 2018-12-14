@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.makecollectiondialog;
+package com.bigstudio.ezwallet.view.dialog.makecollectiondialog;
 
 import android.graphics.Bitmap;
 

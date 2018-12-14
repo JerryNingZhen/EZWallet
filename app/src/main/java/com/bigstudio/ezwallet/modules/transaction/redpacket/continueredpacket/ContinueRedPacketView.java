@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.modules.transaction.redpacket.continueredpacket;
+package com.bigstudio.ezwallet.modules.transaction.redpacket.continueredpacket;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.CoinRateBean;
-import com.oraclechain.ezwallet.bean.RedPacketDetailsBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.CoinRateBean;
+import com.bigstudio.ezwallet.bean.RedPacketDetailsBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

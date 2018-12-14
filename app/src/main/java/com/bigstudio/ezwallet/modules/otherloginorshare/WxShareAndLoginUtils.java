@@ -1,14 +1,14 @@
-package com.oraclechain.ezwallet.modules.otherloginorshare;
+package com.bigstudio.ezwallet.modules.otherloginorshare;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.Toast;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.base.Constants;
-import com.oraclechain.ezwallet.utils.FilesUtils;
-import com.oraclechain.ezwallet.utils.ShowDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.base.Constants;
+import com.bigstudio.ezwallet.utils.FilesUtils;
+import com.bigstudio.ezwallet.utils.ShowDialog;
 import com.tencent.mm.opensdk.modelmsg.SendAuth;
 import com.tencent.mm.opensdk.modelmsg.SendMessageToWX;
 import com.tencent.mm.opensdk.modelmsg.WXImageObject;

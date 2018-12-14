@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.oraclechain.ezwallet.blockchain.types;
+package com.bigstudio.ezwallet.blockchain.types;
 
 import java.util.Collection;
 

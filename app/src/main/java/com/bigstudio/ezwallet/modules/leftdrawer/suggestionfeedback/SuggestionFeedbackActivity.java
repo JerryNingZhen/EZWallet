@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.suggestionfeedback;
+package com.bigstudio.ezwallet.modules.leftdrawer.suggestionfeedback;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,20 +12,20 @@ import android.widget.TextView;
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
 import com.lzy.okgo.utils.OkLogger;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.SuggestionBean;
-import com.oraclechain.ezwallet.view.ClearEditText;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.SuggestionBean;
+import com.bigstudio.ezwallet.view.ClearEditText;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 
-import static com.oraclechain.ezwallet.utils.Utils.getContext;
+import static com.bigstudio.ezwallet.utils.Utils.getContext;
 
 public class SuggestionFeedbackActivity extends BaseAcitvity<SuggestionFeedbackView, SuggestionFeedbackPresenter> implements SuggestionFeedbackView {
 

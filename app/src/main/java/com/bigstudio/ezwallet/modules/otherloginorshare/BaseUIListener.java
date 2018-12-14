@@ -1,13 +1,13 @@
-package com.oraclechain.ezwallet.modules.otherloginorshare;
+package com.bigstudio.ezwallet.modules.otherloginorshare;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.ToastUtils;
 import com.tencent.connect.UserInfo;
 import com.tencent.connect.auth.QQToken;
 import com.tencent.tauth.IUiListener;

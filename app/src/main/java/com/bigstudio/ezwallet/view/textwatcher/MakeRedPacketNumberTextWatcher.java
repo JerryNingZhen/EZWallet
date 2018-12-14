@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.textwatcher;
+package com.bigstudio.ezwallet.view.textwatcher;
 
 import android.graphics.Color;
 import android.text.Editable;

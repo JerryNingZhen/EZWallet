@@ -1,18 +1,18 @@
-package com.oraclechain.ezwallet.modules.friendslist.friendsdetails;
+package com.bigstudio.ezwallet.modules.friendslist.friendsdetails;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
-import com.oraclechain.ezwallet.bean.AccountWithCoinBean;
-import com.oraclechain.ezwallet.bean.WalletDetailsBean;
-import com.oraclechain.ezwallet.net.HttpUtils;
-import com.oraclechain.ezwallet.bean.ResponseBean;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
-import com.oraclechain.ezwallet.utils.RegexUtil;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
+import com.bigstudio.ezwallet.bean.WalletDetailsBean;
+import com.bigstudio.ezwallet.net.HttpUtils;
+import com.bigstudio.ezwallet.bean.ResponseBean;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.utils.RegexUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

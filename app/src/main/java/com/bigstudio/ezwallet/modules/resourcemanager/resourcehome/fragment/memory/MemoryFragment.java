@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.resourcemanager.resourcehome.fragment.memory;
+package com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.memory;
 
 
 import android.os.Bundle;
@@ -6,12 +6,12 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.base.BaseFragment;
-import com.oraclechain.ezwallet.bean.BlockChainAccountInfoBean;
-import com.oraclechain.ezwallet.modules.resourcemanager.changememory.ChangeMemoryActivity;
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.base.BaseFragment;
+import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
+import com.bigstudio.ezwallet.modules.resourcemanager.changememory.ChangeMemoryActivity;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
 
 import java.math.BigDecimal;
 

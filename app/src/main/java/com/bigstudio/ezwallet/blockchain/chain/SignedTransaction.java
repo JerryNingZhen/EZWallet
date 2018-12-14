@@ -1,12 +1,12 @@
-package com.oraclechain.ezwallet.blockchain.chain;
+package com.bigstudio.ezwallet.blockchain.chain;
 
 import com.google.gson.annotations.Expose;
-import com.oraclechain.ezwallet.blockchain.cypto.digest.Sha256;
-import com.oraclechain.ezwallet.blockchain.cypto.ec.EcDsa;
-import com.oraclechain.ezwallet.blockchain.cypto.ec.EcSignature;
-import com.oraclechain.ezwallet.blockchain.cypto.ec.EosPrivateKey;
-import com.oraclechain.ezwallet.blockchain.types.EosByteWriter;
-import com.oraclechain.ezwallet.blockchain.types.TypeChainId;
+import com.bigstudio.ezwallet.blockchain.cypto.digest.Sha256;
+import com.bigstudio.ezwallet.blockchain.cypto.ec.EcDsa;
+import com.bigstudio.ezwallet.blockchain.cypto.ec.EcSignature;
+import com.bigstudio.ezwallet.blockchain.cypto.ec.EosPrivateKey;
+import com.bigstudio.ezwallet.blockchain.types.EosByteWriter;
+import com.bigstudio.ezwallet.blockchain.types.TypeChainId;
 
 import java.util.ArrayList;
 import java.util.List;

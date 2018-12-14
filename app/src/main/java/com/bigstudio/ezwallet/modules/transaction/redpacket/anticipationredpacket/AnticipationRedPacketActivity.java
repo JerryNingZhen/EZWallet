@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.transaction.redpacket.anticipationredpacket;
+package com.bigstudio.ezwallet.modules.transaction.redpacket.anticipationredpacket;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,14 +8,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AuthRedPacketBean;
-import com.oraclechain.ezwallet.bean.SendRedPacketBean;
-import com.oraclechain.ezwallet.modules.otherloginorshare.BaseUIListener;
-import com.oraclechain.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
-import com.oraclechain.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AuthRedPacketBean;
+import com.bigstudio.ezwallet.bean.SendRedPacketBean;
+import com.bigstudio.ezwallet.modules.otherloginorshare.BaseUIListener;
+import com.bigstudio.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
+import com.bigstudio.ezwallet.view.RoundImageView;
 import com.tencent.connect.common.Constants;
 import com.tencent.connect.share.QQShare;
 import com.tencent.connect.share.QzonePublish;

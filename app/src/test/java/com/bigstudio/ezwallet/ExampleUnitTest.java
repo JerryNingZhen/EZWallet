@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet;
+package com.bigstudio.ezwallet;
 
 import org.junit.Test;
 

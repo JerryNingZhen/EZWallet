@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.home;
+package com.bigstudio.ezwallet.modules.home;
 
 
 import android.Manifest;
@@ -22,37 +22,37 @@ import android.widget.TextView;
 
 import com.gyf.barlibrary.ImmersionBar;
 import com.liaoinstan.springview.widget.SpringView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseFragment;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.bean.AccountWithCoinBean;
-import com.oraclechain.ezwallet.modules.account.accountdetails.AccountDetailsActivity;
-import com.oraclechain.ezwallet.modules.coindetails.CoinDetailsActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.usercenter.UserCenterActivity;
-import com.oraclechain.ezwallet.modules.nodevote.NodeVoteActivity;
-import com.oraclechain.ezwallet.modules.scancode.ScanCodeActivity;
-import com.oraclechain.ezwallet.modules.switchusernumber.SwitchUserNumberActivity;
-import com.oraclechain.ezwallet.modules.transaction.makecollections.MakeCollectionsActivity;
-import com.oraclechain.ezwallet.modules.transaction.redpacket.makeredpacket.RedPacketActivity;
-import com.oraclechain.ezwallet.modules.transaction.transferaccounts.TransferAccountsActivity;
-import com.oraclechain.ezwallet.modules.unstake.UnStakeActivity;
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
-import com.oraclechain.ezwallet.utils.DensityUtil;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.ShowDialog;
-import com.oraclechain.ezwallet.utils.StringUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.AppDefeatHeadView;
-import com.oraclechain.ezwallet.view.MyScrollview;
-import com.oraclechain.ezwallet.view.RoundImageView;
-import com.oraclechain.ezwallet.view.ScrollText;
-import com.oraclechain.ezwallet.view.dialog.advertisingdialog.AdvertisingCallback;
-import com.oraclechain.ezwallet.view.dialog.advertisingdialog.AdvertisingDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseFragment;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
+import com.bigstudio.ezwallet.modules.account.accountdetails.AccountDetailsActivity;
+import com.bigstudio.ezwallet.modules.coindetails.CoinDetailsActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.usercenter.UserCenterActivity;
+import com.bigstudio.ezwallet.modules.nodevote.NodeVoteActivity;
+import com.bigstudio.ezwallet.modules.scancode.ScanCodeActivity;
+import com.bigstudio.ezwallet.modules.switchusernumber.SwitchUserNumberActivity;
+import com.bigstudio.ezwallet.modules.transaction.makecollections.MakeCollectionsActivity;
+import com.bigstudio.ezwallet.modules.transaction.redpacket.makeredpacket.RedPacketActivity;
+import com.bigstudio.ezwallet.modules.transaction.transferaccounts.TransferAccountsActivity;
+import com.bigstudio.ezwallet.modules.unstake.UnStakeActivity;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.utils.DensityUtil;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.ShowDialog;
+import com.bigstudio.ezwallet.utils.StringUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.AppDefeatHeadView;
+import com.bigstudio.ezwallet.view.MyScrollview;
+import com.bigstudio.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.view.ScrollText;
+import com.bigstudio.ezwallet.view.dialog.advertisingdialog.AdvertisingCallback;
+import com.bigstudio.ezwallet.view.dialog.advertisingdialog.AdvertisingDialog;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -64,7 +64,7 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 import me.ljp.permission.PermissionItem;
 
-import static com.oraclechain.ezwallet.R.id.spring;
+import static com.bigstudio.ezwallet.R.id.spring;
 
 /**
  * 首页

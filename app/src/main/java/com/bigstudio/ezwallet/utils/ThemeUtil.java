@@ -1,9 +1,9 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 /**
  * Created by pocketEos on 2018/5/16.

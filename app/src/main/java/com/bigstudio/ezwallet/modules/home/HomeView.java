@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.home;
+package com.bigstudio.ezwallet.modules.home;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.AccountWithCoinBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
 
 import java.util.List;
 

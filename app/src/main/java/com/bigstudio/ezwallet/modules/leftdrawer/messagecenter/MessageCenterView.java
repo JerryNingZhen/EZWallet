@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.messagecenter;
+package com.bigstudio.ezwallet.modules.leftdrawer.messagecenter;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.MessageCenterBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.MessageCenterBean;
 
 import java.util.List;
 

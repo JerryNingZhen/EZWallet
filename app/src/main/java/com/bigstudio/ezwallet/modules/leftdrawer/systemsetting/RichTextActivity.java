@@ -1,12 +1,12 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.systemsetting;
+package com.bigstudio.ezwallet.modules.leftdrawer.systemsetting;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
 import com.zzhoujay.richtext.ImageHolder;
 import com.zzhoujay.richtext.RichText;
 

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

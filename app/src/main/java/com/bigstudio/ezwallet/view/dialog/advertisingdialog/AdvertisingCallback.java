@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.advertisingdialog;
+package com.bigstudio.ezwallet.view.dialog.advertisingdialog;
 
 
 public interface AdvertisingCallback {

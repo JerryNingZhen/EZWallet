@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.nodevote;
+package com.bigstudio.ezwallet.modules.nodevote;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,22 +8,22 @@ import android.widget.TextView;
 
 import com.bigkoo.pickerview.OptionsPickerView;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.bean.AccountVoteHistoryBean;
-import com.oraclechain.ezwallet.bean.ResultTableRowBean;
-import com.oraclechain.ezwallet.modules.nodevote.agencyvote.AgencyVoteActivity;
-import com.oraclechain.ezwallet.modules.nodevote.gonodevote.GoNodeVoteActivity;
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.RegexUtil;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.bean.AccountVoteHistoryBean;
+import com.bigstudio.ezwallet.bean.ResultTableRowBean;
+import com.bigstudio.ezwallet.modules.nodevote.agencyvote.AgencyVoteActivity;
+import com.bigstudio.ezwallet.modules.nodevote.gonodevote.GoNodeVoteActivity;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.RegexUtil;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

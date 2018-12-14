@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.wallet.walletmanagement;
+package com.bigstudio.ezwallet.modules.wallet.walletmanagement;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.BaseBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.BaseBean;
 
 /**
  * Created by pocketEos on 2018/1/18.

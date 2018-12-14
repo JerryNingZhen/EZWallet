@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.suggestionfeedback;
+package com.bigstudio.ezwallet.modules.leftdrawer.suggestionfeedback;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.SuggestionBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.SuggestionBean;
 
 import java.util.List;
 

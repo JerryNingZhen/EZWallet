@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.blockchain.cypto.digest;
+package com.bigstudio.ezwallet.blockchain.cypto.digest;
 
 import com.google.common.base.Preconditions;
 import com.google.common.primitives.Ints;
-import com.oraclechain.ezwallet.blockchain.cypto.util.HexUtils;
+import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

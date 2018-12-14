@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.blockchain.cypto.ec.EosPrivateKey;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.blockchain.cypto.ec.EosPrivateKey;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;

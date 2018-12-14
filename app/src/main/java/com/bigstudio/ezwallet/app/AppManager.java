@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.app;
+package com.bigstudio.ezwallet.app;
 
 import android.app.Activity;
 import android.app.ActivityManager;

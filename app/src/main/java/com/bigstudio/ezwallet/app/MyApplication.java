@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.app;
+package com.bigstudio.ezwallet.app;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -18,14 +18,14 @@ import com.lzy.okgo.cookie.store.SPCookieStore;
 import com.lzy.okgo.https.HttpsUtils;
 import com.lzy.okgo.interceptor.HttpLoggingInterceptor;
 import com.lzy.okgo.model.HttpHeaders;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.UserBean;
-import com.oraclechain.ezwallet.gen.DaoMaster;
-import com.oraclechain.ezwallet.gen.DaoSession;
-import com.oraclechain.ezwallet.gen.UserBeanDao;
-import com.oraclechain.ezwallet.utils.LocalManageUtil;
-import com.oraclechain.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.UserBean;
+import com.bigstudio.ezwallet.gen.DaoMaster;
+import com.bigstudio.ezwallet.gen.DaoSession;
+import com.bigstudio.ezwallet.gen.UserBeanDao;
+import com.bigstudio.ezwallet.utils.LocalManageUtil;
+import com.bigstudio.ezwallet.utils.Utils;
 import com.tencent.tauth.Tencent;
 import com.zhy.autolayout.config.AutoLayoutConifg;
 

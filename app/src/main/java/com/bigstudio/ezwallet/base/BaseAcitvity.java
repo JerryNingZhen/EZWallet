@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.base;
+package com.bigstudio.ezwallet.base;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -12,17 +12,17 @@ import android.widget.TextView;
 import com.gyf.barlibrary.ImmersionBar;
 import com.gyf.barlibrary.KeyboardPatch;
 import com.lzy.okgo.OkGo;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.AppManager;
-import com.oraclechain.ezwallet.executor.RequestExecutor;
-import com.oraclechain.ezwallet.utils.KeyBoardUtil;
-import com.oraclechain.ezwallet.utils.LocalManageUtil;
-import com.oraclechain.ezwallet.utils.ShowDialog;
-import com.oraclechain.ezwallet.utils.ThemeUtil;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.utils.TxtReaderUtil;
-import com.oraclechain.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.AppManager;
+import com.bigstudio.ezwallet.executor.RequestExecutor;
+import com.bigstudio.ezwallet.utils.KeyBoardUtil;
+import com.bigstudio.ezwallet.utils.LocalManageUtil;
+import com.bigstudio.ezwallet.utils.ShowDialog;
+import com.bigstudio.ezwallet.utils.ThemeUtil;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.utils.TxtReaderUtil;
+import com.bigstudio.ezwallet.utils.Utils;
 import com.zhy.autolayout.AutoLayoutActivity;
 
 import butterknife.ButterKnife;

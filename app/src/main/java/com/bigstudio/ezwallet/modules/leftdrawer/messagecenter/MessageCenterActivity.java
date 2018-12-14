@@ -1,15 +1,15 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.messagecenter;
+package com.bigstudio.ezwallet.modules.leftdrawer.messagecenter;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.MessageCenterBean;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.MessageCenterBean;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.modules.nodevote;
+package com.bigstudio.ezwallet.modules.nodevote;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
-import com.oraclechain.ezwallet.bean.ResultTableRowBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.bean.ResultTableRowBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

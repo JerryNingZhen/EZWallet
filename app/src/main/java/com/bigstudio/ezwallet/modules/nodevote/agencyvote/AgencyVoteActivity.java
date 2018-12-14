@@ -1,11 +1,11 @@
-package com.oraclechain.ezwallet.modules.nodevote.agencyvote;
+package com.bigstudio.ezwallet.modules.nodevote.agencyvote;
 
 import android.os.Bundle;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
 
 /**
  * 代理投票

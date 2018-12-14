@@ -1,23 +1,23 @@
-package com.oraclechain.ezwallet.modules.unstake;
+package com.bigstudio.ezwallet.modules.unstake;
 
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
-import com.oraclechain.ezwallet.bean.UnstakeBean;
-import com.oraclechain.ezwallet.blockchain.PushDatamanger;
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
-import com.oraclechain.ezwallet.utils.KeyBoardUtil;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.utils.RegexUtil;
-import com.oraclechain.ezwallet.utils.StringUtils;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.bean.UnstakeBean;
+import com.bigstudio.ezwallet.blockchain.PushDatamanger;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.utils.KeyBoardUtil;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.utils.RegexUtil;
+import com.bigstudio.ezwallet.utils.StringUtils;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
 
 import java.math.BigDecimal;
 

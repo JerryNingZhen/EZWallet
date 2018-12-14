@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view;
+package com.bigstudio.ezwallet.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;

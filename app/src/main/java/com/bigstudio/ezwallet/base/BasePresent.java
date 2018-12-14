@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.base;
+package com.bigstudio.ezwallet.base;
 
 /**
  * Created by pocketEos on 2017/11/23.

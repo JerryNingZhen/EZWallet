@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.webview;
+package com.bigstudio.ezwallet.view.webview;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,13 +1,13 @@
-package com.oraclechain.ezwallet.modules.wallet.walletmanagement;
+package com.bigstudio.ezwallet.modules.wallet.walletmanagement;
 
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
 import com.lzy.okgo.utils.OkLogger;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.BaseBean;
-import com.oraclechain.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.BaseBean;
+import com.bigstudio.ezwallet.utils.JsonUtil;
 
 /**
  * Created by pocketEos on 2018/1/18.

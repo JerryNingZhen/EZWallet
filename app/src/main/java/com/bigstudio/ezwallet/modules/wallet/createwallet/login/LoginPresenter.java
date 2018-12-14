@@ -1,14 +1,14 @@
-package com.oraclechain.ezwallet.modules.wallet.createwallet.login;
+package com.bigstudio.ezwallet.modules.wallet.createwallet.login;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.CodeAuthBean;
-import com.oraclechain.ezwallet.net.HttpUtils;
-import com.oraclechain.ezwallet.bean.ResponseBean;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.CodeAuthBean;
+import com.bigstudio.ezwallet.net.HttpUtils;
+import com.bigstudio.ezwallet.bean.ResponseBean;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 

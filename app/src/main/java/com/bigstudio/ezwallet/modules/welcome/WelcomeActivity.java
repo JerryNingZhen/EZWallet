@@ -1,22 +1,22 @@
-package com.oraclechain.ezwallet.modules.welcome;
+package com.bigstudio.ezwallet.modules.welcome;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.UserBean;
-import com.oraclechain.ezwallet.gen.UserBeanDao;
-import com.oraclechain.ezwallet.modules.blackbox.BlackBoxMainActivity;
-import com.oraclechain.ezwallet.modules.main.MainActivity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.modules.wallet.createwallet.login.LoginActivity;
-import com.oraclechain.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.UserBean;
+import com.bigstudio.ezwallet.gen.UserBeanDao;
+import com.bigstudio.ezwallet.modules.blackbox.BlackBoxMainActivity;
+import com.bigstudio.ezwallet.modules.main.MainActivity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.bigstudio.ezwallet.utils.Utils;
 
 public class WelcomeActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {
     private static final int TIME = 500;

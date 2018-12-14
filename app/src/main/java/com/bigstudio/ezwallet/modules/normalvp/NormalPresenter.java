@@ -1,6 +1,6 @@
-package com.oraclechain.ezwallet.modules.normalvp;
+package com.bigstudio.ezwallet.modules.normalvp;
 
-import com.oraclechain.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BasePresent;
 
 /**
  * Created by pocketEos on 2017/11/24.

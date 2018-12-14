@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.transaction.transferaccounts.switchfriend;
+package com.bigstudio.ezwallet.modules.transaction.transferaccounts.switchfriend;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.FriendsListInfoBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.FriendsListInfoBean;
 
 import java.util.List;
 

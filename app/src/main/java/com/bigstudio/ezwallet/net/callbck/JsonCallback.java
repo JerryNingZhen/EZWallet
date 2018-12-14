@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.oraclechain.ezwallet.net.callbck;
+package com.bigstudio.ezwallet.net.callbck;
 
 import com.google.gson.JsonSyntaxException;
 import com.lzy.okgo.callback.AbsCallback;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.utils.ShowDialog;
-import com.oraclechain.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.utils.ShowDialog;
+import com.bigstudio.ezwallet.utils.ToastUtils;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

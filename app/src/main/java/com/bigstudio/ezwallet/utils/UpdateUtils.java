@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,10 +9,10 @@ import android.widget.Toast;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.UpdateAppBean;
-import com.oraclechain.ezwallet.view.dialog.updatadialog.UpdataCallback;
-import com.oraclechain.ezwallet.view.dialog.updatadialog.UpdataDialog;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.UpdateAppBean;
+import com.bigstudio.ezwallet.view.dialog.updatadialog.UpdataCallback;
+import com.bigstudio.ezwallet.view.dialog.updatadialog.UpdataDialog;
 
 /**
  * Created by pocketEos on 2018/2/10.

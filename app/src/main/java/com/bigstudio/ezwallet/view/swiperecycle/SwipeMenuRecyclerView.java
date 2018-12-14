@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.swiperecycle;
+package com.bigstudio.ezwallet.view.swiperecycle;
 
 import android.content.Context;
 import android.graphics.Rect;

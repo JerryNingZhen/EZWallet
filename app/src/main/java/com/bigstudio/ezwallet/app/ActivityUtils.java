@@ -1,10 +1,10 @@
-package com.oraclechain.ezwallet.app;
+package com.bigstudio.ezwallet.app;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/11/23.

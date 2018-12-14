@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.sharedialog;
+package com.bigstudio.ezwallet.view.dialog.sharedialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/12/5.

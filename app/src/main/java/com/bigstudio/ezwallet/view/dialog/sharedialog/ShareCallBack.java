@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.sharedialog;
+package com.bigstudio.ezwallet.view.dialog.sharedialog;
 
 /**
  * Created by pocketEos on 2017/12/12.

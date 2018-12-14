@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.countdowntimer;
+package com.bigstudio.ezwallet.view.countdowntimer;
 
 import android.graphics.Color;
 import android.os.CountDownTimer;

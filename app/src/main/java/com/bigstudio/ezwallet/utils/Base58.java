@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;

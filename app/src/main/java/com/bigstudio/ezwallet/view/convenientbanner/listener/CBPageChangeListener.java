@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.convenientbanner.listener;
+package com.bigstudio.ezwallet.view.convenientbanner.listener;
 
 import android.support.v4.view.ViewPager;
 import android.widget.ImageView;

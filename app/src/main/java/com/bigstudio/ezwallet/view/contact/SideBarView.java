@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.contact;
+package com.bigstudio.ezwallet.view.contact;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,8 +10,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.utils.DensityUtil;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.utils.DensityUtil;
 
 import java.util.Arrays;
 

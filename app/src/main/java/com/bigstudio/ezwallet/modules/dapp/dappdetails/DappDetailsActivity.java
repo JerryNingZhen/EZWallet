@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.dapp.dappdetails;
+package com.bigstudio.ezwallet.modules.dapp.dappdetails;
 
 import android.content.Intent;
 import android.net.http.SslError;
@@ -13,14 +13,14 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin.ChooseAccountWithCoinActivity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.view.webview.BaseWebSetting;
-import com.oraclechain.ezwallet.view.webview.BaseWebView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin.ChooseAccountWithCoinActivity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.view.webview.BaseWebSetting;
+import com.bigstudio.ezwallet.view.webview.BaseWebView;
 
 import butterknife.BindView;
 

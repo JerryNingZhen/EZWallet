@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.popupwindow;
+package com.bigstudio.ezwallet.view.popupwindow;
 
 import android.app.Activity;
 import android.content.Context;

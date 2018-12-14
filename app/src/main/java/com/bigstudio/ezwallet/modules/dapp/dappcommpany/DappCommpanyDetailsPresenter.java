@@ -1,14 +1,14 @@
-package com.oraclechain.ezwallet.modules.dapp.dappcommpany;
+package com.bigstudio.ezwallet.modules.dapp.dappcommpany;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.DappBean;
-import com.oraclechain.ezwallet.net.HttpUtils;
-import com.oraclechain.ezwallet.bean.ResponseBean;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.DappBean;
+import com.bigstudio.ezwallet.net.HttpUtils;
+import com.bigstudio.ezwallet.bean.ResponseBean;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 import java.util.List;

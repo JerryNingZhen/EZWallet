@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.transactionhistory;
+package com.bigstudio.ezwallet.modules.leftdrawer.transactionhistory;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,29 +11,29 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.base.Constants;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.bean.PostChainHistoryBean;
-import com.oraclechain.ezwallet.bean.TransferHistoryBean;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.RotateUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
-import com.oraclechain.ezwallet.view.popupwindow.BasePopupWindow;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.base.Constants;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.bean.PostChainHistoryBean;
+import com.bigstudio.ezwallet.bean.TransferHistoryBean;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.RotateUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.view.popupwindow.BasePopupWindow;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 
-import static com.oraclechain.ezwallet.utils.Utils.getContext;
+import static com.bigstudio.ezwallet.utils.Utils.getContext;
 
 public class TransactionHistoryActivity extends BaseAcitvity<TransactionHistoryView, TransactionHistoryPresenter> implements TransactionHistoryView {
 

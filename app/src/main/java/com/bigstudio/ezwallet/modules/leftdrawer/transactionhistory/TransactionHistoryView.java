@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.transactionhistory;
+package com.bigstudio.ezwallet.modules.leftdrawer.transactionhistory;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.TransferHistoryBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.TransferHistoryBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

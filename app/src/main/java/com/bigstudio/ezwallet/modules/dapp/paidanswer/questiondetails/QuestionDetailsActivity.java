@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.questiondetails;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.questiondetails;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,17 +11,17 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 import com.google.gson.Gson;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AnswerMessageBean;
-import com.oraclechain.ezwallet.bean.QuestionListBean;
-import com.oraclechain.ezwallet.blockchain.AskansDatamanger;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AnswerMessageBean;
+import com.bigstudio.ezwallet.bean.QuestionListBean;
+import com.bigstudio.ezwallet.blockchain.AskansDatamanger;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
 
 import butterknife.BindView;
 

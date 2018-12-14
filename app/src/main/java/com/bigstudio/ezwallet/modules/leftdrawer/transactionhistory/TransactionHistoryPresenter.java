@@ -1,15 +1,15 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.transactionhistory;
+package com.bigstudio.ezwallet.modules.leftdrawer.transactionhistory;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.PostChainHistoryBean;
-import com.oraclechain.ezwallet.bean.TransferHistoryBean;
-import com.oraclechain.ezwallet.net.HttpUtils;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.PostChainHistoryBean;
+import com.bigstudio.ezwallet.bean.TransferHistoryBean;
+import com.bigstudio.ezwallet.net.HttpUtils;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
 
 /**
  * Created by pocketEos on 2017/12/26.

@@ -1,17 +1,17 @@
-package com.oraclechain.ezwallet.modules.account.backupaccount.activity;
+package com.bigstudio.ezwallet.modules.account.backupaccount.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.view.WindowManager;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.baseadapter.BackUpAccount_tab_Adapter;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.baseadapter.BackUpAccount_tab_Adapter;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
 
 import java.util.ArrayList;
 import java.util.List;

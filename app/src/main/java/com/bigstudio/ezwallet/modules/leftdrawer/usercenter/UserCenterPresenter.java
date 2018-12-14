@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.usercenter;
+package com.bigstudio.ezwallet.modules.leftdrawer.usercenter;
 
 import android.content.Context;
 
@@ -6,12 +6,12 @@ import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
 import com.lzy.okgo.utils.OkLogger;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.UpdataPhotoBean;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.UpdataPhotoBean;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.ToastUtils;
 
 import java.io.File;
 

@@ -1,6 +1,6 @@
-package com.oraclechain.ezwallet.blockchain.types;
+package com.bigstudio.ezwallet.blockchain.types;
 
-import com.oraclechain.ezwallet.blockchain.cypto.digest.Sha256;
+import com.bigstudio.ezwallet.blockchain.cypto.digest.Sha256;
 
 /**
  * Created by swapnibble on 2017-09-12.

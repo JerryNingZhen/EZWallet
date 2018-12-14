@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.friendslist.pelist;
+package com.bigstudio.ezwallet.modules.friendslist.pelist;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.PelistBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.PelistBean;
 
 import java.util.List;
 

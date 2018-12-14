@@ -1,9 +1,9 @@
-package com.oraclechain.ezwallet.modules.transaction.redpacket.makeredpacket;
+package com.bigstudio.ezwallet.modules.transaction.redpacket.makeredpacket;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.CoinRateBean;
-import com.oraclechain.ezwallet.bean.RedPacketHistoryBean;
-import com.oraclechain.ezwallet.bean.SendRedPacketBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.CoinRateBean;
+import com.bigstudio.ezwallet.bean.RedPacketHistoryBean;
+import com.bigstudio.ezwallet.bean.SendRedPacketBean;
 
 import java.util.List;
 

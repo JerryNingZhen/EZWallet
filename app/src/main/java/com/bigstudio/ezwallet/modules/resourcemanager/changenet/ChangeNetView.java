@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.resourcemanager.changenet;
+package com.bigstudio.ezwallet.modules.resourcemanager.changenet;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

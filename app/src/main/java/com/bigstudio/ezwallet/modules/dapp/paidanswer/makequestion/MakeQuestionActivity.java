@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.makequestion;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.makequestion;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,32 +12,32 @@ import android.widget.TextView;
 
 import com.bigkoo.pickerview.TimePickerView;
 import com.google.gson.Gson;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.base.ViewHolder;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.AnswerBean;
-import com.oraclechain.ezwallet.bean.ApproveMessageBean;
-import com.oraclechain.ezwallet.bean.AskMessageBean;
-import com.oraclechain.ezwallet.bean.ChainAsktitleBean;
-import com.oraclechain.ezwallet.bean.ChainOptionanswersBean;
-import com.oraclechain.ezwallet.blockchain.AskansDatamanger;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.utils.AndroidBug5497Workaround;
-import com.oraclechain.ezwallet.utils.DateUtils;
-import com.oraclechain.ezwallet.utils.KeyBoardUtil;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.utils.StringUtils;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.view.ClearEditText;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
-import com.oraclechain.ezwallet.view.dialog.confimdialog.Callback;
-import com.oraclechain.ezwallet.view.dialog.confimdialog.ConfirmDialog;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordDialog;
-import com.oraclechain.ezwallet.view.textwatcher.FourMoneyTextWatcher;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.base.ViewHolder;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.AnswerBean;
+import com.bigstudio.ezwallet.bean.ApproveMessageBean;
+import com.bigstudio.ezwallet.bean.AskMessageBean;
+import com.bigstudio.ezwallet.bean.ChainAsktitleBean;
+import com.bigstudio.ezwallet.bean.ChainOptionanswersBean;
+import com.bigstudio.ezwallet.blockchain.AskansDatamanger;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.utils.AndroidBug5497Workaround;
+import com.bigstudio.ezwallet.utils.DateUtils;
+import com.bigstudio.ezwallet.utils.KeyBoardUtil;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.utils.StringUtils;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.view.ClearEditText;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.view.dialog.confimdialog.Callback;
+import com.bigstudio.ezwallet.view.dialog.confimdialog.ConfirmDialog;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.bigstudio.ezwallet.view.textwatcher.FourMoneyTextWatcher;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -50,7 +50,7 @@ import java.util.Map;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-import static com.oraclechain.ezwallet.utils.Utils.getContext;
+import static com.bigstudio.ezwallet.utils.Utils.getContext;
 
 //提问页面
 public class MakeQuestionActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {

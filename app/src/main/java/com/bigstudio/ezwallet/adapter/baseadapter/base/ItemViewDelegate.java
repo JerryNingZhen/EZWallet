@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.adapter.baseadapter.base;
+package com.bigstudio.ezwallet.adapter.baseadapter.base;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.changepassworddialog;
+package com.bigstudio.ezwallet.view.dialog.changepassworddialog;
 
 
 public interface PasswordCallback {

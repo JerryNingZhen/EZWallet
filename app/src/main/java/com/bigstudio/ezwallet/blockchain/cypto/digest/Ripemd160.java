@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.blockchain.cypto.digest;
+package com.bigstudio.ezwallet.blockchain.cypto.digest;
 
 /**
  * Created by swapnibble on 2017-09-02.

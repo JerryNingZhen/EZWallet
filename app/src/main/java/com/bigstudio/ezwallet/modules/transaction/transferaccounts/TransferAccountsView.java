@@ -1,9 +1,9 @@
-package com.oraclechain.ezwallet.modules.transaction.transferaccounts;
+package com.bigstudio.ezwallet.modules.transaction.transferaccounts;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
-import com.oraclechain.ezwallet.bean.CoinRateBean;
-import com.oraclechain.ezwallet.bean.TransferHistoryBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.bean.CoinRateBean;
+import com.bigstudio.ezwallet.bean.TransferHistoryBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

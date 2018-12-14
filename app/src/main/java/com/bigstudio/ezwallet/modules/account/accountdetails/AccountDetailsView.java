@@ -1,6 +1,6 @@
-package com.oraclechain.ezwallet.modules.account.accountdetails;
+package com.bigstudio.ezwallet.modules.account.accountdetails;
 
-import com.oraclechain.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.base.BaseView;
 
 /**
  * Created by pocketEos on 2018/1/18.

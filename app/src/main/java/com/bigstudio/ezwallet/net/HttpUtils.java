@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.net;
+package com.bigstudio.ezwallet.net;
 
 import com.lzy.okgo.OkGo;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
 
 import java.util.Map;
 

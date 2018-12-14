@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.nodevote.gonodevote;
+package com.bigstudio.ezwallet.modules.nodevote.gonodevote;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -11,20 +11,20 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.base.ViewHolder;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.ResultNodeListBean;
-import com.oraclechain.ezwallet.modules.leftdrawer.systemsetting.RichTextActivity;
-import com.oraclechain.ezwallet.modules.nodevote.NodeVoteDetailsActivity;
-import com.oraclechain.ezwallet.modules.nodevote.surevote.SureNodeVoteActivity;
-import com.oraclechain.ezwallet.utils.BigDecimalUtil;
-import com.oraclechain.ezwallet.utils.FilesUtils;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
-import com.oraclechain.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.base.ViewHolder;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.ResultNodeListBean;
+import com.bigstudio.ezwallet.modules.leftdrawer.systemsetting.RichTextActivity;
+import com.bigstudio.ezwallet.modules.nodevote.NodeVoteDetailsActivity;
+import com.bigstudio.ezwallet.modules.nodevote.surevote.SureNodeVoteActivity;
+import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.bigstudio.ezwallet.utils.FilesUtils;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.view.RoundImageView;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

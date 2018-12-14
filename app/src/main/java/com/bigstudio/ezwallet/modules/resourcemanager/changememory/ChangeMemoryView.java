@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.modules.resourcemanager.changememory;
+package com.bigstudio.ezwallet.modules.resourcemanager.changememory;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.AccountDetailsBean;
-import com.oraclechain.ezwallet.bean.TableResultBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.bigstudio.ezwallet.bean.TableResultBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.sharecoindetailsdialog;
+package com.bigstudio.ezwallet.view.dialog.sharecoindetailsdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,9 +11,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.bean.AccountWithCoinBean;
-import com.oraclechain.ezwallet.utils.StringUtils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
+import com.bigstudio.ezwallet.utils.StringUtils;
 
 /**
  * Created by pocketEos on 2017/12/5.

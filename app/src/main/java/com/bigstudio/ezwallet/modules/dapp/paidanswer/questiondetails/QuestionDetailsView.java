@@ -1,9 +1,9 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.questiondetails;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.questiondetails;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.ChainInfoBean;
-import com.oraclechain.ezwallet.bean.GetChainJsonBean;
-import com.oraclechain.ezwallet.bean.GetRequiredKeysBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.ChainInfoBean;
+import com.bigstudio.ezwallet.bean.GetChainJsonBean;
+import com.bigstudio.ezwallet.bean.GetRequiredKeysBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

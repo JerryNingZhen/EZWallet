@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin;
+package com.bigstudio.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,12 +9,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bigkoo.pickerview.OptionsPickerView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.utils.JsonUtil;
-import com.oraclechain.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.utils.JsonUtil;
+import com.bigstudio.ezwallet.utils.ToastUtils;
 
 import java.util.ArrayList;
 import java.util.List;

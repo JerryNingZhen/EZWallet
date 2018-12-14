@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.otherloginorshare;
+package com.bigstudio.ezwallet.modules.otherloginorshare;
 
 import android.os.Parcel;
 import android.os.Parcelable;

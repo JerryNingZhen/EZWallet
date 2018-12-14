@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.nodevote;
+package com.bigstudio.ezwallet.modules.nodevote;
 
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -6,14 +6,14 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.view.webview.BaseWebChromeClient;
-import com.oraclechain.ezwallet.view.webview.BaseWebSetting;
-import com.oraclechain.ezwallet.view.webview.BaseWebView;
-import com.oraclechain.ezwallet.view.webview.BaseWebViewClient;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.view.webview.BaseWebChromeClient;
+import com.bigstudio.ezwallet.view.webview.BaseWebSetting;
+import com.bigstudio.ezwallet.view.webview.BaseWebView;
+import com.bigstudio.ezwallet.view.webview.BaseWebViewClient;
 
 import butterknife.BindView;
 

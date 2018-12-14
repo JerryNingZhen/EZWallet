@@ -1,12 +1,12 @@
-package com.oraclechain.ezwallet.view.convenientbanner.adapter;
+package com.bigstudio.ezwallet.view.convenientbanner.adapter;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
-import com.oraclechain.ezwallet.view.convenientbanner.holder.Holder;
-import com.oraclechain.ezwallet.view.convenientbanner.view.CBLoopViewPager;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
+import com.bigstudio.ezwallet.view.convenientbanner.holder.Holder;
+import com.bigstudio.ezwallet.view.convenientbanner.view.CBLoopViewPager;
 
 import java.util.List;
 

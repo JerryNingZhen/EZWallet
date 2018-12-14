@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.resourcemanager.resourcehome.activity;
+package com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.activity;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -9,13 +9,13 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.Find_tab_Adapter;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
-import com.oraclechain.ezwallet.modules.resourcemanager.resourcehome.fragment.memory.MemoryFragment;
-import com.oraclechain.ezwallet.modules.resourcemanager.resourcehome.fragment.net.NetFragment;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.Find_tab_Adapter;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.memory.MemoryFragment;
+import com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.net.NetFragment;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

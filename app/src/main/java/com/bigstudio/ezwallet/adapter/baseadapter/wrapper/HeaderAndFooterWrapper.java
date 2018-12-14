@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.adapter.baseadapter.wrapper;
+package com.bigstudio.ezwallet.adapter.baseadapter.wrapper;
 
 import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.GridLayoutManager;
@@ -6,8 +6,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.oraclechain.ezwallet.adapter.baseadapter.base.ViewHolder;
-import com.oraclechain.ezwallet.adapter.baseadapter.utils.WrapperUtils;
+import com.bigstudio.ezwallet.adapter.baseadapter.base.ViewHolder;
+import com.bigstudio.ezwallet.adapter.baseadapter.utils.WrapperUtils;
 
 
 /**

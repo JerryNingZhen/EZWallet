@@ -1,10 +1,10 @@
-package com.oraclechain.ezwallet.adapter.baseadapter;
+package com.bigstudio.ezwallet.adapter.baseadapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 
-import com.oraclechain.ezwallet.adapter.baseadapter.base.ItemViewDelegate;
-import com.oraclechain.ezwallet.adapter.baseadapter.base.ViewHolder;
+import com.bigstudio.ezwallet.adapter.baseadapter.base.ItemViewDelegate;
+import com.bigstudio.ezwallet.adapter.baseadapter.base.ViewHolder;
 
 import java.util.List;
 

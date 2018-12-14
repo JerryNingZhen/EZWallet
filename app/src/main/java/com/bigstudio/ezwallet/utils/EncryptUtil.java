@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.spongycastle.util.encoders.Hex;

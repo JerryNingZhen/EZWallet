@@ -1,18 +1,18 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.systemsetting;
+package com.bigstudio.ezwallet.modules.leftdrawer.systemsetting;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.SystemInfoBean;
-import com.oraclechain.ezwallet.modules.leftdrawer.suggestionfeedback.SuggestionFeedbackActivity;
-import com.oraclechain.ezwallet.utils.CacheDataManager;
-import com.oraclechain.ezwallet.utils.FilesUtils;
-import com.oraclechain.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.SystemInfoBean;
+import com.bigstudio.ezwallet.modules.leftdrawer.suggestionfeedback.SuggestionFeedbackActivity;
+import com.bigstudio.ezwallet.utils.CacheDataManager;
+import com.bigstudio.ezwallet.utils.FilesUtils;
+import com.bigstudio.ezwallet.utils.Utils;
 
 import java.io.File;
 

@@ -1,13 +1,13 @@
-package com.oraclechain.ezwallet.blockchain.chain;
+package com.bigstudio.ezwallet.blockchain.chain;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonPrimitive;
 import com.google.gson.annotations.Expose;
-import com.oraclechain.ezwallet.blockchain.cypto.util.HexUtils;
-import com.oraclechain.ezwallet.blockchain.types.EosType;
-import com.oraclechain.ezwallet.blockchain.types.TypeAccountName;
-import com.oraclechain.ezwallet.blockchain.types.TypeActionName;
-import com.oraclechain.ezwallet.blockchain.types.TypePermissionLevel;
+import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
+import com.bigstudio.ezwallet.blockchain.types.EosType;
+import com.bigstudio.ezwallet.blockchain.types.TypeAccountName;
+import com.bigstudio.ezwallet.blockchain.types.TypeActionName;
+import com.bigstudio.ezwallet.blockchain.types.TypePermissionLevel;
 
 import java.util.ArrayList;
 import java.util.Arrays;

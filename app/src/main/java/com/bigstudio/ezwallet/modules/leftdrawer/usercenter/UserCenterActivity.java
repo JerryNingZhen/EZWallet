@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.usercenter;
+package com.bigstudio.ezwallet.modules.leftdrawer.usercenter;
 
 import android.Manifest;
 import android.content.Intent;
@@ -17,29 +17,29 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.AppManager;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.UpdataPhotoBean;
-import com.oraclechain.ezwallet.bean.UserBean;
-import com.oraclechain.ezwallet.gen.UserBeanDao;
-import com.oraclechain.ezwallet.modules.leftdrawer.usercenter.changename.ChangeNameActivity;
-import com.oraclechain.ezwallet.modules.leftdrawer.usercenter.otherlogintype.OtherLoginTypeActivity;
-import com.oraclechain.ezwallet.modules.wallet.createwallet.login.LoginActivity;
-import com.oraclechain.ezwallet.utils.DensityUtil;
-import com.oraclechain.ezwallet.utils.FilesUtils;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.utils.ShowDialog;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.CustomSlideToUnlockView;
-import com.oraclechain.ezwallet.view.RoundImageView;
-import com.oraclechain.ezwallet.view.dialog.gophotodialog.GoPhotoCallBack;
-import com.oraclechain.ezwallet.view.dialog.gophotodialog.GoPhotoDialog;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.AppManager;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.UpdataPhotoBean;
+import com.bigstudio.ezwallet.bean.UserBean;
+import com.bigstudio.ezwallet.gen.UserBeanDao;
+import com.bigstudio.ezwallet.modules.leftdrawer.usercenter.changename.ChangeNameActivity;
+import com.bigstudio.ezwallet.modules.leftdrawer.usercenter.otherlogintype.OtherLoginTypeActivity;
+import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.bigstudio.ezwallet.utils.DensityUtil;
+import com.bigstudio.ezwallet.utils.FilesUtils;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.utils.ShowDialog;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.CustomSlideToUnlockView;
+import com.bigstudio.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.view.dialog.gophotodialog.GoPhotoCallBack;
+import com.bigstudio.ezwallet.view.dialog.gophotodialog.GoPhotoDialog;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -261,7 +261,7 @@ public class UserCenterActivity extends BaseAcitvity<UserCenterView, UserCenterP
                                         MediaStore.ACTION_IMAGE_CAPTURE);
                                 tempUri = Uri.fromFile(fileUri);
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                                    tempUri = FileProvider.getUriForFile(UserCenterActivity.this, "com.oraclechain.pocketeos.fileprovider", fileUri);//通过FileProvider创建一个content类型的Uri
+                                    tempUri = FileProvider.getUriForFile(UserCenterActivity.this, "com.bigstudio.ezwallet.fileprovider", fileUri);//通过FileProvider创建一个content类型的Uri
                                     openCameraIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION); //添加这一句表示对目标应用临时授权该Uri所代表的文件
                                 }
                                 //将拍照结果保存至photo_file的Uri中，不保留在相册中

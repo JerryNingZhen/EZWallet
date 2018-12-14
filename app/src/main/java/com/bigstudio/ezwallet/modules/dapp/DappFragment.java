@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.dapp;
+package com.bigstudio.ezwallet.modules.dapp;
 
 
 import android.os.Bundle;
@@ -10,26 +10,26 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.liaoinstan.springview.widget.SpringView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BaseFragment;
-import com.oraclechain.ezwallet.bean.DappBean;
-import com.oraclechain.ezwallet.bean.DappCommpanyBean;
-import com.oraclechain.ezwallet.modules.dapp.dappcommpany.DappCommpanyDetailsActivity;
-import com.oraclechain.ezwallet.modules.dapp.dappdetails.DappDetailsActivity;
-import com.oraclechain.ezwallet.modules.dapp.paidanswer.paidanswerhome.activity.PaidAnswerActivity;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.AppDefeatHeadView;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
-import com.oraclechain.ezwallet.view.RoundImageView;
-import com.oraclechain.ezwallet.view.convenientbanner.ConvenientBanner;
-import com.oraclechain.ezwallet.view.convenientbanner.adapter.LocalImageHolderView;
-import com.oraclechain.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
-import com.oraclechain.ezwallet.view.convenientbanner.listener.OnItemClickListener;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BaseFragment;
+import com.bigstudio.ezwallet.bean.DappBean;
+import com.bigstudio.ezwallet.bean.DappCommpanyBean;
+import com.bigstudio.ezwallet.modules.dapp.dappcommpany.DappCommpanyDetailsActivity;
+import com.bigstudio.ezwallet.modules.dapp.dappdetails.DappDetailsActivity;
+import com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.activity.PaidAnswerActivity;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.AppDefeatHeadView;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.view.RoundImageView;
+import com.bigstudio.ezwallet.view.convenientbanner.ConvenientBanner;
+import com.bigstudio.ezwallet.view.convenientbanner.adapter.LocalImageHolderView;
+import com.bigstudio.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
+import com.bigstudio.ezwallet.view.convenientbanner.listener.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;

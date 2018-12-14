@@ -1,18 +1,18 @@
-package com.oraclechain.ezwallet.modules.dapp.dappdetails;
+package com.bigstudio.ezwallet.modules.dapp.dappdetails;
 
 import android.content.Context;
 import android.webkit.JavascriptInterface;
 
 import com.lzy.okgo.utils.OkLogger;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.blockchain.DappDatamanger;
-import com.oraclechain.ezwallet.utils.PasswordToKeyUtils;
-import com.oraclechain.ezwallet.utils.ShowDialog;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.oraclechain.ezwallet.view.dialog.passworddialog.PasswordDialog;
-import com.oraclechain.ezwallet.view.webview.BaseWebView;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.blockchain.DappDatamanger;
+import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
+import com.bigstudio.ezwallet.utils.ShowDialog;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.bigstudio.ezwallet.view.webview.BaseWebView;
 
 import static com.lzy.okgo.utils.HttpUtils.runOnUiThread;
 

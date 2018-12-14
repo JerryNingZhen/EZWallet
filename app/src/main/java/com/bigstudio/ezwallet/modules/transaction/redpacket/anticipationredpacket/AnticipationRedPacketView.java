@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.transaction.redpacket.anticipationredpacket;
+package com.bigstudio.ezwallet.modules.transaction.redpacket.anticipationredpacket;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.AuthRedPacketBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.AuthRedPacketBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

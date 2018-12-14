@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.oraclechain.ezwallet.blockchain.cypto.util;
+package com.bigstudio.ezwallet.blockchain.cypto.util;
 
 import java.io.DataInputStream;
 import java.io.IOException;

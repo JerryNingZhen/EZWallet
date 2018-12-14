@@ -1,6 +1,6 @@
-package com.oraclechain.ezwallet.view.contact;
+package com.bigstudio.ezwallet.view.contact;
 
-import com.oraclechain.ezwallet.bean.User;
+import com.bigstudio.ezwallet.bean.User;
 
 import java.util.Comparator;
 

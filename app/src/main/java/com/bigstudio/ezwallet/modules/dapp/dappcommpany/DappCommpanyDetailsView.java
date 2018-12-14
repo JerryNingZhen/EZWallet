@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.dapp.dappcommpany;
+package com.bigstudio.ezwallet.modules.dapp.dappcommpany;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.DappBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.DappBean;
 
 import java.util.List;
 

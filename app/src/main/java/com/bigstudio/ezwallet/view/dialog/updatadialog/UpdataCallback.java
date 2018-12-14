@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.updatadialog;
+package com.bigstudio.ezwallet.view.dialog.updatadialog;
 
 
 public interface UpdataCallback {

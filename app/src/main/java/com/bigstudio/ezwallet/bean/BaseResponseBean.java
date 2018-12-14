@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.oraclechain.ezwallet.bean;
+package com.bigstudio.ezwallet.bean;
 
 import java.io.Serializable;
 

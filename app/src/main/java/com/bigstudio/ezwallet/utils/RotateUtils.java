@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.news;
+package com.bigstudio.ezwallet.modules.news;
 
 
 import android.os.Bundle;
@@ -13,24 +13,24 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
-import com.oraclechain.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.base.BaseFragment;
-import com.oraclechain.ezwallet.bean.CoinBean;
-import com.oraclechain.ezwallet.bean.NewsBean;
-import com.oraclechain.ezwallet.modules.news.newsdetails.WebNewsDetailsActivity;
-import com.oraclechain.ezwallet.utils.RotateUtils;
-import com.oraclechain.ezwallet.utils.Utils;
-import com.oraclechain.ezwallet.view.RecycleViewDivider;
-import com.oraclechain.ezwallet.view.convenientbanner.ConvenientBanner;
-import com.oraclechain.ezwallet.view.convenientbanner.adapter.LocalImageHolderView;
-import com.oraclechain.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
-import com.oraclechain.ezwallet.view.convenientbanner.listener.OnItemClickListener;
-import com.oraclechain.ezwallet.view.popupwindow.BasePopupWindow;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
+import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.base.BaseFragment;
+import com.bigstudio.ezwallet.bean.CoinBean;
+import com.bigstudio.ezwallet.bean.NewsBean;
+import com.bigstudio.ezwallet.modules.news.newsdetails.WebNewsDetailsActivity;
+import com.bigstudio.ezwallet.utils.RotateUtils;
+import com.bigstudio.ezwallet.utils.Utils;
+import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.bigstudio.ezwallet.view.convenientbanner.ConvenientBanner;
+import com.bigstudio.ezwallet.view.convenientbanner.adapter.LocalImageHolderView;
+import com.bigstudio.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
+import com.bigstudio.ezwallet.view.convenientbanner.listener.OnItemClickListener;
+import com.bigstudio.ezwallet.view.popupwindow.BasePopupWindow;
 
 import java.util.ArrayList;
 import java.util.List;

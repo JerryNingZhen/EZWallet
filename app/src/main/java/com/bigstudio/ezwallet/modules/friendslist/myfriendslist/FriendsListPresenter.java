@@ -1,20 +1,20 @@
-package com.oraclechain.ezwallet.modules.friendslist.myfriendslist;
+package com.bigstudio.ezwallet.modules.friendslist.myfriendslist;
 
 import android.content.Context;
 import android.text.TextUtils;
 
 import com.lzy.okgo.model.Response;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.MyApplication;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.base.BaseUrl;
-import com.oraclechain.ezwallet.bean.FriendsListInfoBean;
-import com.oraclechain.ezwallet.view.contact.ChineseToEnglish;
-import com.oraclechain.ezwallet.view.contact.CompareSort;
-import com.oraclechain.ezwallet.bean.User;
-import com.oraclechain.ezwallet.net.HttpUtils;
-import com.oraclechain.ezwallet.bean.ResponseBean;
-import com.oraclechain.ezwallet.net.callbck.JsonCallback;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.MyApplication;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.base.BaseUrl;
+import com.bigstudio.ezwallet.bean.FriendsListInfoBean;
+import com.bigstudio.ezwallet.view.contact.ChineseToEnglish;
+import com.bigstudio.ezwallet.view.contact.CompareSort;
+import com.bigstudio.ezwallet.bean.User;
+import com.bigstudio.ezwallet.net.HttpUtils;
+import com.bigstudio.ezwallet.bean.ResponseBean;
+import com.bigstudio.ezwallet.net.callbck.JsonCallback;
 
 import java.util.ArrayList;
 import java.util.Collections;

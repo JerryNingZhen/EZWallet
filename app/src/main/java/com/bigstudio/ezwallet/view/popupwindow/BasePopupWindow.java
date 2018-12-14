@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.popupwindow;
+package com.bigstudio.ezwallet.view.popupwindow;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.adapter.AdapterManger;
-import com.oraclechain.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.oraclechain.ezwallet.bean.AccountInfoBean;
-import com.oraclechain.ezwallet.bean.CoinBean;
-import com.oraclechain.ezwallet.utils.RotateUtils;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.adapter.AdapterManger;
+import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.bigstudio.ezwallet.bean.AccountInfoBean;
+import com.bigstudio.ezwallet.bean.CoinBean;
+import com.bigstudio.ezwallet.utils.RotateUtils;
 
 import java.util.List;
 

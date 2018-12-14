@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.modules.seach;
+package com.bigstudio.ezwallet.modules.seach;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,14 +8,14 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
 import com.gyf.barlibrary.ImmersionBar;
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.app.ActivityUtils;
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.bean.BlockChainAccountInfoBean;
-import com.oraclechain.ezwallet.modules.friendslist.friendsdetails.FriendsDetailsActivity;
-import com.oraclechain.ezwallet.utils.KeyBoardUtil;
-import com.oraclechain.ezwallet.utils.RegexUtil;
-import com.oraclechain.ezwallet.view.ClearEditText;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.app.ActivityUtils;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
+import com.bigstudio.ezwallet.modules.friendslist.friendsdetails.FriendsDetailsActivity;
+import com.bigstudio.ezwallet.utils.KeyBoardUtil;
+import com.bigstudio.ezwallet.utils.RegexUtil;
+import com.bigstudio.ezwallet.view.ClearEditText;
 
 import java.util.Timer;
 import java.util.TimerTask;

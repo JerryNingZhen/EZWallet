@@ -1,9 +1,9 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.appupdate;
+package com.bigstudio.ezwallet.modules.leftdrawer.appupdate;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 public class AppIntroActivity extends AppCompatActivity {
 

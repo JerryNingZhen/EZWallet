@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.oraclechain.ezwallet.blockchain.cypto;
+package com.bigstudio.ezwallet.blockchain.cypto;
 
 
-import com.oraclechain.ezwallet.blockchain.cypto.util.BitUtils;
-import com.oraclechain.ezwallet.blockchain.cypto.util.HexUtils;
+import com.bigstudio.ezwallet.blockchain.cypto.util.BitUtils;
+import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

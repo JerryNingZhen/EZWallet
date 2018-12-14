@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.app;
+package com.bigstudio.ezwallet.app;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;

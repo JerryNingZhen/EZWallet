@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.blockchain.util;
+package com.bigstudio.ezwallet.blockchain.util;
 
 
-import com.oraclechain.ezwallet.blockchain.chain.PackedTransaction;
-import com.oraclechain.ezwallet.blockchain.chain.SignedTransaction;
+import com.bigstudio.ezwallet.blockchain.chain.PackedTransaction;
+import com.bigstudio.ezwallet.blockchain.chain.SignedTransaction;
 
 /**
  * Created by swapnibble on 2017-09-12.

@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.dialog.passworddialog;
+package com.bigstudio.ezwallet.view.dialog.passworddialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.utils.ToastUtils;
-import com.oraclechain.ezwallet.view.ClearEditText;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.bigstudio.ezwallet.view.ClearEditText;
 
 
 /**

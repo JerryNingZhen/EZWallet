@@ -1,11 +1,11 @@
-package com.oraclechain.ezwallet.modules.wallet.createwallet.login;
+package com.bigstudio.ezwallet.modules.wallet.createwallet.login;
 
 import android.os.Bundle;
 
-import com.oraclechain.ezwallet.base.BaseAcitvity;
-import com.oraclechain.ezwallet.base.BasePresent;
-import com.oraclechain.ezwallet.modules.normalvp.NormalPresenter;
-import com.oraclechain.ezwallet.modules.normalvp.NormalView;
+import com.bigstudio.ezwallet.base.BaseAcitvity;
+import com.bigstudio.ezwallet.base.BasePresent;
+import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
+import com.bigstudio.ezwallet.modules.normalvp.NormalView;
 
 /**
  * Copyright (C) 2018, PING AN TECHNOLOGIES CO., LTD.

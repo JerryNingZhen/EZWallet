@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.account.importaccount;
+package com.bigstudio.ezwallet.modules.account.importaccount;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.BlockChainAccountInfoBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

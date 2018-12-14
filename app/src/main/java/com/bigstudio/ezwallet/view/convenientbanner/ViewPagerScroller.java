@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.convenientbanner;
+package com.bigstudio.ezwallet.view.convenientbanner;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

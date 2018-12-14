@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view;
+package com.bigstudio.ezwallet.view;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -12,7 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.liaoinstan.springview.container.BaseHeader;
-import com.oraclechain.ezwallet.R;
+import com.bigstudio.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/12/7.

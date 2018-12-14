@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.convenientbanner;
+package com.bigstudio.ezwallet.view.convenientbanner;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -15,12 +15,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.view.convenientbanner.adapter.CBPageAdapter;
-import com.oraclechain.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
-import com.oraclechain.ezwallet.view.convenientbanner.listener.CBPageChangeListener;
-import com.oraclechain.ezwallet.view.convenientbanner.listener.OnItemClickListener;
-import com.oraclechain.ezwallet.view.convenientbanner.view.CBLoopViewPager;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.view.convenientbanner.adapter.CBPageAdapter;
+import com.bigstudio.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
+import com.bigstudio.ezwallet.view.convenientbanner.listener.CBPageChangeListener;
+import com.bigstudio.ezwallet.view.convenientbanner.listener.OnItemClickListener;
+import com.bigstudio.ezwallet.view.convenientbanner.view.CBLoopViewPager;
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;

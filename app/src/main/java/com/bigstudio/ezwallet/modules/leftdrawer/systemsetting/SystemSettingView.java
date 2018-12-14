@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.leftdrawer.systemsetting;
+package com.bigstudio.ezwallet.modules.leftdrawer.systemsetting;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.SystemInfoBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.SystemInfoBean;
 
 /**
  * Created by pocketEos on 2018/1/18.

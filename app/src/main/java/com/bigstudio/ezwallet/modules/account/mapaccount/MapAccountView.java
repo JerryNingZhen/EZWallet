@@ -1,7 +1,7 @@
-package com.oraclechain.ezwallet.modules.account.mapaccount;
+package com.bigstudio.ezwallet.modules.account.mapaccount;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.GetAccountsBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.GetAccountsBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

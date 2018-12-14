@@ -1,4 +1,4 @@
-package com.oraclechain.ezwallet.view.contact;
+package com.bigstudio.ezwallet.view.contact;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Iterator;

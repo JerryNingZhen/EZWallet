@@ -1,8 +1,8 @@
-package com.oraclechain.ezwallet.modules.news;
+package com.bigstudio.ezwallet.modules.news;
 
-import com.oraclechain.ezwallet.base.BaseView;
-import com.oraclechain.ezwallet.bean.CoinBean;
-import com.oraclechain.ezwallet.bean.NewsBean;
+import com.bigstudio.ezwallet.base.BaseView;
+import com.bigstudio.ezwallet.bean.CoinBean;
+import com.bigstudio.ezwallet.bean.NewsBean;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.oraclechain.ezwallet.utils;
+package com.bigstudio.ezwallet.utils;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.oraclechain.ezwallet.R;
-import com.oraclechain.ezwallet.service.KillSelfService;
+import com.bigstudio.ezwallet.R;
+import com.bigstudio.ezwallet.service.KillSelfService;
 
 import java.util.List;
 
