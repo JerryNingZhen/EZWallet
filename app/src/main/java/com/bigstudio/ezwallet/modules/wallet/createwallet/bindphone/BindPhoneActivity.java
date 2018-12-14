@@ -28,6 +28,7 @@ import com.bigstudio.ezwallet.view.countdowntimer.CountDownTimerUtils;
 import butterknife.BindView;
 import butterknife.OnClick;
 
+/** 绑定手机号 */
 public class BindPhoneActivity extends BaseAcitvity<BindPhoneView, BindPhonePresenter> implements BindPhoneView {
 
 

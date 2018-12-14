@@ -114,7 +114,7 @@ public class LoginActivity extends BaseAcitvity<LoginView, LoginPresenter> imple
             @Override
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
-                bundle.putString("details", FilesUtils.readAssetsTxt(LoginActivity.this, "pocketeos_user"));
+                bundle.putString("details", FilesUtils.readAssetsTxt(LoginActivity.this, "ezwallet_user"));
                 bundle.putString("title", getString(R.string.setting_one));
                 ActivityUtils.next(LoginActivity.this, RichTextActivity.class, bundle);
             }

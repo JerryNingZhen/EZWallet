@@ -129,7 +129,7 @@
     <string name="input_password">输入密码</string>
     <string name="confirm_password">确认密码</string>
     <string name="input_confirm_password">再次确认密码</string>
-    <string name="creat_wallet_drsc">1. 请创建pocketEOS钱包 \n2. 随后可在钱包内创建EOS账号 \n3. 密码将用于加密保护EOS账号和个人隐私信息</string>
+    <string name="creat_wallet_drsc">1. 请创建EZWallet钱包 \n2. 随后可在钱包内创建EZWallet账号 \n3. 密码将用于加密保护EZWallet账号和个人隐私信息</string>
     <string name="creat_wallet">创建钱包</string>
     <string name="import_wallet">导入钱包</string>
     <string name="vip158415321561">VIP158415321561</string>
@@ -432,4 +432,11 @@
     <string name="stake_eos">赎回EOS</string>
     <string name="unstake_info">目前暂不支持调整赎回额度。 为保证账户可用，1 EOS以下的抵押额度暂无法赎回，请知悉。</string>
     <string name="close">关闭</string>
+
+    <!--改版-->
+    <string name="choose_to_login">请选择您的登录方式</string>
+    <string name="prefer_wechat_login">推荐使用微信登录</string>
+    <string name="wechat_login">微信登录</string>
+    <string name="phone_login">手机号登录</string>
+    <string name="wallet_name">钱包名称</string>
 </resources>

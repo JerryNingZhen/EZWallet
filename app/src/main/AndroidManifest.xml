@@ -94,6 +94,8 @@
         <activity
             android:name=".modules.account.createaccount.CreateAccountActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".modules.wallet.createwallet.CreateWalletOptionActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".modules.account.importaccount.ImportAccountActivity"
             android:screenOrientation="portrait"/>

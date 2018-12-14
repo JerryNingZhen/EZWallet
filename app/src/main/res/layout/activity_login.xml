@@ -47,6 +47,7 @@
                 android:clickable="true"
                 android:drawablePadding="@dimen/dimens_10"
                 android:gravity="center"
+                android:visibility="gone"
                 android:drawableRight="@mipmap/white_more"
                 android:text="@string/black_box"
                 android:textColor="@color/white"
@@ -187,6 +188,7 @@
         android:textSize="@dimen/dimens_14"/>
 
     <RelativeLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

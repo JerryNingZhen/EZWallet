@@ -16,6 +16,7 @@ import com.bigstudio.ezwallet.modules.main.MainActivity;
 import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
 import com.bigstudio.ezwallet.modules.normalvp.NormalView;
 import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginOptionActivity;
 import com.bigstudio.ezwallet.utils.Utils;
 
 public class WelcomeActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {
@@ -110,11 +111,13 @@ public class WelcomeActivity extends BaseAcitvity<NormalView, NormalPresenter> i
     }
 
     private void goLogin() {
-        ActivityUtils.next(WelcomeActivity.this, LoginActivity.class, true);
+        //ActivityUtils.next(WelcomeActivity.this, LoginActivity.class, true);
+        ActivityUtils.next(WelcomeActivity.this, LoginOptionActivity.class, true);
     }
 
     private void goCreat_wallet() {
-        ActivityUtils.next(WelcomeActivity.this, LoginActivity.class);
+        //ActivityUtils.next(WelcomeActivity.this, LoginActivity.class);
+        ActivityUtils.next(WelcomeActivity.this, LoginOptionActivity.class);
     }
 
     private void goCreat_black_box_wallet() {

@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 //使用greendao
 apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 26
@@ -100,7 +102,12 @@ dependencies {
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
 
     //xrecycleview
-    compile 'com.jcodecraeer:xrecyclerview:1.5.9'
+    implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
 
-    compile 'io.github.novacrypto:BIP32:0.0.8'
+    implementation 'io.github.novacrypto:BIP32:0.0.8'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'org.jetbrains.anko:anko:0.10.5'
+}
+repositories {
+    mavenCentral()
 }
