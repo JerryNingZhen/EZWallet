@@ -1,15 +1,15 @@
-package com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment;
+package com.ezeco.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.GetAnswerListBean;
-import com.bigstudio.ezwallet.bean.PaidAnswerBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.GetAnswerListBean;
+import com.ezeco.ezwallet.bean.PaidAnswerBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 /**
  * Created by pocketEos on 2017/12/26.

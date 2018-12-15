@@ -1,23 +1,23 @@
-package com.bigstudio.ezwallet.modules.welcome;
+package com.ezeco.ezwallet.modules.welcome;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.UserBean;
-import com.bigstudio.ezwallet.gen.UserBeanDao;
-import com.bigstudio.ezwallet.modules.blackbox.BlackBoxMainActivity;
-import com.bigstudio.ezwallet.modules.main.MainActivity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginActivity;
-import com.bigstudio.ezwallet.modules.wallet.createwallet.login.LoginOptionActivity;
-import com.bigstudio.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.UserBean;
+import com.ezeco.ezwallet.gen.UserBeanDao;
+import com.ezeco.ezwallet.modules.blackbox.BlackBoxMainActivity;
+import com.ezeco.ezwallet.modules.main.MainActivity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.ezeco.ezwallet.modules.wallet.createwallet.login.LoginOptionActivity;
+import com.ezeco.ezwallet.utils.Utils;
 
 public class WelcomeActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {
     private static final int TIME = 500;

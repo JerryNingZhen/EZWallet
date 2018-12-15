@@ -22,10 +22,10 @@
  * SOFTWARE.
  */
 
-package com.bigstudio.ezwallet.blockchain.cypto.ec;
+package com.ezeco.ezwallet.blockchain.cypto.ec;
 
 
-import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
+import com.ezeco.ezwallet.blockchain.cypto.util.HexUtils;
 
 import java.math.BigInteger;
 

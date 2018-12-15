@@ -1,18 +1,18 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.systemsetting;
+package com.ezeco.ezwallet.modules.leftdrawer.systemsetting;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.SystemInfoBean;
-import com.bigstudio.ezwallet.modules.leftdrawer.suggestionfeedback.SuggestionFeedbackActivity;
-import com.bigstudio.ezwallet.utils.CacheDataManager;
-import com.bigstudio.ezwallet.utils.FilesUtils;
-import com.bigstudio.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.SystemInfoBean;
+import com.ezeco.ezwallet.modules.leftdrawer.suggestionfeedback.SuggestionFeedbackActivity;
+import com.ezeco.ezwallet.utils.CacheDataManager;
+import com.ezeco.ezwallet.utils.FilesUtils;
+import com.ezeco.ezwallet.utils.Utils;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.blockchain.types;
+package com.ezeco.ezwallet.blockchain.types;
 
 import com.google.gson.annotations.Expose;
 

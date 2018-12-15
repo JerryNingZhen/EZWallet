@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.unstake;
+package com.ezeco.ezwallet.modules.unstake;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.AccountDetailsBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.AccountDetailsBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

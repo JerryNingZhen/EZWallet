@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.swiperecycle;
+package com.ezeco.ezwallet.view.swiperecycle;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/12/11.

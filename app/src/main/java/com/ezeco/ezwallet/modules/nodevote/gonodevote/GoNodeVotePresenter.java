@@ -1,15 +1,15 @@
-package com.bigstudio.ezwallet.modules.nodevote.gonodevote;
+package com.ezeco.ezwallet.modules.nodevote.gonodevote;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.RequestNodeListBean;
-import com.bigstudio.ezwallet.bean.ResultNodeListBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.RequestNodeListBean;
+import com.ezeco.ezwallet.bean.ResultNodeListBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 /**
  * Created by pocketEos on 2017/12/26.

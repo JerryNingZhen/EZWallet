@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.base;
+package com.ezeco.ezwallet.base;
 
 /**
  */

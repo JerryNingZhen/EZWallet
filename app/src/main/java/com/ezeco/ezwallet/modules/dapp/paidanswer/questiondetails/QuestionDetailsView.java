@@ -1,9 +1,9 @@
-package com.bigstudio.ezwallet.modules.dapp.paidanswer.questiondetails;
+package com.ezeco.ezwallet.modules.dapp.paidanswer.questiondetails;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.ChainInfoBean;
-import com.bigstudio.ezwallet.bean.GetChainJsonBean;
-import com.bigstudio.ezwallet.bean.GetRequiredKeysBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.ChainInfoBean;
+import com.ezeco.ezwallet.bean.GetChainJsonBean;
+import com.ezeco.ezwallet.bean.GetRequiredKeysBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

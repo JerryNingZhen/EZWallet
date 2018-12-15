@@ -1,10 +1,10 @@
-package com.bigstudio.ezwallet.adapter.baseadapter;
+package com.ezeco.ezwallet.adapter.baseadapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.bigstudio.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
+import com.ezeco.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
 
 import java.util.List;
 

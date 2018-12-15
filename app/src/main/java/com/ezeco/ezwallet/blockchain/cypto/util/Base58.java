@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.blockchain.cypto.util;
+package com.ezeco.ezwallet.blockchain.cypto.util;
 
 /**
  * Copyright 2011 Google Inc.

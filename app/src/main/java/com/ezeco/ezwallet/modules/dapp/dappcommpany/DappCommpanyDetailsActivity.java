@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.dapp.dappcommpany;
+package com.ezeco.ezwallet.modules.dapp.dappcommpany;
 
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -8,18 +8,18 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.DappBean;
-import com.bigstudio.ezwallet.bean.DappCommpanyBean;
-import com.bigstudio.ezwallet.modules.dapp.dappdetails.DappDetailsActivity;
-import com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.activity.PaidAnswerActivity;
-import com.bigstudio.ezwallet.utils.Utils;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.DappBean;
+import com.ezeco.ezwallet.bean.DappCommpanyBean;
+import com.ezeco.ezwallet.modules.dapp.dappdetails.DappDetailsActivity;
+import com.ezeco.ezwallet.modules.dapp.paidanswer.paidanswerhome.activity.PaidAnswerActivity;
+import com.ezeco.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-import static com.bigstudio.ezwallet.utils.Utils.getContext;
+import static com.ezeco.ezwallet.utils.Utils.getContext;
 
 public class DappCommpanyDetailsActivity extends BaseAcitvity<DappCommpanyDetailsView, DappCommpanyDetailsPresenter> implements DappCommpanyDetailsView {
 

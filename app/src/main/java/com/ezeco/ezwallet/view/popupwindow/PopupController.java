@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.popupwindow;
+package com.ezeco.ezwallet.view.popupwindow;
 
 import android.app.Activity;
 import android.content.Context;

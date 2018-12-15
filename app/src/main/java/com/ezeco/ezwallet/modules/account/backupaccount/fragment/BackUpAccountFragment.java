@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.account.backupaccount.fragment;
+package com.ezeco.ezwallet.modules.account.backupaccount.fragment;
 
 
 import android.os.Bundle;
@@ -8,21 +8,21 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.AppManager;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseFragment;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.modules.blackbox.BlackBoxMainActivity;
-import com.bigstudio.ezwallet.modules.main.MainActivity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.utils.EncryptUtil;
-import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
-import com.bigstudio.ezwallet.utils.Utils;
-import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.AppManager;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseFragment;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.modules.blackbox.BlackBoxMainActivity;
+import com.ezeco.ezwallet.modules.main.MainActivity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.utils.EncryptUtil;
+import com.ezeco.ezwallet.utils.PasswordToKeyUtils;
+import com.ezeco.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordDialog;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;

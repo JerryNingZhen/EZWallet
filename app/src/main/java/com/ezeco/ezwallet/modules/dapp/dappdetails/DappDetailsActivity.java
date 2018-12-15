@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.dapp.dappdetails;
+package com.ezeco.ezwallet.modules.dapp.dappdetails;
 
 import android.content.Intent;
 import android.net.http.SslError;
@@ -13,14 +13,14 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin.ChooseAccountWithCoinActivity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.view.webview.BaseWebSetting;
-import com.bigstudio.ezwallet.view.webview.BaseWebView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.modules.dapp.paidanswer.chooseaccountwithcoin.ChooseAccountWithCoinActivity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.view.webview.BaseWebSetting;
+import com.ezeco.ezwallet.view.webview.BaseWebView;
 
 import butterknife.BindView;
 

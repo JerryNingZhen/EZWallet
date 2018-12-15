@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view;
+package com.ezeco.ezwallet.view;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,7 +12,7 @@ import android.view.animation.CycleInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.EditText;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 /**
  * 待删除文本输入框

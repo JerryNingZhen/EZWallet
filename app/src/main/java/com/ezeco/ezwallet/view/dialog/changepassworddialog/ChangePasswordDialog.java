@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.changepassworddialog;
+package com.ezeco.ezwallet.view.dialog.changepassworddialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,9 +9,9 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.utils.ToastUtils;
-import com.bigstudio.ezwallet.view.ClearEditText;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.utils.ToastUtils;
+import com.ezeco.ezwallet.view.ClearEditText;
 
 
 /**

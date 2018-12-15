@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view;
+package com.ezeco.ezwallet.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,7 +17,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ImageView;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 /**
  * Created by pocketEos on 2018/3/12.

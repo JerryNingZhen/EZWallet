@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.swiperecycle;
+package com.ezeco.ezwallet.view.swiperecycle;
 
 import android.content.Context;
 import android.graphics.Rect;

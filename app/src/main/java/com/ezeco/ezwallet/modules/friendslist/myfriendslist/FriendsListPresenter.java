@@ -1,20 +1,20 @@
-package com.bigstudio.ezwallet.modules.friendslist.myfriendslist;
+package com.ezeco.ezwallet.modules.friendslist.myfriendslist;
 
 import android.content.Context;
 import android.text.TextUtils;
 
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.FriendsListInfoBean;
-import com.bigstudio.ezwallet.view.contact.ChineseToEnglish;
-import com.bigstudio.ezwallet.view.contact.CompareSort;
-import com.bigstudio.ezwallet.bean.User;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.FriendsListInfoBean;
+import com.ezeco.ezwallet.view.contact.ChineseToEnglish;
+import com.ezeco.ezwallet.view.contact.CompareSort;
+import com.ezeco.ezwallet.bean.User;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import java.util.ArrayList;
 import java.util.Collections;

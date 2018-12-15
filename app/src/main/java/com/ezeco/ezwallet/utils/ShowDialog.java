@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 
 /**

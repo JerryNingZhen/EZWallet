@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.walletcodedialog;
+package com.ezeco.ezwallet.view.dialog.walletcodedialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.widget.TextView;
 
 import com.google.zxing.client.result.ParsedResultType;
 import com.mylhyl.zxing.scanner.encode.QREncode;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.utils.ViewToImageUtils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.utils.ViewToImageUtils;
 
 /**
  * Created by pocketEos on 2017/12/5.

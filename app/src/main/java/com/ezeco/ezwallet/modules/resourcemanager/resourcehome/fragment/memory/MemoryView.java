@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.memory;
+package com.ezeco.ezwallet.modules.resourcemanager.resourcehome.fragment.memory;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.BlockChainAccountInfoBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

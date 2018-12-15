@@ -1,11 +1,11 @@
-package com.bigstudio.ezwallet.modules.empty;
+package com.ezeco.ezwallet.modules.empty;
 
 import android.os.Bundle;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
 
 public class EmptyActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {
 

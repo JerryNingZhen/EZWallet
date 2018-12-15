@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.bigstudio.ezwallet.net.callbck;
+package com.ezeco.ezwallet.net.callbck;
 
 
 import com.google.gson.stream.JsonReader;
 import com.lzy.okgo.convert.Converter;
-import com.bigstudio.ezwallet.bean.BaseResponseBean;
-import com.bigstudio.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.bean.BaseResponseBean;
+import com.ezeco.ezwallet.bean.ResponseBean;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

@@ -22,12 +22,12 @@
  * SOFTWARE.
  */
 
-package com.bigstudio.ezwallet.blockchain.cypto.ec;
+package com.ezeco.ezwallet.blockchain.cypto.ec;
 
 import com.google.common.base.Preconditions;
-import com.bigstudio.ezwallet.blockchain.cypto.Hmac;
-import com.bigstudio.ezwallet.blockchain.cypto.digest.Sha256;
-import com.bigstudio.ezwallet.blockchain.types.EosByteWriter;
+import com.ezeco.ezwallet.blockchain.cypto.Hmac;
+import com.ezeco.ezwallet.blockchain.cypto.digest.Sha256;
+import com.ezeco.ezwallet.blockchain.types.EosByteWriter;
 
 import java.math.BigInteger;
 import java.util.Arrays;

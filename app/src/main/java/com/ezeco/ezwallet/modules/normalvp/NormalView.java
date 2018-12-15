@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.normalvp;
+package com.ezeco.ezwallet.modules.normalvp;
 
 
-import com.bigstudio.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.base.BaseView;
 
 /**
  * Created by pocketEos on 2017/7/24.

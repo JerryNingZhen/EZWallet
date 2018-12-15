@@ -1,13 +1,13 @@
-package com.bigstudio.ezwallet.modules.wallet.createwallet
+package com.ezeco.ezwallet.modules.wallet.createwallet
 
 import android.os.Bundle
 
-import com.bigstudio.ezwallet.R
-import com.bigstudio.ezwallet.app.ActivityUtils
-import com.bigstudio.ezwallet.base.BaseAcitvity
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter
-import com.bigstudio.ezwallet.modules.normalvp.NormalView
-import com.bigstudio.ezwallet.modules.wallet.importwallet.ImportWalletActivity
+import com.ezeco.ezwallet.R
+import com.ezeco.ezwallet.app.ActivityUtils
+import com.ezeco.ezwallet.base.BaseAcitvity
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter
+import com.ezeco.ezwallet.modules.normalvp.NormalView
+import com.ezeco.ezwallet.modules.wallet.importwallet.ImportWalletActivity
 import kotlinx.android.synthetic.main.activity_createwallet_option .*
 
 /**

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.executor;
+package com.ezeco.ezwallet.executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

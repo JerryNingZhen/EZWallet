@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.modules.news;
+package com.ezeco.ezwallet.modules.news;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.CoinBean;
-import com.bigstudio.ezwallet.bean.NewsBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.CoinBean;
+import com.ezeco.ezwallet.bean.NewsBean;
 
 import java.util.List;
 

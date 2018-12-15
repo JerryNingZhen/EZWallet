@@ -1,10 +1,10 @@
-package com.bigstudio.ezwallet.adapter.baseadapter;
+package com.ezeco.ezwallet.adapter.baseadapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 
-import com.bigstudio.ezwallet.adapter.baseadapter.base.ItemViewDelegate;
-import com.bigstudio.ezwallet.adapter.baseadapter.base.ViewHolder;
+import com.ezeco.ezwallet.adapter.baseadapter.base.ItemViewDelegate;
+import com.ezeco.ezwallet.adapter.baseadapter.base.ViewHolder;
 
 import java.util.List;
 

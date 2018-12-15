@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.bean;
+package com.ezeco.ezwallet.bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;

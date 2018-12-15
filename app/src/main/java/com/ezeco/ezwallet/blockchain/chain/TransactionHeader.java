@@ -1,9 +1,9 @@
-package com.bigstudio.ezwallet.blockchain.chain;
+package com.ezeco.ezwallet.blockchain.chain;
 
 import com.google.gson.annotations.Expose;
-import com.bigstudio.ezwallet.blockchain.cypto.util.BitUtils;
-import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
-import com.bigstudio.ezwallet.blockchain.types.EosType;
+import com.ezeco.ezwallet.blockchain.cypto.util.BitUtils;
+import com.ezeco.ezwallet.blockchain.cypto.util.HexUtils;
+import com.ezeco.ezwallet.blockchain.types.EosType;
 
 import java.math.BigInteger;
 import java.text.DateFormat;

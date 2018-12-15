@@ -1,15 +1,15 @@
-package com.bigstudio.ezwallet.modules.news;
+package com.ezeco.ezwallet.modules.news;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.CoinBean;
-import com.bigstudio.ezwallet.bean.NewsBean;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.CoinBean;
+import com.ezeco.ezwallet.bean.NewsBean;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 import java.util.List;

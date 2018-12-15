@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.bigstudio.ezwallet.blockchain.cypto.ec;
+package com.ezeco.ezwallet.blockchain.cypto.ec;
 
 
-import com.bigstudio.ezwallet.blockchain.cypto.digest.Ripemd160;
-import com.bigstudio.ezwallet.blockchain.cypto.digest.Sha256;
-import com.bigstudio.ezwallet.blockchain.cypto.util.Base58;
-import com.bigstudio.ezwallet.blockchain.cypto.util.BitUtils;
-import com.bigstudio.ezwallet.blockchain.util.RefValue;
+import com.ezeco.ezwallet.blockchain.cypto.digest.Ripemd160;
+import com.ezeco.ezwallet.blockchain.cypto.digest.Sha256;
+import com.ezeco.ezwallet.blockchain.cypto.util.Base58;
+import com.ezeco.ezwallet.blockchain.cypto.util.BitUtils;
+import com.ezeco.ezwallet.blockchain.util.RefValue;
 
 import org.apache.commons.lang.StringUtils;
 

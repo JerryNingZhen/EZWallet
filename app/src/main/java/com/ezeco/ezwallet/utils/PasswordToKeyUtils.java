@@ -1,6 +1,6 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
-import com.bigstudio.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.app.MyApplication;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

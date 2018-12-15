@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment;
+package com.ezeco.ezwallet.modules.dapp.paidanswer.paidanswerhome.fragment;
 
 
 import android.os.Bundle;
@@ -6,12 +6,12 @@ import android.support.v7.widget.LinearLayoutManager;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.base.BaseFragment;
-import com.bigstudio.ezwallet.bean.PaidAnswerBean;
-import com.bigstudio.ezwallet.bean.QuestionListBean;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.base.BaseFragment;
+import com.ezeco.ezwallet.bean.PaidAnswerBean;
+import com.ezeco.ezwallet.bean.QuestionListBean;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

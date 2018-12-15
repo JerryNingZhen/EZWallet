@@ -1,17 +1,17 @@
-package com.bigstudio.ezwallet.modules.account.backupaccount.activity;
+package com.ezeco.ezwallet.modules.account.backupaccount.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.view.WindowManager;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.baseadapter.BackUpAccount_tab_Adapter;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.baseadapter.BackUpAccount_tab_Adapter;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.modules.account.backupaccount.fragment.BackUpAccountFragment;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
 
 import java.util.ArrayList;
 import java.util.List;

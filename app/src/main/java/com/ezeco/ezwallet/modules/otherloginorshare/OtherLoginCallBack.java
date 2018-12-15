@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.otherloginorshare;
+package com.ezeco.ezwallet.modules.otherloginorshare;
 
 /**
  * Created by pocketEos on 2018/3/15.

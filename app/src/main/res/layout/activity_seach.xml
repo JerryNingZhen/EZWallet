@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.bigstudio.ezwallet.modules.seach.SeachActivity">
+    tools:context="com.ezeco.ezwallet.modules.seach.SeachActivity">
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:src="@mipmap/seach"/>
 
-            <com.bigstudio.ezwallet.view.ClearEditText
+            <com.ezeco.ezwallet.view.ClearEditText
                 android:id="@+id/edt_seach"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

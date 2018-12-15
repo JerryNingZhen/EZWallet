@@ -1,15 +1,15 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.messagecenter;
+package com.ezeco.ezwallet.modules.leftdrawer.messagecenter;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.MessageCenterBean;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.MessageCenterBean;
 
 import java.util.ArrayList;
 import java.util.List;

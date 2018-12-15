@@ -1,9 +1,9 @@
 package com.org.tron.walletserver;
 
+import com.ezeco.ezwallet.blockchain.util.StringUtils;
 import com.google.protobuf.ByteString;
+import com.org.tron.common.utils.ByteArray;
 
-import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tron.api.GrpcAPI;
 import org.tron.api.GrpcAPI.AccountNetMessage;
@@ -19,19 +19,20 @@ import org.tron.api.GrpcAPI.WitnessList;
 import org.tron.api.WalletExtensionGrpc;
 import org.tron.api.WalletGrpc;
 import org.tron.api.WalletSolidityGrpc;
-import org.tron.common.utils.ByteArray;
 import org.tron.protos.Contract;
 import org.tron.protos.Protocol;
 import org.tron.protos.Protocol.Account;
 import org.tron.protos.Protocol.Block;
 import org.tron.protos.Protocol.Transaction;
 
+import java.util.logging.Logger;
+
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
 public class GrpcClient {
 
-  private static final Logger logger = LoggerFactory.getLogger("GrpcClient");
+  private static final Logger logger = (Logger) LoggerFactory.getLogger("GrpcClient");
   private ManagedChannel channelFull = null;
   private ManagedChannel channelSolidity = null;
   private WalletGrpc.WalletBlockingStub blockingStubFull = null;

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.app;
+package com.ezeco.ezwallet.app;
 
 import android.app.Activity;
 import android.app.ActivityManager;

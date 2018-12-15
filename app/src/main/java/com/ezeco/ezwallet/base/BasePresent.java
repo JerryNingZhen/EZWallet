@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.base;
+package com.ezeco.ezwallet.base;
 
 /**
  * Created by pocketEos on 2017/11/23.

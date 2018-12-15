@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.friendslist.myfriendslist;
+package com.ezeco.ezwallet.modules.friendslist.myfriendslist;
 
 
 import android.os.Bundle;
@@ -8,13 +8,13 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseFragment;
-import com.bigstudio.ezwallet.bean.User;
-import com.bigstudio.ezwallet.modules.seach.SeachActivity;
-import com.bigstudio.ezwallet.view.contact.SideBarView;
-import com.bigstudio.ezwallet.view.contact.UserAdapter;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseFragment;
+import com.ezeco.ezwallet.bean.User;
+import com.ezeco.ezwallet.modules.seach.SeachActivity;
+import com.ezeco.ezwallet.view.contact.SideBarView;
+import com.ezeco.ezwallet.view.contact.UserAdapter;
 
 import java.util.ArrayList;
 

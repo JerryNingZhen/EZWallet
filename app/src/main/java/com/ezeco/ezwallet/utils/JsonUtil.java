@@ -1,10 +1,10 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

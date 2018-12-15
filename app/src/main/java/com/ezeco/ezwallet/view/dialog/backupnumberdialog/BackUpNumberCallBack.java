@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.backupnumberdialog;
+package com.ezeco.ezwallet.view.dialog.backupnumberdialog;
 
 /**
  * Created by pocketEos on 2017/12/12.

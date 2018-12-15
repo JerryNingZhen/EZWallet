@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.blockchain.bean;
+package com.ezeco.ezwallet.blockchain.bean;
 
 import java.util.List;
 

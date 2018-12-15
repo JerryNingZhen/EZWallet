@@ -1,26 +1,26 @@
-package com.bigstudio.ezwallet.modules.switchusernumber;
+package com.ezeco.ezwallet.modules.switchusernumber;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.utils.JsonUtil;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.utils.JsonUtil;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 
-import static com.bigstudio.ezwallet.utils.Utils.getContext;
+import static com.ezeco.ezwallet.utils.Utils.getContext;
 
 public class SwitchUserNumberActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {
 

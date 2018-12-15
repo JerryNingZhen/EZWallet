@@ -439,4 +439,26 @@
     <string name="wechat_login">微信登录</string>
     <string name="phone_login">手机号登录</string>
     <string name="wallet_name">钱包名称</string>
+
+    <!--tron-->
+
+    <string name="preference_file_key" translatable="false">com.eletac.tronwallet.wallet_preferences</string>
+    <string name="ip_key" translatable="false">ip</string>
+    <string name="port_key" translatable="false">port</string>
+    <string name="ip_sol_key" translatable="false">ip_sol</string>
+    <string name="port_sol_key" translatable="false">port_sol</string>
+
+    <string name="fullnode_ip" translatable="false">54.236.37.243</string>
+    <string name="fullnode_port" translatable="false">50051</string>
+    <string name="soliditynode_ip" translatable="false">47.89.187.247</string>
+    <string name="soliditynode_port" translatable="false">50051</string>
+    <string name="wallets_key">wallets_key</string>
+    <string name="is_watch_only_setup_key">is_watch_only_setup_key</string>
+    <string name="is_cold_wallet_key" translatable="false">is_cold_wallet_key</string>
+    <string name="wallet_name_key">wallet_name_key</string>
+    <string name="wallet_address_key">wallet_address_key</string>
+    <string name="pwd_key" translatable="false">pwd_key</string>
+    <string name="priv_key" translatable="false">priv_key</string>
+    <string name="pub_key" translatable="false">pub_key</string>
+    <string name="selected_wallet_key">selected_wallet_key</string>
 </resources>

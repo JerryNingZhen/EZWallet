@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.blockchain.chain;
+package com.ezeco.ezwallet.blockchain.chain;
 
 import com.google.gson.annotations.Expose;
-import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
-import com.bigstudio.ezwallet.blockchain.types.EosByteWriter;
+import com.ezeco.ezwallet.blockchain.cypto.util.HexUtils;
+import com.ezeco.ezwallet.blockchain.types.EosByteWriter;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

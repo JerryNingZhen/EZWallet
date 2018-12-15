@@ -1,18 +1,18 @@
-package com.bigstudio.ezwallet.modules.transaction.transferaccounts;
+package com.ezeco.ezwallet.modules.transaction.transferaccounts;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.AccountDetailsBean;
-import com.bigstudio.ezwallet.bean.CoinRateBean;
-import com.bigstudio.ezwallet.bean.PostChainHistoryBean;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.bean.TransferHistoryBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.AccountDetailsBean;
+import com.ezeco.ezwallet.bean.CoinRateBean;
+import com.ezeco.ezwallet.bean.PostChainHistoryBean;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.bean.TransferHistoryBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import org.apache.commons.lang.StringUtils;
 

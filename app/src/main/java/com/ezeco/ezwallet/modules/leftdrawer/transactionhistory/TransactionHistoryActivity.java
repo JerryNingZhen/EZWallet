@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.transactionhistory;
+package com.ezeco.ezwallet.modules.leftdrawer.transactionhistory;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,29 +11,29 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.bigstudio.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.base.Constants;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.bean.PostChainHistoryBean;
-import com.bigstudio.ezwallet.bean.TransferHistoryBean;
-import com.bigstudio.ezwallet.utils.JsonUtil;
-import com.bigstudio.ezwallet.utils.RotateUtils;
-import com.bigstudio.ezwallet.utils.Utils;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
-import com.bigstudio.ezwallet.view.popupwindow.BasePopupWindow;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.ezeco.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.base.Constants;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.bean.PostChainHistoryBean;
+import com.ezeco.ezwallet.bean.TransferHistoryBean;
+import com.ezeco.ezwallet.utils.JsonUtil;
+import com.ezeco.ezwallet.utils.RotateUtils;
+import com.ezeco.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.view.popupwindow.BasePopupWindow;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 
-import static com.bigstudio.ezwallet.utils.Utils.getContext;
+import static com.ezeco.ezwallet.utils.Utils.getContext;
 
 public class TransactionHistoryActivity extends BaseAcitvity<TransactionHistoryView, TransactionHistoryPresenter> implements TransactionHistoryView {
 

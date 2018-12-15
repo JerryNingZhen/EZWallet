@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.account.mapaccount;
+package com.ezeco.ezwallet.modules.account.mapaccount;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.GetAccountsBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.GetAccountsBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

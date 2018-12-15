@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.news.newsdetails;
+package com.ezeco.ezwallet.modules.news.newsdetails;
 
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -7,14 +7,14 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.view.webview.BaseWebChromeClient;
-import com.bigstudio.ezwallet.view.webview.BaseWebSetting;
-import com.bigstudio.ezwallet.view.webview.BaseWebView;
-import com.bigstudio.ezwallet.view.webview.BaseWebViewClient;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.view.webview.BaseWebChromeClient;
+import com.ezeco.ezwallet.view.webview.BaseWebSetting;
+import com.ezeco.ezwallet.view.webview.BaseWebView;
+import com.ezeco.ezwallet.view.webview.BaseWebViewClient;
 
 import butterknife.BindView;
 

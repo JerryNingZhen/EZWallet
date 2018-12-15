@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.modules.friendslist.friendsdetails;
+package com.ezeco.ezwallet.modules.friendslist.friendsdetails;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
-import com.bigstudio.ezwallet.bean.WalletDetailsBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.AccountWithCoinBean;
+import com.ezeco.ezwallet.bean.WalletDetailsBean;
 
 import java.util.List;
 

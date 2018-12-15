@@ -1,6 +1,6 @@
-package com.bigstudio.ezwallet.modules.normalvp;
+package com.ezeco.ezwallet.modules.normalvp;
 
-import com.bigstudio.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BasePresent;
 
 /**
  * Created by pocketEos on 2017/11/24.

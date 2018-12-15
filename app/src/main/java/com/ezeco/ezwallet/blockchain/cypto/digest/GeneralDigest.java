@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bigstudio.ezwallet.blockchain.cypto.digest;
+package com.ezeco.ezwallet.blockchain.cypto.digest;
 
 /**
  * base implementation of MD4 family style digest as outlined in

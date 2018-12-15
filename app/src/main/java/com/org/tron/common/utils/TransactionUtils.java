@@ -16,23 +16,23 @@
 package com.org.tron.common.utils;
 
 import com.google.protobuf.ByteString;
+import com.org.tron.common.crypto.ECKey;
 
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tron.common.crypto.ECKey;
-import org.tron.common.crypto.ECKey.ECDSASignature;
 import org.tron.protos.Protocol.Transaction;
 import org.tron.protos.Protocol.Transaction.Contract;
 
 import java.security.SignatureException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Logger;
 
-import static org.tron.common.crypto.Hash.sha256;
+import static com.org.tron.common.crypto.Hash.sha256;
+
 
 public class TransactionUtils {
 
-  private static final Logger logger = LoggerFactory.getLogger("Transaction");
+  private static final Logger logger = (Logger) LoggerFactory.getLogger("Transaction");
 
   /**
    * Obtain a data bytes after removing the id and SHA-256(data)
@@ -166,7 +166,7 @@ public class TransactionUtils {
     if (v < 27) {
       v += 27; //revId -> v
     }
-    ECDSASignature signature = ECDSASignature.fromComponents(r, s, v);
+    ECKey.ECDSASignature signature = ECKey.ECDSASignature.fromComponents(r, s, v);
     return signature.toBase64();
   }
 
@@ -207,7 +207,7 @@ public class TransactionUtils {
     byte[] hash = sha256(transaction.getRawData().toByteArray());
     List<Contract> listContract = transaction.getRawData().getContractList();
     for (int i = 0; i < listContract.size(); i++) {
-      ECDSASignature signature = myKey.sign(hash);
+      ECKey.ECDSASignature signature = myKey.sign(hash);
       byte[] da = signature.toByteArray();
       ByteString bsSign = ByteString.copyFrom(da);
       transactionBuilderSigned.addSignature(

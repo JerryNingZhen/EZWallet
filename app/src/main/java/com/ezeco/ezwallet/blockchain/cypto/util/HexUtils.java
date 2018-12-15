@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.blockchain.cypto.util;
+package com.ezeco.ezwallet.blockchain.cypto.util;
 
 /**
  * Created by pocketEos on 2018/4/26.

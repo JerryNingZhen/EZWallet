@@ -4,24 +4,25 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import com.eletac.tronwallet.R;
-import com.eletac.tronwallet.TronWalletApplication;
+
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.blockchain.util.StringUtils;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.protobuf.ByteString;
+import com.org.tron.common.crypto.Hash;
+import com.org.tron.common.crypto.SymmEncoder;
+import com.org.tron.common.utils.Base58;
+import com.org.tron.common.utils.ByteArray;
+import com.org.tron.common.utils.TransactionUtils;
+import com.org.tron.core.config.Parameter;
 
-import org.apache.commons.lang3.StringUtils;
 import org.spongycastle.util.encoders.Hex;
 import org.tron.api.GrpcAPI;
 import org.tron.api.GrpcAPI.AccountNetMessage;
 import org.tron.api.GrpcAPI.AssetIssueList;
 import org.tron.api.GrpcAPI.NodeList;
 import org.tron.api.GrpcAPI.WitnessList;
-import org.tron.common.crypto.Hash;
-import org.tron.common.crypto.SymmEncoder;
-import org.tron.common.utils.Base58;
-import org.tron.common.utils.ByteArray;
-import org.tron.common.utils.TransactionUtils;
-import org.tron.core.config.Parameter.CommonConstant;
 import org.tron.protos.Contract;
 import org.tron.protos.Contract.AssetIssueContract;
 import org.tron.protos.Contract.FreezeBalanceContract;
@@ -41,6 +42,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
+
 
 class AccountComparator implements Comparator {
 
@@ -65,7 +67,7 @@ public class WalletManager {
             rpcCli.shutdown();
         }
 
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         SharedPreferences sharedPreferences = context.getSharedPreferences(context.getString(R.string.preference_file_key), Context.MODE_PRIVATE);
 
         String ip = "", ip_sol = "";
@@ -98,7 +100,7 @@ public class WalletManager {
             throw new InvalidNameException("");
         }
 
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         if (context == null) {
             throw new NullPointerException("Context is null");
         }
@@ -170,7 +172,7 @@ public class WalletManager {
     }
 
     public static boolean existWallet(String walletName) {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         SharedPreferences sharedPreferences = context.getSharedPreferences(context.getString(R.string.preference_file_key), Context.MODE_PRIVATE);
         Set<String> walletNames = sharedPreferences.getStringSet(context.getString(R.string.wallets_key), null);
 
@@ -182,20 +184,20 @@ public class WalletManager {
     }
 
     public static Set<String> getWalletNames() {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         SharedPreferences sharedPreferences = context.getSharedPreferences(context.getString(R.string.preference_file_key), Context.MODE_PRIVATE);
         return new HashSet<>(sharedPreferences.getStringSet(context.getString(R.string.wallets_key), new HashSet<>()));
     }
 
     public static Wallet getSelectedWallet() {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         SharedPreferences pref = context.getSharedPreferences(context.getString(R.string.preference_file_key), Context.MODE_PRIVATE);
         return getWallet(pref.getString(context.getString(R.string.selected_wallet_key), ""));
     }
 
     public static Wallet getWallet(String walletName, String password) {
         if (existWallet(walletName)) {
-            Context context = TronWalletApplication.getAppContext();
+            Context context = MyApplication.getAppContext();
             SharedPreferences walletPref = context.getSharedPreferences(walletName, Context.MODE_PRIVATE);
 
             String privateKey = null;
@@ -242,7 +244,7 @@ public class WalletManager {
     }
 
     public static void selectWallet(String walletName) {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         SharedPreferences sharedPreferences = context.getSharedPreferences(context.getString(R.string.preference_file_key), Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
@@ -484,7 +486,7 @@ public class WalletManager {
     }
 
     private static String loadPassword(String walletName) {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         if (context == null || !existWallet(walletName))
             return null;
         SharedPreferences sharedPreferences = context.getSharedPreferences(walletName, Context.MODE_PRIVATE);
@@ -492,7 +494,7 @@ public class WalletManager {
     }
 
     public static String loadPubKey(String walletName) {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         if (context == null || !existWallet(walletName))
             return null;
         SharedPreferences sharedPreferences = context.getSharedPreferences(walletName, Context.MODE_PRIVATE);
@@ -500,7 +502,7 @@ public class WalletManager {
     }
 
     private static String loadPriKey(String walletName) {
-        Context context = TronWalletApplication.getAppContext();
+        Context context = MyApplication.getAppContext();
         if (context == null || !existWallet(walletName))
             return null;
         SharedPreferences sharedPreferences = context.getSharedPreferences(walletName, Context.MODE_PRIVATE);
@@ -569,11 +571,11 @@ public class WalletManager {
         if (address == null || address.length == 0) {
             return false;
         }
-        if (address.length != CommonConstant.ADDRESS_SIZE) {
+        if (address.length != Parameter.CommonConstant.ADDRESS_SIZE) {
             return false;
         }
         byte preFixbyte = address[0];
-        if (preFixbyte != CommonConstant.ADD_PRE_FIX_BYTE) {
+        if (preFixbyte != Parameter.CommonConstant.ADD_PRE_FIX_BYTE) {
             return false;
         }
 

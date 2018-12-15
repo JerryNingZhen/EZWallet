@@ -1,11 +1,11 @@
-package com.bigstudio.ezwallet.modules.nodevote.agencyvote;
+package com.ezeco.ezwallet.modules.nodevote.agencyvote;
 
 import android.os.Bundle;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
 
 /**
  * 代理投票

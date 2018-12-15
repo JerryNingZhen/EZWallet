@@ -1,15 +1,15 @@
-package com.bigstudio.ezwallet.modules.resourcemanager.changememory;
+package com.ezeco.ezwallet.modules.resourcemanager.changememory;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.AccountDetailsBean;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.bean.TableResultBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.AccountDetailsBean;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.bean.TableResultBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 

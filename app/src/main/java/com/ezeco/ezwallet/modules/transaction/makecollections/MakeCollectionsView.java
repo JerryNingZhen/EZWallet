@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.modules.transaction.makecollections;
+package com.ezeco.ezwallet.modules.transaction.makecollections;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.CoinRateBean;
-import com.bigstudio.ezwallet.bean.TransferHistoryBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.CoinRateBean;
+import com.ezeco.ezwallet.bean.TransferHistoryBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

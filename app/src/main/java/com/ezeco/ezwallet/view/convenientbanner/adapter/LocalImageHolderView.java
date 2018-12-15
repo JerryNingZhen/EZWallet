@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.convenientbanner.adapter;
+package com.ezeco.ezwallet.view.convenientbanner.adapter;
 
 /**
  * Created by pocketEos on 2018/1/3.
@@ -13,8 +13,8 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.view.convenientbanner.holder.Holder;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.view.convenientbanner.holder.Holder;
 
 /**
  * 设置加载图片类型

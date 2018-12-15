@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.app;
+package com.ezeco.ezwallet.app;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;

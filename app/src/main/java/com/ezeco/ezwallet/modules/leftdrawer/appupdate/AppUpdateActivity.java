@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.appupdate;
+package com.ezeco.ezwallet.modules.leftdrawer.appupdate;
 
 import android.os.Bundle;
 import android.view.View;
@@ -8,19 +8,19 @@ import android.widget.TextView;
 
 import com.gyf.barlibrary.ImmersionBar;
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.bean.UpdateAppBean;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
-import com.bigstudio.ezwallet.utils.AppUtil;
-import com.bigstudio.ezwallet.utils.TextDrawUtil;
-import com.bigstudio.ezwallet.utils.UpdateUtils;
-import com.bigstudio.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.bean.UpdateAppBean;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.utils.AppUtil;
+import com.ezeco.ezwallet.utils.TextDrawUtil;
+import com.ezeco.ezwallet.utils.UpdateUtils;
+import com.ezeco.ezwallet.utils.Utils;
 
 import java.util.HashMap;
 

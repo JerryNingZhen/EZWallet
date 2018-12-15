@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.wallet.importwallet;
+package com.ezeco.ezwallet.modules.wallet.importwallet;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,12 +6,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.modules.account.createaccount.CreateAccountActivity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.modules.account.createaccount.CreateAccountActivity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
 
 import butterknife.BindView;
 import butterknife.OnClick;

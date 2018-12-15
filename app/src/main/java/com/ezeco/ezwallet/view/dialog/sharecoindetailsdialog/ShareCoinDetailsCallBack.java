@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.sharecoindetailsdialog;
+package com.ezeco.ezwallet.view.dialog.sharecoindetailsdialog;
 
 /**
  * Created by pocketEos on 2017/12/12.

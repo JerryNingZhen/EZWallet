@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.bean;
+package com.ezeco.ezwallet.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.blackbox.blackhome;
+package com.ezeco.ezwallet.modules.blackbox.blackhome;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.AccountWithCoinBean;
 
 import java.util.List;
 

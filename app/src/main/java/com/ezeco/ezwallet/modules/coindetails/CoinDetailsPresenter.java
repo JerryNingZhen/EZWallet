@@ -1,17 +1,17 @@
-package com.bigstudio.ezwallet.modules.coindetails;
+package com.ezeco.ezwallet.modules.coindetails;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.PostChainHistoryBean;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.bean.SparkLinesBean;
-import com.bigstudio.ezwallet.bean.TransferHistoryBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.PostChainHistoryBean;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.bean.SparkLinesBean;
+import com.ezeco.ezwallet.bean.TransferHistoryBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 

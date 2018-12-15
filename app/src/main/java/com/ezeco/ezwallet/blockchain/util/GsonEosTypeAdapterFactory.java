@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.blockchain.util;
+package com.ezeco.ezwallet.blockchain.util;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
@@ -7,10 +7,10 @@ import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
-import com.bigstudio.ezwallet.blockchain.types.TypeAccountName;
-import com.bigstudio.ezwallet.blockchain.types.TypeActionName;
-import com.bigstudio.ezwallet.blockchain.types.TypeName;
-import com.bigstudio.ezwallet.blockchain.types.TypePermissionName;
+import com.ezeco.ezwallet.blockchain.types.TypeAccountName;
+import com.ezeco.ezwallet.blockchain.types.TypeActionName;
+import com.ezeco.ezwallet.blockchain.types.TypeName;
+import com.ezeco.ezwallet.blockchain.types.TypePermissionName;
 
 import java.io.IOException;
 import java.lang.reflect.Constructor;

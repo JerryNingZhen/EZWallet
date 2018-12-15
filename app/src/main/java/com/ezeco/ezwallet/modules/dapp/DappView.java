@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.modules.dapp;
+package com.ezeco.ezwallet.modules.dapp;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.DappBean;
-import com.bigstudio.ezwallet.bean.DappCommpanyBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.DappBean;
+import com.ezeco.ezwallet.bean.DappCommpanyBean;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.bigstudio.ezwallet.app;
+package com.ezeco.ezwallet.app;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/11/23.

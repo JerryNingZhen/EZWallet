@@ -1,12 +1,12 @@
-package com.bigstudio.ezwallet.view.textwatcher;
+package com.ezeco.ezwallet.view.textwatcher;
 
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.SeekBar;
 
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
-import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.utils.ToastUtils;
 
 /**
  * Created by pocketEos on 2018/2/27.

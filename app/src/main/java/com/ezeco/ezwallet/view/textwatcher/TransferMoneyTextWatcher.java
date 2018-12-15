@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.textwatcher;
+package com.ezeco.ezwallet.view.textwatcher;
 
 import android.graphics.Color;
 import android.text.Editable;
@@ -7,8 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
-import com.bigstudio.ezwallet.utils.StringUtils;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.utils.StringUtils;
 
 import java.math.BigDecimal;
 

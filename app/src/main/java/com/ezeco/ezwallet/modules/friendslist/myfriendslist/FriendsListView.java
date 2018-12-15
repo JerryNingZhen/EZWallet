@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.friendslist.myfriendslist;
+package com.ezeco.ezwallet.modules.friendslist.myfriendslist;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.User;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.User;
 
 import java.util.ArrayList;
 

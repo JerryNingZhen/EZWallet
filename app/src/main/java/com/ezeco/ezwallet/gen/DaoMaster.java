@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.gen;
+package com.ezeco.ezwallet.gen;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

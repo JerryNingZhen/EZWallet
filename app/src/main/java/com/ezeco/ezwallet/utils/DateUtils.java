@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 import java.text.DateFormat;
 import java.text.ParseException;

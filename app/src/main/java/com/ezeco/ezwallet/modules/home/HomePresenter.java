@@ -1,16 +1,16 @@
-package com.bigstudio.ezwallet.modules.home;
+package com.ezeco.ezwallet.modules.home;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.AccountDetailsBean;
-import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
-import com.bigstudio.ezwallet.utils.RegexUtil;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.AccountDetailsBean;
+import com.ezeco.ezwallet.bean.AccountWithCoinBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.utils.RegexUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

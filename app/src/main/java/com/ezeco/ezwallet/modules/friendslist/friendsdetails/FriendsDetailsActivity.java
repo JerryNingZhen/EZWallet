@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.friendslist.friendsdetails;
+package com.ezeco.ezwallet.modules.friendslist.friendsdetails;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,23 +15,23 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.liaoinstan.springview.widget.SpringView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
-import com.bigstudio.ezwallet.bean.WalletDetailsBean;
-import com.bigstudio.ezwallet.modules.switchusernumber.SwitchUserNumberActivity;
-import com.bigstudio.ezwallet.modules.transaction.transferaccounts.TransferAccountsActivity;
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
-import com.bigstudio.ezwallet.utils.DensityUtil;
-import com.bigstudio.ezwallet.utils.StringUtils;
-import com.bigstudio.ezwallet.view.AppDefeatHeadView;
-import com.bigstudio.ezwallet.view.MyScrollview;
-import com.bigstudio.ezwallet.view.RoundImageView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.bean.AccountWithCoinBean;
+import com.ezeco.ezwallet.bean.WalletDetailsBean;
+import com.ezeco.ezwallet.modules.switchusernumber.SwitchUserNumberActivity;
+import com.ezeco.ezwallet.modules.transaction.transferaccounts.TransferAccountsActivity;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.utils.DensityUtil;
+import com.ezeco.ezwallet.utils.StringUtils;
+import com.ezeco.ezwallet.view.AppDefeatHeadView;
+import com.ezeco.ezwallet.view.MyScrollview;
+import com.ezeco.ezwallet.view.RoundImageView;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

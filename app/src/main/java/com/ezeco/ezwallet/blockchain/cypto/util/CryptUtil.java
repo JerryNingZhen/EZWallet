@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.bigstudio.ezwallet.blockchain.cypto.util;
+package com.ezeco.ezwallet.blockchain.cypto.util;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

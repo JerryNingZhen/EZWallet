@@ -1,13 +1,13 @@
-package com.bigstudio.ezwallet.modules.otherloginorshare;
+package com.ezeco.ezwallet.modules.otherloginorshare;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.utils.JsonUtil;
-import com.bigstudio.ezwallet.utils.ToastUtils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.utils.JsonUtil;
+import com.ezeco.ezwallet.utils.ToastUtils;
 import com.tencent.connect.UserInfo;
 import com.tencent.connect.auth.QQToken;
 import com.tencent.tauth.IUiListener;

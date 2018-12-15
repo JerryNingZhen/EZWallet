@@ -1,14 +1,14 @@
-package com.bigstudio.ezwallet.modules.otherloginorshare;
+package com.ezeco.ezwallet.modules.otherloginorshare;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.Toast;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.base.Constants;
-import com.bigstudio.ezwallet.utils.FilesUtils;
-import com.bigstudio.ezwallet.utils.ShowDialog;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.base.Constants;
+import com.ezeco.ezwallet.utils.FilesUtils;
+import com.ezeco.ezwallet.utils.ShowDialog;
 import com.tencent.mm.opensdk.modelmsg.SendAuth;
 import com.tencent.mm.opensdk.modelmsg.SendMessageToWX;
 import com.tencent.mm.opensdk.modelmsg.WXImageObject;

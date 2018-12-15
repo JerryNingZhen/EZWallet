@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.net;
+package com.ezeco.ezwallet.net;
 
 import com.lzy.okgo.OkGo;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import java.util.Map;
 

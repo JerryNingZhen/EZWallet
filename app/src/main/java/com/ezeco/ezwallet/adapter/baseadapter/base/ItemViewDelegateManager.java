@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.adapter.baseadapter.base;
+package com.ezeco.ezwallet.adapter.baseadapter.base;
 
 import android.support.v4.util.SparseArrayCompat;
 

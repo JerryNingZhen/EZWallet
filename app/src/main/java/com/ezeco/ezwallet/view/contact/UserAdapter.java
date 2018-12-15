@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.contact;
+package com.ezeco.ezwallet.view.contact;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,12 +10,12 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.bean.User;
-import com.bigstudio.ezwallet.modules.friendslist.friendsdetails.FriendsDetailsActivity;
-import com.bigstudio.ezwallet.modules.friendslist.pelist.PelistActivity;
-import com.bigstudio.ezwallet.view.RoundImageView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.bean.User;
+import com.ezeco.ezwallet.modules.friendslist.friendsdetails.FriendsDetailsActivity;
+import com.ezeco.ezwallet.modules.friendslist.pelist.PelistActivity;
+import com.ezeco.ezwallet.view.RoundImageView;
 
 import java.util.ArrayList;
 import java.util.List;

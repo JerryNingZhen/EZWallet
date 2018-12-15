@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet;
+package com.ezeco.ezwallet;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

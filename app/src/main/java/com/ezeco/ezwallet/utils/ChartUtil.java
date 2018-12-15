@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 /**
  * Created by pocketEos on 2017/12/6.
@@ -17,7 +17,7 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 import java.util.List;
 

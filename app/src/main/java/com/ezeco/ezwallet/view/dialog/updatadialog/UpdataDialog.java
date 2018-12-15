@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.updatadialog;
+package com.ezeco.ezwallet.view.dialog.updatadialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 
 /**

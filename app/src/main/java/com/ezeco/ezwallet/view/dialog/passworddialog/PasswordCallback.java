@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.passworddialog;
+package com.ezeco.ezwallet.view.dialog.passworddialog;
 
 
 public interface PasswordCallback {

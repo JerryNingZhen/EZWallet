@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.usercenter.otherlogintype;
+package com.ezeco.ezwallet.modules.leftdrawer.usercenter.otherlogintype;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,15 +7,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.UserBean;
-import com.bigstudio.ezwallet.gen.UserBeanDao;
-import com.bigstudio.ezwallet.modules.otherloginorshare.BaseUIListener;
-import com.bigstudio.ezwallet.modules.otherloginorshare.OtherLoginCallBack;
-import com.bigstudio.ezwallet.modules.otherloginorshare.QQUserInfoBean;
-import com.bigstudio.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.UserBean;
+import com.ezeco.ezwallet.gen.UserBeanDao;
+import com.ezeco.ezwallet.modules.otherloginorshare.BaseUIListener;
+import com.ezeco.ezwallet.modules.otherloginorshare.OtherLoginCallBack;
+import com.ezeco.ezwallet.modules.otherloginorshare.QQUserInfoBean;
+import com.ezeco.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
 import com.tencent.tauth.Tencent;
 
 import butterknife.BindView;

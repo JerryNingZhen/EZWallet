@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.candyintegral;
+package com.ezeco.ezwallet.modules.leftdrawer.candyintegral;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -7,16 +7,16 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.CandyScoreBean;
-import com.bigstudio.ezwallet.bean.CandyUserTaskBean;
-import com.bigstudio.ezwallet.bean.HotEquitiesBean;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
-import com.bigstudio.ezwallet.view.RoundImageView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.CandyScoreBean;
+import com.ezeco.ezwallet.bean.CandyUserTaskBean;
+import com.ezeco.ezwallet.bean.HotEquitiesBean;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.view.RoundImageView;
 
 import java.util.ArrayList;
 import java.util.List;

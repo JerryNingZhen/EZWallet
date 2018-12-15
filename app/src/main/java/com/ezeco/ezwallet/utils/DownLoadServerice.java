@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 import android.Manifest;
 import android.app.DownloadManager;
@@ -13,7 +13,7 @@ import android.os.Environment;
 import android.os.IBinder;
 import android.support.v4.content.FileProvider;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 import java.io.File;
 import java.util.ArrayList;

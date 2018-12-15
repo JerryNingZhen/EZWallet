@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.bigstudio.ezwallet.blockchain.util;
+package com.ezeco.ezwallet.blockchain.util;
 
 
 public class StringUtils {

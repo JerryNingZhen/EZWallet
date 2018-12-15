@@ -1,6 +1,6 @@
-package com.bigstudio.ezwallet.view.contact;
+package com.ezeco.ezwallet.view.contact;
 
-import com.bigstudio.ezwallet.bean.User;
+import com.ezeco.ezwallet.bean.User;
 
 import java.util.Comparator;
 

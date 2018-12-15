@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.wallet.createwallet;
+package com.ezeco.ezwallet.modules.wallet.createwallet;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -7,20 +7,20 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.UserBean;
-import com.bigstudio.ezwallet.gen.UserBeanDao;
-import com.bigstudio.ezwallet.modules.account.createaccount.CreateAccountActivity;
-import com.bigstudio.ezwallet.modules.normalvp.NormalPresenter;
-import com.bigstudio.ezwallet.modules.normalvp.NormalView;
-import com.bigstudio.ezwallet.modules.wallet.importwallet.ImportWalletActivity;
-import com.bigstudio.ezwallet.utils.EncryptUtil;
-import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
-import com.bigstudio.ezwallet.utils.Utils;
-import com.bigstudio.ezwallet.view.ClearEditText;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.UserBean;
+import com.ezeco.ezwallet.gen.UserBeanDao;
+import com.ezeco.ezwallet.modules.account.createaccount.CreateAccountActivity;
+import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
+import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.modules.wallet.importwallet.ImportWalletActivity;
+import com.ezeco.ezwallet.utils.EncryptUtil;
+import com.ezeco.ezwallet.utils.PasswordToKeyUtils;
+import com.ezeco.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.view.ClearEditText;
 
 import butterknife.BindView;
 import butterknife.OnClick;

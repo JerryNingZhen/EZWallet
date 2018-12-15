@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.convenientbanner;
+package com.ezeco.ezwallet.view.convenientbanner;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

@@ -1,6 +1,6 @@
-package com.bigstudio.ezwallet.blockchain.types;
+package com.ezeco.ezwallet.blockchain.types;
 
-import com.bigstudio.ezwallet.blockchain.cypto.digest.Sha256;
+import com.ezeco.ezwallet.blockchain.cypto.digest.Sha256;
 
 /**
  * Created by swapnibble on 2017-09-12.

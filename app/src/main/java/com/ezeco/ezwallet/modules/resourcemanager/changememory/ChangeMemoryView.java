@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.modules.resourcemanager.changememory;
+package com.ezeco.ezwallet.modules.resourcemanager.changememory;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.AccountDetailsBean;
-import com.bigstudio.ezwallet.bean.TableResultBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.AccountDetailsBean;
+import com.ezeco.ezwallet.bean.TableResultBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

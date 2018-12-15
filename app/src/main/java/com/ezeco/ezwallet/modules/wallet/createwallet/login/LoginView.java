@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.wallet.createwallet.login;
+package com.ezeco.ezwallet.modules.wallet.createwallet.login;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.CodeAuthBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.CodeAuthBean;
 
 /**
  * Created by pocketEos on 2018/1/18.

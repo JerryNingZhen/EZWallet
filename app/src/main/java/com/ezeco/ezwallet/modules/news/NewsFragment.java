@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.news;
+package com.ezeco.ezwallet.modules.news;
 
 
 import android.os.Bundle;
@@ -13,24 +13,24 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.bigstudio.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseFragment;
-import com.bigstudio.ezwallet.bean.CoinBean;
-import com.bigstudio.ezwallet.bean.NewsBean;
-import com.bigstudio.ezwallet.modules.news.newsdetails.WebNewsDetailsActivity;
-import com.bigstudio.ezwallet.utils.RotateUtils;
-import com.bigstudio.ezwallet.utils.Utils;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
-import com.bigstudio.ezwallet.view.convenientbanner.ConvenientBanner;
-import com.bigstudio.ezwallet.view.convenientbanner.adapter.LocalImageHolderView;
-import com.bigstudio.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
-import com.bigstudio.ezwallet.view.convenientbanner.listener.OnItemClickListener;
-import com.bigstudio.ezwallet.view.popupwindow.BasePopupWindow;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.ezeco.ezwallet.adapter.baseadapter.MultiItemTypeAdapter;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseFragment;
+import com.ezeco.ezwallet.bean.CoinBean;
+import com.ezeco.ezwallet.bean.NewsBean;
+import com.ezeco.ezwallet.modules.news.newsdetails.WebNewsDetailsActivity;
+import com.ezeco.ezwallet.utils.RotateUtils;
+import com.ezeco.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.view.convenientbanner.ConvenientBanner;
+import com.ezeco.ezwallet.view.convenientbanner.adapter.LocalImageHolderView;
+import com.ezeco.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
+import com.ezeco.ezwallet.view.convenientbanner.listener.OnItemClickListener;
+import com.ezeco.ezwallet.view.popupwindow.BasePopupWindow;
 
 import java.util.ArrayList;
 import java.util.List;

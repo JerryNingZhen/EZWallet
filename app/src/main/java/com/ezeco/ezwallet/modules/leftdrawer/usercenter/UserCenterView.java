@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.usercenter;
+package com.ezeco.ezwallet.modules.leftdrawer.usercenter;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.UpdataPhotoBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.UpdataPhotoBean;
 
 /**
  * Created by pocketEos on 2018/1/18.

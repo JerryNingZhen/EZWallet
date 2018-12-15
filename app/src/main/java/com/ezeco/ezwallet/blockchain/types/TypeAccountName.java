@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.blockchain.types;
+package com.ezeco.ezwallet.blockchain.types;
 
 
-import com.bigstudio.ezwallet.blockchain.util.StringUtils;
+import com.ezeco.ezwallet.blockchain.util.StringUtils;
 
 /**
  * Created by swapnibble on 2017-09-12.

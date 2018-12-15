@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.adapter.baseadapter.utils;
+package com.ezeco.ezwallet.adapter.baseadapter.utils;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.blockchain.cypto.digest;
+package com.ezeco.ezwallet.blockchain.cypto.digest;
 
 /**
  * Created by swapnibble on 2017-09-02.

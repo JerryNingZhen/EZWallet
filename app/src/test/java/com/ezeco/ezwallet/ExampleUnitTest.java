@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet;
+package com.ezeco.ezwallet;
 
 import org.junit.Test;
 

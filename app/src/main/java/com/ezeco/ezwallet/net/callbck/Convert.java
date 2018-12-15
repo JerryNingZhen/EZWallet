@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.bigstudio.ezwallet.net.callbck;
+package com.ezeco.ezwallet.net.callbck;
 
 
 import com.google.gson.Gson;

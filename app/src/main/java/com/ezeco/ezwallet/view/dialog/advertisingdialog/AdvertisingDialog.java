@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.advertisingdialog;
+package com.ezeco.ezwallet.view.dialog.advertisingdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.view.OvalImageView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.view.OvalImageView;
 
 
 /**

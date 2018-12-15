@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
-//使用greendao
 apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'com.google.protobuf'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -51,6 +51,31 @@ android {
     compileOptions {
         targetCompatibility 1.8
         sourceCompatibility 1.8
+    }
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.5.1-1'
+    }
+    plugins {
+        javalite {
+            artifact = "com.google.protobuf:protoc-gen-javalite:3.0.0"
+        }
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.9.0'
+        }
+    }
+    generateProtoTasks {
+        all().each { task ->
+            task.plugins {
+                javalite {}
+                grpc {
+                    // Options added to --grpc_out
+                    option 'lite'
+                }
+            }
+        }
     }
 }
 
@@ -107,6 +132,16 @@ dependencies {
     implementation 'io.github.novacrypto:BIP32:0.0.8'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'org.jetbrains.anko:anko:0.10.5'
+
+    implementation 'io.grpc:grpc-protobuf-lite:1.9.0'
+    implementation 'io.grpc:grpc-stub:1.9.0'
+    implementation 'javax.annotation:javax.annotation-api:1.2'
+    implementation group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.25'
+    implementation "com.madgag.spongycastle:core:1.53.0.0"
+    implementation "com.madgag.spongycastle:prov:1.53.0.0"
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation "org.apache.commons:commons-collections4:4.0"
+    implementation "org.apache.commons:commons-lang3:3.5"
 }
 repositories {
     mavenCentral()

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.bean;
+package com.ezeco.ezwallet.bean;
 
 import java.util.List;
 

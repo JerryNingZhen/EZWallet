@@ -12,7 +12,7 @@
         android:background="@drawable/bg_dialog_confirm"
         android:orientation="vertical">
 
-        <com.bigstudio.ezwallet.view.OvalImageView
+        <com.ezeco.ezwallet.view.OvalImageView
             android:id="@+id/advertising_img"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimens_152"

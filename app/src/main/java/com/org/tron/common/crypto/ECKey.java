@@ -18,6 +18,13 @@
 
 package com.org.tron.common.crypto;
 
+import com.org.tron.common.crypto.jce.ECKeyAgreement;
+import com.org.tron.common.crypto.jce.ECKeyFactory;
+import com.org.tron.common.crypto.jce.ECKeyPairGenerator;
+import com.org.tron.common.crypto.jce.ECSignatureFactory;
+import com.org.tron.common.crypto.jce.TronCastleProvider;
+import com.org.tron.common.utils.ByteUtil;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.asn1.ASN1InputStream;
@@ -48,12 +55,6 @@ import org.spongycastle.math.ec.ECPoint;
 import org.spongycastle.util.BigIntegers;
 import org.spongycastle.util.encoders.Base64;
 import org.spongycastle.util.encoders.Hex;
-import org.tron.common.crypto.jce.ECKeyAgreement;
-import org.tron.common.crypto.jce.ECKeyFactory;
-import org.tron.common.crypto.jce.ECKeyPairGenerator;
-import org.tron.common.crypto.jce.ECSignatureFactory;
-import org.tron.common.crypto.jce.TronCastleProvider;
-import org.tron.common.utils.ByteUtil;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -76,8 +77,8 @@ import java.util.Arrays;
 import javax.annotation.Nullable;
 import javax.crypto.KeyAgreement;
 
-import static org.tron.common.utils.BIUtil.isLessThan;
-import static org.tron.common.utils.ByteUtil.bigIntegerToBytes;
+import static com.org.tron.common.utils.BIUtil.isLessThan;
+import static com.org.tron.common.utils.ByteUtil.bigIntegerToBytes;
 
 public class ECKey implements Serializable {
 
@@ -1196,8 +1197,8 @@ public class ECKey implements Serializable {
           : this.v;
 
       return ByteUtil.merge(
-          ByteUtil.bigIntegerToBytes(this.r, 32),
-          ByteUtil.bigIntegerToBytes(this.s, 32),
+          bigIntegerToBytes(this.r, 32),
+          bigIntegerToBytes(this.s, 32),
           new byte[]{fixedV});
     }
 

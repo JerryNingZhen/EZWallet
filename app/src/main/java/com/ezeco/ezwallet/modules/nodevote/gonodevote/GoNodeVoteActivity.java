@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.nodevote.gonodevote;
+package com.ezeco.ezwallet.modules.nodevote.gonodevote;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -11,20 +11,20 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.bigstudio.ezwallet.adapter.baseadapter.base.ViewHolder;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.ResultNodeListBean;
-import com.bigstudio.ezwallet.modules.leftdrawer.systemsetting.RichTextActivity;
-import com.bigstudio.ezwallet.modules.nodevote.NodeVoteDetailsActivity;
-import com.bigstudio.ezwallet.modules.nodevote.surevote.SureNodeVoteActivity;
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
-import com.bigstudio.ezwallet.utils.FilesUtils;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
-import com.bigstudio.ezwallet.view.RoundImageView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.ezeco.ezwallet.adapter.baseadapter.base.ViewHolder;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.ResultNodeListBean;
+import com.ezeco.ezwallet.modules.leftdrawer.systemsetting.RichTextActivity;
+import com.ezeco.ezwallet.modules.nodevote.NodeVoteDetailsActivity;
+import com.ezeco.ezwallet.modules.nodevote.surevote.SureNodeVoteActivity;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.utils.FilesUtils;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.view.RoundImageView;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

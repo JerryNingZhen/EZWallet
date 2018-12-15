@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.bigstudio.ezwallet.modules.nodevote.gonodevote.GoNodeVoteActivity">
+    tools:context="com.ezeco.ezwallet.modules.nodevote.gonodevote.GoNodeVoteActivity">
 
     <include
         android:id="@+id/title"

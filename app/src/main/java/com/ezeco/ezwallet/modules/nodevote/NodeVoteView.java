@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.modules.nodevote;
+package com.ezeco.ezwallet.modules.nodevote;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.AccountDetailsBean;
-import com.bigstudio.ezwallet.bean.ResultTableRowBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.AccountDetailsBean;
+import com.ezeco.ezwallet.bean.ResultTableRowBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

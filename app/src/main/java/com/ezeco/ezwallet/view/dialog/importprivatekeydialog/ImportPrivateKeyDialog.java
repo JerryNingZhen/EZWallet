@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.importprivatekeydialog;
+package com.ezeco.ezwallet.view.dialog.importprivatekeydialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,8 +11,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.view.ScrollText;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.view.ScrollText;
 
 /**
  * Created by pocketEos on 2017/12/5.

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.service;
+package com.ezeco.ezwallet.service;
 
 import android.app.Service;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.updatadialog;
+package com.ezeco.ezwallet.view.dialog.updatadialog;
 
 
 public interface UpdataCallback {

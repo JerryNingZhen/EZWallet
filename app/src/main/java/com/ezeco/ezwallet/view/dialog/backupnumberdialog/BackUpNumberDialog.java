@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.backupnumberdialog;
+package com.ezeco.ezwallet.view.dialog.backupnumberdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 /**
  * Created by pocketEos on 2017/12/5.

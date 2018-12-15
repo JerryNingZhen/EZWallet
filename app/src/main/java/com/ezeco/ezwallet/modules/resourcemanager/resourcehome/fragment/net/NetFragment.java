@@ -1,15 +1,15 @@
-package com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.net;
+package com.ezeco.ezwallet.modules.resourcemanager.resourcehome.fragment.net;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseFragment;
-import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
-import com.bigstudio.ezwallet.modules.resourcemanager.changenet.ChangeNetActivity;
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseFragment;
+import com.ezeco.ezwallet.bean.BlockChainAccountInfoBean;
+import com.ezeco.ezwallet.modules.resourcemanager.changenet.ChangeNetActivity;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
 
 import java.math.BigDecimal;
 

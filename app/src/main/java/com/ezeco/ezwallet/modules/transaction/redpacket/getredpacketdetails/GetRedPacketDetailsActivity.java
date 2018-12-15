@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.transaction.redpacket.getredpacketdetails;
+package com.ezeco.ezwallet.modules.transaction.redpacket.getredpacketdetails;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -7,15 +7,15 @@ import android.text.Html;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.RedPacketDetailsBean;
-import com.bigstudio.ezwallet.bean.RedPacketHistoryBean;
-import com.bigstudio.ezwallet.utils.RegexUtil;
-import com.bigstudio.ezwallet.view.RoundImageView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.RedPacketDetailsBean;
+import com.ezeco.ezwallet.bean.RedPacketHistoryBean;
+import com.ezeco.ezwallet.utils.RegexUtil;
+import com.ezeco.ezwallet.view.RoundImageView;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.blockchain.cypto.ec.EosPrivateKey;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.blockchain.cypto.ec.EosPrivateKey;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;

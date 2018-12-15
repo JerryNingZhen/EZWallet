@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.friendslist.pelist;
+package com.ezeco.ezwallet.modules.friendslist.pelist;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.PelistBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.PelistBean;
 
 import java.util.List;
 

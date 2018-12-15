@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.nodevote.gonodevote;
+package com.ezeco.ezwallet.modules.nodevote.gonodevote;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.ResultNodeListBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.ResultNodeListBean;
 
 /**
  * Created by pocketEos on 2017/12/26.

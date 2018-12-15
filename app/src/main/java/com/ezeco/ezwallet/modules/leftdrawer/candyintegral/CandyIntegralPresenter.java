@@ -1,17 +1,17 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.candyintegral;
+package com.ezeco.ezwallet.modules.leftdrawer.candyintegral;
 
 import android.content.Context;
 
 import com.lzy.okgo.model.Response;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BasePresent;
-import com.bigstudio.ezwallet.base.BaseUrl;
-import com.bigstudio.ezwallet.bean.CandyScoreBean;
-import com.bigstudio.ezwallet.bean.CandyUserTaskBean;
-import com.bigstudio.ezwallet.bean.HotEquitiesBean;
-import com.bigstudio.ezwallet.bean.ResponseBean;
-import com.bigstudio.ezwallet.net.HttpUtils;
-import com.bigstudio.ezwallet.net.callbck.JsonCallback;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BasePresent;
+import com.ezeco.ezwallet.base.BaseUrl;
+import com.ezeco.ezwallet.bean.CandyScoreBean;
+import com.ezeco.ezwallet.bean.CandyUserTaskBean;
+import com.ezeco.ezwallet.bean.HotEquitiesBean;
+import com.ezeco.ezwallet.bean.ResponseBean;
+import com.ezeco.ezwallet.net.HttpUtils;
+import com.ezeco.ezwallet.net.callbck.JsonCallback;
 
 import java.util.HashMap;
 import java.util.List;

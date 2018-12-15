@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.modules.leftdrawer.systemsetting;
+package com.ezeco.ezwallet.modules.leftdrawer.systemsetting;
 
-import com.bigstudio.ezwallet.base.BaseView;
-import com.bigstudio.ezwallet.bean.SystemInfoBean;
+import com.ezeco.ezwallet.base.BaseView;
+import com.ezeco.ezwallet.bean.SystemInfoBean;
 
 /**
  * Created by pocketEos on 2018/1/18.

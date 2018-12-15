@@ -1,12 +1,12 @@
-package com.bigstudio.ezwallet.view.convenientbanner.adapter;
+package com.ezeco.ezwallet.view.convenientbanner.adapter;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
-import com.bigstudio.ezwallet.view.convenientbanner.holder.Holder;
-import com.bigstudio.ezwallet.view.convenientbanner.view.CBLoopViewPager;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.view.convenientbanner.holder.CBViewHolderCreator;
+import com.ezeco.ezwallet.view.convenientbanner.holder.Holder;
+import com.ezeco.ezwallet.view.convenientbanner.view.CBLoopViewPager;
 
 import java.util.List;
 

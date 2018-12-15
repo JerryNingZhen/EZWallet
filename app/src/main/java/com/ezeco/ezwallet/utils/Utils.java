@@ -1,10 +1,10 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.service.KillSelfService;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.service.KillSelfService;
 
 import java.util.List;
 

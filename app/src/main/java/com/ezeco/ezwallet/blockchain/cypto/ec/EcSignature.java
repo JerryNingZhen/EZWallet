@@ -21,10 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.bigstudio.ezwallet.blockchain.cypto.ec;
+package com.ezeco.ezwallet.blockchain.cypto.ec;
 
 
-import com.bigstudio.ezwallet.blockchain.cypto.util.HexUtils;
+import com.ezeco.ezwallet.blockchain.cypto.util.HexUtils;
 
 import org.apache.commons.lang.StringUtils;
 

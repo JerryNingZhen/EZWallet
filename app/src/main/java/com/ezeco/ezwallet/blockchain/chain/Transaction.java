@@ -1,7 +1,7 @@
-package com.bigstudio.ezwallet.blockchain.chain;
+package com.ezeco.ezwallet.blockchain.chain;
 
 import com.google.gson.annotations.Expose;
-import com.bigstudio.ezwallet.blockchain.types.EosType;
+import com.ezeco.ezwallet.blockchain.types.EosType;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.textwatcher;
+package com.ezeco.ezwallet.view.textwatcher;
 
 import android.text.Editable;
 import android.text.TextWatcher;

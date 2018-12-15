@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.dialog.gophotodialog;
+package com.ezeco.ezwallet.view.dialog.gophotodialog;
 
 /**
  * Created by pocketEos on 2017/12/5.

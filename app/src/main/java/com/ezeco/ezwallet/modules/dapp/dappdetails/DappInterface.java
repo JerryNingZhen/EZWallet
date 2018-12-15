@@ -1,18 +1,18 @@
-package com.bigstudio.ezwallet.modules.dapp.dappdetails;
+package com.ezeco.ezwallet.modules.dapp.dappdetails;
 
 import android.content.Context;
 import android.webkit.JavascriptInterface;
 
 import com.lzy.okgo.utils.OkLogger;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.blockchain.DappDatamanger;
-import com.bigstudio.ezwallet.utils.PasswordToKeyUtils;
-import com.bigstudio.ezwallet.utils.ShowDialog;
-import com.bigstudio.ezwallet.utils.ToastUtils;
-import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordCallback;
-import com.bigstudio.ezwallet.view.dialog.passworddialog.PasswordDialog;
-import com.bigstudio.ezwallet.view.webview.BaseWebView;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.blockchain.DappDatamanger;
+import com.ezeco.ezwallet.utils.PasswordToKeyUtils;
+import com.ezeco.ezwallet.utils.ShowDialog;
+import com.ezeco.ezwallet.utils.ToastUtils;
+import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordCallback;
+import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordDialog;
+import com.ezeco.ezwallet.view.webview.BaseWebView;
 
 import static com.lzy.okgo.utils.HttpUtils.runOnUiThread;
 

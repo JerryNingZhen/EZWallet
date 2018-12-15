@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.webview;
+package com.ezeco.ezwallet.view.webview;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,8 +1,8 @@
-package com.bigstudio.ezwallet.blockchain.util;
+package com.ezeco.ezwallet.blockchain.util;
 
 
-import com.bigstudio.ezwallet.blockchain.chain.PackedTransaction;
-import com.bigstudio.ezwallet.blockchain.chain.SignedTransaction;
+import com.ezeco.ezwallet.blockchain.chain.PackedTransaction;
+import com.ezeco.ezwallet.blockchain.chain.SignedTransaction;
 
 /**
  * Created by swapnibble on 2017-09-12.

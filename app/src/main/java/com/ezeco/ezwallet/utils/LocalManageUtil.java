@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.utils;
+package com.ezeco.ezwallet.utils;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -7,7 +7,7 @@ import android.os.Build;
 import android.os.LocaleList;
 import android.util.DisplayMetrics;
 
-import com.bigstudio.ezwallet.R;
+import com.ezeco.ezwallet.R;
 
 import java.util.Locale;
 

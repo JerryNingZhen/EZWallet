@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view;
+package com.ezeco.ezwallet.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

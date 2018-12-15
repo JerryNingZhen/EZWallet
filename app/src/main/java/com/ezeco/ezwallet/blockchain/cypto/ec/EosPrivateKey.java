@@ -22,11 +22,11 @@
  * SOFTWARE.
  */
 
-package com.bigstudio.ezwallet.blockchain.cypto.ec;
+package com.ezeco.ezwallet.blockchain.cypto.ec;
 
 
-import com.bigstudio.ezwallet.blockchain.cypto.digest.Sha256;
-import com.bigstudio.ezwallet.blockchain.cypto.util.Base58;
+import com.ezeco.ezwallet.blockchain.cypto.digest.Sha256;
+import com.ezeco.ezwallet.blockchain.cypto.util.Base58;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.resourcemanager.resourcehome.fragment.memory;
+package com.ezeco.ezwallet.modules.resourcemanager.resourcehome.fragment.memory;
 
 
 import android.os.Bundle;
@@ -6,12 +6,12 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.base.BaseFragment;
-import com.bigstudio.ezwallet.bean.BlockChainAccountInfoBean;
-import com.bigstudio.ezwallet.modules.resourcemanager.changememory.ChangeMemoryActivity;
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.base.BaseFragment;
+import com.ezeco.ezwallet.bean.BlockChainAccountInfoBean;
+import com.ezeco.ezwallet.modules.resourcemanager.changememory.ChangeMemoryActivity;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.popupwindow;
+package com.ezeco.ezwallet.view.popupwindow;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.CommonAdapter;
-import com.bigstudio.ezwallet.bean.AccountInfoBean;
-import com.bigstudio.ezwallet.bean.CoinBean;
-import com.bigstudio.ezwallet.utils.RotateUtils;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.CommonAdapter;
+import com.ezeco.ezwallet.bean.AccountInfoBean;
+import com.ezeco.ezwallet.bean.CoinBean;
+import com.ezeco.ezwallet.utils.RotateUtils;
 
 import java.util.List;
 

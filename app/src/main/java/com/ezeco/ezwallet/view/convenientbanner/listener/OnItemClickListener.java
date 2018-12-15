@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.view.convenientbanner.listener;
+package com.ezeco.ezwallet.view.convenientbanner.listener;
 
 /**
  * Created by pocketEos on 2017/12/7.

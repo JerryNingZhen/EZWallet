@@ -1,4 +1,4 @@
-package com.bigstudio.ezwallet.modules.coindetails;
+package com.ezeco.ezwallet.modules.coindetails;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,28 +12,28 @@ import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.Entry;
 import com.liaoinstan.springview.container.AliFooter;
 import com.liaoinstan.springview.widget.SpringView;
-import com.bigstudio.ezwallet.R;
-import com.bigstudio.ezwallet.adapter.AdapterManger;
-import com.bigstudio.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
-import com.bigstudio.ezwallet.app.ActivityUtils;
-import com.bigstudio.ezwallet.app.MyApplication;
-import com.bigstudio.ezwallet.base.BaseAcitvity;
-import com.bigstudio.ezwallet.bean.AccountWithCoinBean;
-import com.bigstudio.ezwallet.bean.PostChainHistoryBean;
-import com.bigstudio.ezwallet.bean.SparkLinesBean;
-import com.bigstudio.ezwallet.bean.TransferHistoryBean;
-import com.bigstudio.ezwallet.modules.empty.EmptyActivity;
-import com.bigstudio.ezwallet.modules.otherloginorshare.BaseUIListener;
-import com.bigstudio.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
-import com.bigstudio.ezwallet.modules.transaction.makecollections.MakeCollectionsActivity;
-import com.bigstudio.ezwallet.modules.transaction.transferaccounts.TransferAccountsActivity;
-import com.bigstudio.ezwallet.utils.BigDecimalUtil;
-import com.bigstudio.ezwallet.utils.ChartUtil;
-import com.bigstudio.ezwallet.utils.StringUtils;
-import com.bigstudio.ezwallet.utils.Utils;
-import com.bigstudio.ezwallet.view.RecycleViewDivider;
-import com.bigstudio.ezwallet.view.dialog.sharecoindetailsdialog.ShareCoinDetailsCallBack;
-import com.bigstudio.ezwallet.view.dialog.sharecoindetailsdialog.ShareCoinDetailsDialog;
+import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.adapter.AdapterManger;
+import com.ezeco.ezwallet.adapter.baseadapter.wrapper.EmptyWrapper;
+import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.MyApplication;
+import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.AccountWithCoinBean;
+import com.ezeco.ezwallet.bean.PostChainHistoryBean;
+import com.ezeco.ezwallet.bean.SparkLinesBean;
+import com.ezeco.ezwallet.bean.TransferHistoryBean;
+import com.ezeco.ezwallet.modules.empty.EmptyActivity;
+import com.ezeco.ezwallet.modules.otherloginorshare.BaseUIListener;
+import com.ezeco.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
+import com.ezeco.ezwallet.modules.transaction.makecollections.MakeCollectionsActivity;
+import com.ezeco.ezwallet.modules.transaction.transferaccounts.TransferAccountsActivity;
+import com.ezeco.ezwallet.utils.BigDecimalUtil;
+import com.ezeco.ezwallet.utils.ChartUtil;
+import com.ezeco.ezwallet.utils.StringUtils;
+import com.ezeco.ezwallet.utils.Utils;
+import com.ezeco.ezwallet.view.RecycleViewDivider;
+import com.ezeco.ezwallet.view.dialog.sharecoindetailsdialog.ShareCoinDetailsCallBack;
+import com.ezeco.ezwallet.view.dialog.sharecoindetailsdialog.ShareCoinDetailsDialog;
 import com.tencent.connect.common.Constants;
 import com.tencent.connect.share.QQShare;
 import com.tencent.connect.share.QzonePublish;
@@ -47,7 +47,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-import static com.bigstudio.ezwallet.utils.Utils.getContext;
+import static com.ezeco.ezwallet.utils.Utils.getContext;
 
 //币种详情页
 public class CoinDetailsActivity extends BaseAcitvity<CoinDetailsView, CoinDetailsPresenter> implements CoinDetailsView {
@@ -170,10 +170,10 @@ public class CoinDetailsActivity extends BaseAcitvity<CoinDetailsView, CoinDetai
         List<PostChainHistoryBean.SymbolsBean> symbolsBeans = new ArrayList<>();
         PostChainHistoryBean.SymbolsBean symbolsBeanEos = new PostChainHistoryBean.SymbolsBean();
         symbolsBeanEos.setSymbolName("EOS");
-        symbolsBeanEos.setContractName(com.bigstudio.ezwallet.base.Constants.EOSCONTRACT);
+        symbolsBeanEos.setContractName(com.ezeco.ezwallet.base.Constants.EOSCONTRACT);
         PostChainHistoryBean.SymbolsBean symbolsBeanOCT = new PostChainHistoryBean.SymbolsBean();
         symbolsBeanOCT.setSymbolName("OCT");
-        symbolsBeanOCT.setContractName(com.bigstudio.ezwallet.base.Constants.OCTCONTRACT);
+        symbolsBeanOCT.setContractName(com.ezeco.ezwallet.base.Constants.OCTCONTRACT);
         symbolsBeans.add(symbolsBeanEos);
         symbolsBeans.add(symbolsBeanOCT);
         mPostChainHistoryBean.setSymbols(symbolsBeans);
