@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,32 +7,121 @@
     android:orientation="vertical"
     tools:context="com.ezeco.ezwallet.modules.wallet.importwallet.ImportWalletActivity">
 
-    <include layout="@layout/title_project"/>
+    <include layout="@layout/title_project" />
 
-    <EditText
-        android:id="@+id/import_wallet_edt"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimens_160"
-        android:layout_margin="@dimen/dimens_20"
-        android:background="@drawable/input_wallet_back_up"
-        android:gravity="left|top"
-        android:hint="@string/import_wallet_toast"
-        android:padding="@dimen/dimens_10"
-        android:textColor="@color/txt_color"
-        android:textColorHint="@color/gray_color"
-        android:textCursorDrawable="@drawable/edittext_cursor"
-        android:textSize="@dimen/dimens_12"/>
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/import_wallet"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dimens_42"
-        android:layout_marginLeft="@dimen/dimens_20"
-        android:layout_marginRight="@dimen/dimens_20"
-        android:layout_marginTop="@dimen/dimens_20"
-        android:background="@color/blue_button"
-        android:text="导入"
-        android:textColor="@color/white"
-        android:textSize="@dimen/dimens_14"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_10"
+                android:text="私钥"
+                android:textSize="@dimen/dimens_16" />
+
+            <EditText
+                android:id="@+id/import_pri_key"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_160"
+                android:layout_margin="@dimen/dimens_10"
+                android:background="@drawable/input_wallet_back_up"
+                android:gravity="left|top"
+                android:hint="@string/import_wallet_toast"
+                android:padding="@dimen/dimens_10"
+                android:textColor="@color/txt_color"
+                android:textColorHint="@color/gray_color"
+                android:textCursorDrawable="@drawable/edittext_cursor"
+                android:textSize="@dimen/dimens_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_10"
+                android:text="钱包名称"
+                android:textSize="@dimen/dimens_16" />
+
+            <EditText
+                android:id="@+id/et_wallet_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_60"
+                android:layout_margin="@dimen/dimens_10"
+                android:background="@drawable/input_wallet_back_up"
+                android:gravity="left|top"
+                android:hint="@string/import_wallet_toast"
+                android:padding="@dimen/dimens_10"
+                android:textColor="@color/txt_color"
+                android:textColorHint="@color/gray_color"
+                android:textCursorDrawable="@drawable/edittext_cursor"
+                android:textSize="@dimen/dimens_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_10"
+                android:text="钱包密码"
+                android:textSize="@dimen/dimens_16" />
+
+            <EditText
+                android:id="@+id/et_wallet_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_60"
+                android:layout_margin="@dimen/dimens_10"
+                android:background="@drawable/input_wallet_back_up"
+                android:gravity="left|top"
+                android:hint="@string/import_wallet_toast"
+                android:padding="@dimen/dimens_10"
+                android:textColor="@color/txt_color"
+                android:textColorHint="@color/gray_color"
+                android:textCursorDrawable="@drawable/edittext_cursor"
+                android:textSize="@dimen/dimens_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_10"
+                android:text="重复钱包密码"
+                android:textSize="@dimen/dimens_16" />
+
+            <EditText
+                android:id="@+id/et_wallet_pwd_again"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_60"
+                android:layout_margin="@dimen/dimens_10"
+                android:background="@drawable/input_wallet_back_up"
+                android:gravity="left|top"
+                android:hint="@string/import_wallet_toast"
+                android:padding="@dimen/dimens_10"
+                android:textColor="@color/txt_color"
+                android:textColorHint="@color/gray_color"
+                android:textCursorDrawable="@drawable/edittext_cursor"
+                android:textSize="@dimen/dimens_12" />
+
+            <Button
+                android:id="@+id/import_wallet"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimens_42"
+                android:layout_marginLeft="@dimen/dimens_20"
+                android:layout_marginRight="@dimen/dimens_20"
+                android:layout_marginTop="@dimen/dimens_20"
+                android:background="@color/blue_button"
+                android:text="导入钱包"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimens_14" />
+
+            <Button
+                android:id="@+id/btn_paste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="粘贴" />
+
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>

@@ -12,16 +12,18 @@ import com.ezeco.ezwallet.app.ActivityUtils;
 import com.ezeco.ezwallet.app.MyApplication;
 import com.ezeco.ezwallet.base.BaseAcitvity;
 import com.ezeco.ezwallet.bean.UserBean;
-import com.ezeco.ezwallet.gen.UserBeanDao;
-import com.ezeco.ezwallet.modules.account.createaccount.CreateAccountActivity;
 import com.ezeco.ezwallet.modules.account.createaccount.success.CreateWalletSuccessActivity;
 import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
 import com.ezeco.ezwallet.modules.normalvp.NormalView;
 import com.ezeco.ezwallet.modules.wallet.importwallet.ImportWalletActivity;
 import com.ezeco.ezwallet.utils.EncryptUtil;
 import com.ezeco.ezwallet.utils.PasswordToKeyUtils;
-import com.ezeco.ezwallet.utils.Utils;
 import com.ezeco.ezwallet.view.ClearEditText;
+import org.tron.walletserver.DuplicateNameException;
+import org.tron.walletserver.InvalidNameException;
+import org.tron.walletserver.InvalidPasswordException;
+import org.tron.walletserver.Wallet;
+import org.tron.walletserver.WalletManager;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -94,6 +96,21 @@ public class CreateWalletActivity extends BaseAcitvity<NormalView, NormalPresent
             bundle.putInt("type", 1);
             bundle.putString("password", mPassword.getText().toString());
             bundle.putString("name", mEtWalletName.getText().toString());
+
+            try {
+                Wallet wallet = new Wallet(true);
+                wallet.setWalletName(mEtWalletName.getText().toString());
+                //wallet.setColdWallet(coldWallet);
+                WalletManager.store(wallet, mPassword.getText().toString());
+                WalletManager.selectWallet(mEtWalletName.getText().toString());
+            } catch (DuplicateNameException e) {
+                e.printStackTrace();
+            } catch (InvalidPasswordException e) {
+                e.printStackTrace();
+            } catch (InvalidNameException e) {
+                e.printStackTrace();
+            }
+
             //ActivityUtils.next(CreateWalletActivity.this, CreateAccountActivity.class, bundle);
             ActivityUtils.next(CreateWalletActivity.this, CreateWalletSuccessActivity.class, bundle);
         } else {

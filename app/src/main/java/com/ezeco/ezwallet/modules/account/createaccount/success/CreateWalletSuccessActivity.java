@@ -1,6 +1,9 @@
 package com.ezeco.ezwallet.modules.account.createaccount.success;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -8,11 +11,13 @@ import com.ezeco.ezwallet.R;
 import com.ezeco.ezwallet.base.BaseAcitvity;
 import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
 import com.ezeco.ezwallet.modules.normalvp.NormalView;
-import com.org.tron.common.utils.ByteArray;
-import com.org.tron.walletserver.Wallet;
-import com.org.tron.walletserver.WalletManager;
+
+import org.tron.common.utils.ByteArray;
+import org.tron.walletserver.Wallet;
+import org.tron.walletserver.WalletManager;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -32,12 +37,17 @@ public class CreateWalletSuccessActivity extends BaseAcitvity<NormalView, Normal
     TextView tvShowKey;
     @BindView(R.id.btn_backup)
     Button btnBackup;
+    @BindView(R.id.btn_copy)
+    Button btnCopy;
 
     private Wallet mWallet;
     private String mPrivKey;
 
     private String name;
     private String password;
+
+    private ClipboardManager clipboardManager;
+    private ClipData clipData;
     @Override
     protected int getLayoutId() {
         return R.layout.activity_create_success;
@@ -50,29 +60,26 @@ public class CreateWalletSuccessActivity extends BaseAcitvity<NormalView, Normal
 
     @Override
     protected void initViews(Bundle savedInstanceState) {
-
+        clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
     }
 
     @Override
     protected void initData() {
-        try {
-            Bundle bundle = getIntent().getExtras();
-            mWallet = new Wallet(true);
-            name = bundle.getString("name");
-            password = bundle.getString("password");
-            mWallet.setWalletName(name);
+        Bundle bundle = getIntent().getExtras();
+        name = bundle.getString("name");
+        password = bundle.getString("password");
 
-            WalletManager.store(mWallet, password);
-            WalletManager.selectWallet(name);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        mWallet = WalletManager.getWallet(name, password);
 
-        Wallet wallet2 = WalletManager.getWallet(name, password);
-        mPrivKey = ByteArray.toHexString(wallet2.getECKey().getPrivKeyBytes());
-        String mAddress = wallet2.getAddress();
-        tvShowKey.setText("私钥：" + mPrivKey + "/n" + "地址" + mAddress);
+        /*if(mWallet == null || !mWallet.isOpen()) {
+            finish();
+            return;
+        }*/
 
+        // TODO: 2018/12/15  必须是拷贝后才可以备份
+        mPrivKey = ByteArray.toHexString(mWallet.getECKey().getPrivKeyBytes());
+        String mAddress = mWallet.getAddress();
+        tvShowKey.setText("私钥：" + mPrivKey + "  " + "地址" + mAddress);
     }
 
     @Override
@@ -80,8 +87,17 @@ public class CreateWalletSuccessActivity extends BaseAcitvity<NormalView, Normal
 
     }
 
-    @OnClick(R.id.btn_backup)
-    public void onViewClicked() {
+    @OnClick({R.id.btn_copy, R.id.btn_backup})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.btn_copy:
+                String prikey = tvShowKey.getText().toString().trim();
+                clipData = ClipData.newPlainText("copy from demo", prikey);
+                clipboardManager.setPrimaryClip(clipData);
+                break;
+            case R.id.btn_backup:
 
+                break;
+        }
     }
 }
