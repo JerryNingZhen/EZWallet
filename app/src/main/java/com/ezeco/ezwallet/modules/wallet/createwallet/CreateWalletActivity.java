@@ -14,6 +14,7 @@ import com.ezeco.ezwallet.base.BaseAcitvity;
 import com.ezeco.ezwallet.bean.UserBean;
 import com.ezeco.ezwallet.gen.UserBeanDao;
 import com.ezeco.ezwallet.modules.account.createaccount.CreateAccountActivity;
+import com.ezeco.ezwallet.modules.account.createaccount.success.CreateWalletSuccessActivity;
 import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
 import com.ezeco.ezwallet.modules.normalvp.NormalView;
 import com.ezeco.ezwallet.modules.wallet.importwallet.ImportWalletActivity;
@@ -30,6 +31,8 @@ public class CreateWalletActivity extends BaseAcitvity<NormalView, NormalPresent
 
     @BindView(R.id.iv_back)
     ImageView mIvBack;
+    @BindView(R.id.et_wallet_name)
+    ClearEditText mEtWalletName;
     @BindView(R.id.password)
     ClearEditText mPassword;
     @BindView(R.id.confirm_password)
@@ -76,16 +79,23 @@ public class CreateWalletActivity extends BaseAcitvity<NormalView, NormalPresent
         if (TextUtils.isEmpty(mPassword.getText().toString()) || TextUtils.isEmpty(mConfirmPassword.getText().toString())) {
             toast(getString(R.string.input_pwd_toast));
         } else if (mPassword.getText().toString() != null && mConfirmPassword.getText().toString() != null && mConfirmPassword.getText().toString().equals(mPassword.getText().toString())) {
-            UserBean userBean = MyApplication.getDaoInstant().getUserBeanDao().queryBuilder().where(UserBeanDao.Properties.Wallet_phone.eq(Utils.getSpUtils().getString("firstUser"))).build().unique();
+            // TODO: 2018/12/15
+            //UserBean userBean = MyApplication.getDaoInstant().getUserBeanDao().queryBuilder().where(UserBeanDao.Properties.Wallet_phone.eq(Utils.getSpUtils().getString("firstUser"))).build().unique();
+            UserBean userBean = new UserBean();
+            userBean.setWallet_phone("15338705586");
             if (userBean != null) {
                 String randomString = EncryptUtil.getRandomString(32);
                 userBean.setWallet_shapwd(PasswordToKeyUtils.shaEncrypt(randomString+mPassword.getText().toString().trim()));
-                MyApplication.getDaoInstant().getUserBeanDao().update(userBean);
+                // TODO: 2018/12/15  
+                //MyApplication.getDaoInstant().getUserBeanDao().update(userBean);
                 MyApplication.getInstance().getUserBean().setWallet_shapwd(PasswordToKeyUtils.shaEncrypt(randomString+mPassword.getText().toString().trim()));
             }
             Bundle bundle = new Bundle();
             bundle.putInt("type", 1);
-            ActivityUtils.next(CreateWalletActivity.this, CreateAccountActivity.class, bundle);
+            bundle.putString("password", mPassword.getText().toString());
+            bundle.putString("name", mEtWalletName.getText().toString());
+            //ActivityUtils.next(CreateWalletActivity.this, CreateAccountActivity.class, bundle);
+            ActivityUtils.next(CreateWalletActivity.this, CreateWalletSuccessActivity.class, bundle);
         } else {
             toast(getString(R.string.two_pwd));
         }

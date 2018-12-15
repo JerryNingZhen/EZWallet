@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".modules.wallet.createwallet.login.LoginOptionActivity">
 
     <LinearLayout
-        android:layout_margin="20dp"
-        android:orientation="vertical"
-        android:layout_marginLeft="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimens_20"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/dimens_20"
             android:text="@string/choose_to_login"
-            android:textSize="@dimen/font_size_big" />
+            android:textSize="@dimen/dimens_14" />
 
         <TextView
-            android:textSize="@dimen/font_size_normal"
-            android:text="@string/prefer_wechat_login"
-            android:layout_margin="@dimen/dimens_20"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimens_20"
+            android:text="@string/prefer_wechat_login"
+            android:textSize="@dimen/dimens_14" />
 
         <Button
             android:id="@+id/btn_wechat_login"
@@ -37,7 +39,7 @@
             android:background="@color/blue_button"
             android:text="@string/wechat_login"
             android:textColor="@color/white"
-            android:textSize="@dimen/dimens_14"/>
+            android:textSize="@dimen/dimens_14" />
 
         <Button
             android:id="@+id/btn_phone_login"
@@ -50,7 +52,7 @@
             android:background="@color/blue_button"
             android:text="@string/phone_login"
             android:textColor="@color/white"
-            android:textSize="@dimen/dimens_14"/>
+            android:textSize="@dimen/dimens_14" />
 
     </LinearLayout>
 

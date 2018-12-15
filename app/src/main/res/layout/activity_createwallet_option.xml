@@ -16,7 +16,7 @@
         android:layout_marginRight="@dimen/dimens_20"
         android:layout_marginTop="@dimen/dimens_20"
         android:background="@color/blue_button"
-        android:text="@string/wechat_login"
+        android:text="@string/import_wallet"
         android:textColor="@color/white"
         android:textSize="@dimen/dimens_14"/>
 
@@ -29,7 +29,7 @@
         android:layout_marginRight="@dimen/dimens_20"
         android:layout_marginTop="@dimen/dimens_20"
         android:background="@color/blue_button"
-        android:text="@string/phone_login"
+        android:text="@string/create_a_wallet"
         android:textColor="@color/white"
         android:textSize="@dimen/dimens_14"/>
 

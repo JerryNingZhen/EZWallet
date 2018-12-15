@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.ezeco.ezwallet">
-    <!--com.bigstudio.ezwallet-->
+    <!--com.ezeco.ezwallet-->
 
     <!-- 访问网络，网络定位需要上网 -->
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -127,6 +127,8 @@
             android:windowSoftInputMode="stateVisible|adjustResize"/>
         <activity
             android:name=".modules.wallet.createwallet.bindphone.BindPhoneActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".modules.account.createaccount.success.CreateWalletSuccessActivity"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".modules.wallet.createwallet.CreateWalletActivity"

@@ -261,7 +261,7 @@ public class UserCenterActivity extends BaseAcitvity<UserCenterView, UserCenterP
                                         MediaStore.ACTION_IMAGE_CAPTURE);
                                 tempUri = Uri.fromFile(fileUri);
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                                    tempUri = FileProvider.getUriForFile(UserCenterActivity.this, "com.bigstudio.ezwallet.fileprovider", fileUri);//通过FileProvider创建一个content类型的Uri
+                                    tempUri = FileProvider.getUriForFile(UserCenterActivity.this, "com.ezeco.ezwallet.fileprovider", fileUri);//通过FileProvider创建一个content类型的Uri
                                     openCameraIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION); //添加这一句表示对目标应用临时授权该Uri所代表的文件
                                 }
                                 //将拍照结果保存至photo_file的Uri中，不保留在相册中

@@ -8,7 +8,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.oraclechain.ezwallet"
+        applicationId "com.ezeco.ezwallet"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 131
@@ -37,7 +37,7 @@ android {
     greendao {
         //版本号，升级时可配置
         schemaVersion 1
-        daoPackage 'com.oraclechain.ezwallet.gen'
+        daoPackage 'com.ezeco.ezwallet.gen'
         targetGenDir 'src/main/java'
     }
 
