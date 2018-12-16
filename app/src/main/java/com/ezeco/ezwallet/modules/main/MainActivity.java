@@ -53,6 +53,9 @@ import com.tencent.connect.share.QQShare;
 import com.tencent.connect.share.QzonePublish;
 import com.tencent.tauth.Tencent;
 
+import org.tron.walletserver.Wallet;
+import org.tron.walletserver.WalletManager;
+
 import java.util.ArrayList;
 
 import butterknife.BindView;
@@ -102,6 +105,8 @@ public class MainActivity extends BaseAcitvity<NormalView, NormalPresenter> impl
     private NewsFragment newsFragment;
     private DappFragment applicationFragment;
     private long exitTime = 0;
+
+    private Wallet mWallet;
 
     @Override
     public void open(int tag) {
@@ -211,6 +216,17 @@ public class MainActivity extends BaseAcitvity<NormalView, NormalPresenter> impl
         MyApplication.getInstance().setUserBean(MyApplication.getDaoInstant().getUserBeanDao().queryBuilder().where(UserBeanDao.Properties.Wallet_phone.eq(Utils.getSpUtils().getString("firstUser"))).build().unique());
         mUserName.setText(MyApplication.getInstance().getUserBean().getWallet_name() + getString(R.string.wallet));
         MyApplication.getInstance().showCirImage(MyApplication.getInstance().getUserBean().getWallet_img(), mUserImg);
+
+        mWallet = WalletManager.getSelectedWallet();
+        if(mWallet == null) {
+            WalletManager.selectWallet(WalletManager.getWalletNames().iterator().next());
+            mWallet = WalletManager.getSelectedWallet();
+        }
+
+        if(!mWallet.isColdWallet()) {
+            WalletManager.initGRPC();
+        }
+
     }
 
     @Override

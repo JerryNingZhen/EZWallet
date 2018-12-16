@@ -11,7 +11,7 @@
     <include layout="@layout/title_project"/>
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycle_user_number"
+        android:id="@+id/recycle_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none"/>

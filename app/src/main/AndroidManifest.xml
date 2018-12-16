@@ -71,6 +71,9 @@
             android:name=".modules.transaction.redpacket.continueredpacket.ContinueRdPacketActivity"
             android:screenOrientation="portrait">
         </activity>
+        
+        <activity android:name=".modules.switchaccount.SwitchWalletActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".modules.switchusernumber.SwitchUserNumberActivity"
             android:screenOrientation="portrait"/>
@@ -308,6 +311,9 @@
             android:name=".modules.unstake.UnStakeActivity"
             android:screenOrientation="portrait">
         </activity>
+
+        <activity android:name=".view.resource.ResourceActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -15,11 +15,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.ezeco.ezwallet.view.resource.ResourceActivity;
 import com.gyf.barlibrary.ImmersionBar;
 import com.liaoinstan.springview.widget.SpringView;
 import com.ezeco.ezwallet.R;
@@ -124,6 +126,13 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
     @BindView(R.id.fab)
     FloatingActionButton mFab;
     Unbinder unbinder;
+
+    @BindView(R.id.btn_bind_width)
+    Button btn_bind_width;
+    @BindView(R.id.btn_energy)
+    Button btn_energy;
+    @BindView(R.id.btn_vote)
+    Button btn_vote;
 
     private Openleft mOpenleft = null;
     private TranslateAnimation mShowAction, mHiddenAction;
@@ -277,7 +286,8 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
         }
     }
 
-    @OnClick({R.id.iv_message, R.id.iv_scan, R.id.transfer_accounts, R.id.make_collections, R.id.red_packet})
+    @OnClick({R.id.iv_message, R.id.iv_scan, R.id.transfer_accounts, R.id.make_collections, R.id.red_packet,
+    R.id.btn_bind_width, R.id.btn_energy, R.id.btn_vote})
     public void onViewClicked(View view) {
         final Bundle bundle = new Bundle();
         switch (view.getId()) {
@@ -306,6 +316,18 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
                 bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
                 bundle.putString("coin", "EOS");
                 ActivityUtils.next(getActivity(), RedPacketActivity.class, bundle);
+                break;
+
+            case R.id.btn_bind_width:
+                ActivityUtils.next(getActivity(), ResourceActivity.class);
+                break;
+
+            case R.id.btn_energy:
+                ActivityUtils.next(getActivity(), ResourceActivity.class);
+                break;
+
+            case R.id.btn_vote:
+
                 break;
         }
     }

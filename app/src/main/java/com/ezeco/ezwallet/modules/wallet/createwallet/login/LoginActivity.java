@@ -190,7 +190,11 @@ public class LoginActivity extends BaseAcitvity<LoginView, LoginPresenter> imple
         switch (view.getId()) {
             case R.id.create_account:
                 if (!TextUtils.isEmpty(mSmsPassword.getText().toString()) && !TextUtils.isEmpty(mMobilePhone.getText().toString().trim())) {
-                    presenter.getcodeAuthData(mMobilePhone.getText().toString(), mSmsPassword.getText().toString());
+                    // TODO: 2018/12/15 暂时不发接口
+                    // TODO: 2018/12/15 暂时放这里测试
+                    getCodeAuthDataHttp(new CodeAuthBean.DataBean("d553e2e94b9b888341fe1d572b6720b5"));
+                    //presenter.getcodeAuthData(mMobilePhone.getText().toString(), mSmsPassword.getText().toString());
+                    ActivityUtils.next(this, LoginOptionActivity.class);
                 } else {
                     hideProgress();
                     toast(getString(R.string.input_all_message));

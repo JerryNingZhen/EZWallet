@@ -4,7 +4,6 @@ import com.ezeco.ezwallet.blockchain.util.StringUtils;
 import com.google.protobuf.ByteString;
 import org.tron.common.utils.ByteArray;
 
-import org.slf4j.LoggerFactory;
 import org.tron.api.GrpcAPI;
 import org.tron.api.GrpcAPI.AccountNetMessage;
 import org.tron.api.GrpcAPI.AccountPaginated;
@@ -32,7 +31,7 @@ import io.grpc.ManagedChannelBuilder;
 
 public class GrpcClient {
 
-  private static final Logger logger = (Logger) LoggerFactory.getLogger("GrpcClient");
+ // private static final Logger logger =  LoggerFactory.getLogger("GrpcClient");
   private ManagedChannel channelFull = null;
   private ManagedChannel channelSolidity = null;
   private WalletGrpc.WalletBlockingStub blockingStubFull = null;
@@ -135,7 +134,6 @@ public class GrpcClient {
         && i > 0) {
       i--;
       response = blockingStubFull.broadcastTransaction(signaturedTransaction);
-      logger.info("repeate times = " + (11 - i));
       try {
         Thread.sleep(300);
       } catch (InterruptedException e) {
@@ -143,8 +141,8 @@ public class GrpcClient {
       }
     }
     if (response.getResult() == false) {
-      logger.info("Code = " + response.getCode());
-      logger.info("Message = " + response.getMessage().toStringUtf8());
+      /*logger.info("Code = " + response.getCode());
+      logger.info("Message = " + response.getMessage().toStringUtf8());*/
     }
     return response.getResult();
   }

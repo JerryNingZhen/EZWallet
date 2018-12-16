@@ -42,8 +42,6 @@ public class ImportWalletActivity extends BaseAcitvity<NormalView, NormalPresent
     EditText mWalletPwdAgain;
     @BindView(R.id.import_wallet)
     Button mImportWallet;
-    @BindView(R.id.btn_paste)
-    Button btnPaste;
 
     private ClipboardManager mClipboardManager;
 
@@ -74,7 +72,7 @@ public class ImportWalletActivity extends BaseAcitvity<NormalView, NormalPresent
     }
 
 
-    @OnClick({R.id.import_wallet,R.id.btn_paste})
+    @OnClick({R.id.import_wallet})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.import_wallet:
@@ -100,19 +98,6 @@ public class ImportWalletActivity extends BaseAcitvity<NormalView, NormalPresent
                 }
 
                 ActivityUtils.next(ImportWalletActivity.this, MainActivity.class, bundle);
-                break;
-
-            case R.id.btn_paste:
-                // 粘贴板有数据，并且是文本
-                if (mClipboardManager.hasPrimaryClip()
-                        && mClipboardManager.getPrimaryClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)) {
-                    ClipData.Item item = mClipboardManager.getPrimaryClip().getItemAt(0);
-                    CharSequence text = item.getText();
-                    if (text == null) {
-                        return;
-                    }
-                    mImportWalletEdt.setText(text);
-                }
                 break;
         }
     }

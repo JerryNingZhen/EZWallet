@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">PocketEos</string>
 
+    <string name="fullnode_ip" translatable="false">54.236.37.243</string>
+    <string name="fullnode_port" translatable="false">50051</string>
+    <string name="soliditynode_ip" translatable="false">47.89.187.247</string>
+    <string name="soliditynode_port" translatable="false">50051</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_text">资产</string>
@@ -447,11 +452,6 @@
     <string name="port_key" translatable="false">port</string>
     <string name="ip_sol_key" translatable="false">ip_sol</string>
     <string name="port_sol_key" translatable="false">port_sol</string>
-
-    <string name="fullnode_ip" translatable="false">54.236.37.243</string>
-    <string name="fullnode_port" translatable="false">50051</string>
-    <string name="soliditynode_ip" translatable="false">47.89.187.247</string>
-    <string name="soliditynode_port" translatable="false">50051</string>
     <string name="wallets_key">wallets_key</string>
     <string name="is_watch_only_setup_key">is_watch_only_setup_key</string>
     <string name="is_cold_wallet_key" translatable="false">is_cold_wallet_key</string>
@@ -461,4 +461,20 @@
     <string name="priv_key" translatable="false">priv_key</string>
     <string name="pub_key" translatable="false">pub_key</string>
     <string name="selected_wallet_key">selected_wallet_key</string>
+
+    <string name="name_key" translatable="false">name_key</string>
+    <string name="balance_key" translatable="false">balance_key</string>
+    <string name="address_key" translatable="false">address_key</string>
+    <string name="frozen_key" translatable="false">frozen_key</string>
+    <string name="bandwidth_key" translatable="false">bandwidth_key</string>
+    <string name="assets_key" translatable="false">assets_key</string>
+    <string name="votes_key" translatable="false">votes_key</string>
+    <string name="create_time_key" translatable="false">create_time_key</string>
+    <string name="net_limit_key" translatable="false">net_limit_key</string>
+    <string name="net_used_key" translatable="false">net_used_key</string>
+    <string name="net_free_limit_key" translatable="false">net_free_limit_key</string>
+    <string name="net_free_used_key" translatable="false">net_free_used_key</string>
+    <string name="energy_limit_key" translatable="false">energy_limit_key</string>
+    <string name="energy_used_key" translatable="false">energy_used_key</string>
+    <string name="latest_operation_time_key" translatable="false">latest_operation_time_key</string>
 </resources>

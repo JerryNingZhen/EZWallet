@@ -47,6 +47,10 @@ public class CodeAuthBean {
 
         private String uid;
 
+        public DataBean(String uid) {
+            this.uid = uid;
+        }
+
         public String getUid() {
             return uid == null ? "" : uid;
         }

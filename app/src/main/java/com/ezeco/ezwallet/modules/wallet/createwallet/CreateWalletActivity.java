@@ -12,12 +12,14 @@ import com.ezeco.ezwallet.app.ActivityUtils;
 import com.ezeco.ezwallet.app.MyApplication;
 import com.ezeco.ezwallet.base.BaseAcitvity;
 import com.ezeco.ezwallet.bean.UserBean;
+import com.ezeco.ezwallet.gen.UserBeanDao;
 import com.ezeco.ezwallet.modules.account.createaccount.success.CreateWalletSuccessActivity;
 import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
 import com.ezeco.ezwallet.modules.normalvp.NormalView;
 import com.ezeco.ezwallet.modules.wallet.importwallet.ImportWalletActivity;
 import com.ezeco.ezwallet.utils.EncryptUtil;
 import com.ezeco.ezwallet.utils.PasswordToKeyUtils;
+import com.ezeco.ezwallet.utils.Utils;
 import com.ezeco.ezwallet.view.ClearEditText;
 import org.tron.walletserver.DuplicateNameException;
 import org.tron.walletserver.InvalidNameException;
@@ -82,14 +84,11 @@ public class CreateWalletActivity extends BaseAcitvity<NormalView, NormalPresent
             toast(getString(R.string.input_pwd_toast));
         } else if (mPassword.getText().toString() != null && mConfirmPassword.getText().toString() != null && mConfirmPassword.getText().toString().equals(mPassword.getText().toString())) {
             // TODO: 2018/12/15
-            //UserBean userBean = MyApplication.getDaoInstant().getUserBeanDao().queryBuilder().where(UserBeanDao.Properties.Wallet_phone.eq(Utils.getSpUtils().getString("firstUser"))).build().unique();
-            UserBean userBean = new UserBean();
-            userBean.setWallet_phone("15338705586");
+            UserBean userBean = MyApplication.getDaoInstant().getUserBeanDao().queryBuilder().where(UserBeanDao.Properties.Wallet_phone.eq(Utils.getSpUtils().getString("firstUser"))).build().unique();
             if (userBean != null) {
                 String randomString = EncryptUtil.getRandomString(32);
                 userBean.setWallet_shapwd(PasswordToKeyUtils.shaEncrypt(randomString+mPassword.getText().toString().trim()));
-                // TODO: 2018/12/15  
-                //MyApplication.getDaoInstant().getUserBeanDao().update(userBean);
+                MyApplication.getDaoInstant().getUserBeanDao().update(userBean);
                 MyApplication.getInstance().getUserBean().setWallet_shapwd(PasswordToKeyUtils.shaEncrypt(randomString+mPassword.getText().toString().trim()));
             }
             Bundle bundle = new Bundle();

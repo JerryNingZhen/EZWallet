@@ -32,7 +32,7 @@ import static org.tron.common.crypto.Hash.sha256;
 
 public class TransactionUtils {
 
-  private static final Logger logger = (Logger) LoggerFactory.getLogger("Transaction");
+  //private static final Logger logger = (Logger) LoggerFactory.getLogger("Transaction");
 
   /**
    * Obtain a data bytes after removing the id and SHA-256(data)

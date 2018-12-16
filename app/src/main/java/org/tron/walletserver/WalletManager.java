@@ -8,6 +8,7 @@ import android.os.Bundle;
 import com.ezeco.ezwallet.R;
 import com.ezeco.ezwallet.app.MyApplication;
 import com.ezeco.ezwallet.blockchain.util.StringUtils;
+import com.ezeco.ezwallet.utils.SPUtils;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.protobuf.ByteString;
 import org.tron.common.crypto.Hash;
