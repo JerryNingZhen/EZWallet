@@ -9,9 +9,18 @@ import android.widget.TextView;
 
 import com.ezeco.ezwallet.R;
 import com.ezeco.ezwallet.app.ActivityUtils;
+import com.ezeco.ezwallet.app.AppManager;
+import com.ezeco.ezwallet.app.MyApplication;
 import com.ezeco.ezwallet.base.BaseAcitvity;
+import com.ezeco.ezwallet.bean.UserBean;
+import com.ezeco.ezwallet.gen.UserBeanDao;
+import com.ezeco.ezwallet.modules.leftdrawer.usercenter.UserCenterActivity;
 import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
 import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.modules.wallet.createwallet.login.LoginActivity;
+import com.ezeco.ezwallet.utils.PasswordToKeyUtils;
+import com.ezeco.ezwallet.view.dialog.passworddialog.DeletePasswordDialog;
+import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordCallback;
 import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordDialog;
 
 import org.tron.common.utils.ByteArray;
@@ -47,6 +56,7 @@ public class EZWalletManageActivity extends BaseAcitvity<NormalView, NormalPrese
     RelativeLayout rlDeleteWallet;
 
     private PasswordDialog dialog;
+    private DeletePasswordDialog deleteDialog;
     // TODO: 2018/12/17 暂时用这个钱包 后面的开发中用的是上一个界面传过来的数据
     private Wallet mWallet;
     private String mAdress;
@@ -74,8 +84,6 @@ public class EZWalletManageActivity extends BaseAcitvity<NormalView, NormalPrese
 
         mWalletName = mWallet.getWalletName();
         mAdress = mWallet.getAddress();
-        mPriKey = ByteArray.toHexString(mWallet.getECKey().getPrivKeyBytes());
-
         tvWalletAddress.setText(mAdress);
         tvWalletName.setText(mWalletName);
     }
@@ -95,12 +103,48 @@ public class EZWalletManageActivity extends BaseAcitvity<NormalView, NormalPrese
                 ActivityUtils.next(this, ChangeWalletPwdActivity.class);
                 break;
             case R.id.rl_back_pri_key:
+                if (dialog == null){
+                    dialog = new PasswordDialog(this, new PasswordCallback(){
 
+                        @Override
+                        public void sure(String password) {
+                            // TODO: 2018/12/17 先不判断密码
+                            Bundle bundle = new Bundle();
+                            bundle.putString("name", mWalletName);
+                            bundle.putString("password", password);
+                            ActivityUtils.next(EZWalletManageActivity.this, BackupPrikeyActivity.class, bundle);
+                        }
 
-                ActivityUtils.next(this, BackupPrikeyActivity.class);
+                        @Override
+                        public void cancle() {
+
+                        }
+                    });
+                    dialog.setCancelable(true);
+                    dialog.show();
+                }else {
+                    dialog.show();
+                }
 
                 break;
             case R.id.rl_delete_wallet:
+                if (deleteDialog == null){
+                    deleteDialog = new DeletePasswordDialog(this, new PasswordCallback() {
+                        @Override
+                        public void sure(String password) {
+
+                        }
+
+                        @Override
+                        public void cancle() {
+
+                        }
+                    });
+                    deleteDialog.setCancelable(true);
+                    deleteDialog.show();
+                }else {
+                    deleteDialog.show();
+                }
 
                 break;
         }

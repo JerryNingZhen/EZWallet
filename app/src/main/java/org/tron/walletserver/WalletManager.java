@@ -227,7 +227,7 @@ public class WalletManager {
             wallet.setEncryptedPassword(walletPref.getString(context.getString(R.string.pwd_key), ""));
             wallet.setAddress(walletPref.getString(context.getString(R.string.wallet_address_key), ""));
             wallet.setEncryptedPrivateKey(priKeyHexEnced);
-
+            wallet.setPrivateKey(privateKey);
             String publicKeyStr = walletPref.getString(context.getString(R.string.pub_key), "");
             if(!publicKeyStr.isEmpty()) {
                 byte[] publicKey = Hex.decode(publicKeyStr.getBytes());
