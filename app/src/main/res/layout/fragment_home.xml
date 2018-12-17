@@ -314,6 +314,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:paddingTop="10dp"
                         >
 
                         <Button
@@ -324,6 +326,8 @@
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
                             android:background="@drawable/daikuan_item_bg"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
                             />
 
                         <Button
@@ -333,7 +337,10 @@
                             android:layout_weight="1"
                             android:textColor="@color/white"
                             android:background="@drawable/nengliang_item_bg"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            />
 
                         <Button
                             android:id="@+id/btn_vote"
@@ -342,7 +349,10 @@
                             android:layout_weight="1"
                             android:textColor="@color/white"
                             android:background="@drawable/jiedian_item_bg"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            />
 
                     </LinearLayout>
 
