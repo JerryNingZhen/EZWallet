@@ -235,65 +235,59 @@ public class MainActivity extends BaseAcitvity<NormalView, NormalPresenter> impl
         mLlFriendsList.setOnClickListener(this);
         mLlNews.setOnClickListener(this);
         mLlApplication.setOnClickListener(this);
-        mLogoutWallet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AppManager.getAppManager().finishAllActivity();
-                ActivityUtils.next(MainActivity.this, LoginActivity.class, true);
-            }
+        mLogoutWallet.setOnClickListener(v -> {
+            AppManager.getAppManager().finishAllActivity();
+            ActivityUtils.next(MainActivity.this, LoginActivity.class, true);
         });
-        mUserWalletCode.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                QrCodeWalletBean walletCodeBean = new QrCodeWalletBean();
-                walletCodeBean.setType("wallet_QRCode");
-                walletCodeBean.setWallet_img(MyApplication.getInstance().getUserBean().getWallet_img());
-                walletCodeBean.setWallet_name(MyApplication.getInstance().getUserBean().getWallet_name());
-                walletCodeBean.setWallet_uid(MyApplication.getInstance().getUserBean().getWallet_uid());
-                //生成的账号二维码包含的信息：
-                if (dialog == null) {
-                    dialog = new WalletCodeDialog(MainActivity.this, new WalletCodeCallBack() {
-                        @Override
-                        public void goWeixinFriend(Bitmap bitmap) {
-                            WxShareAndLoginUtils.WxBitmapShare(MainActivity.this, bitmap, WxShareAndLoginUtils.WECHAT_FRIEND);
-                        }
+        mUserWalletCode.setOnClickListener(v -> {
+            QrCodeWalletBean walletCodeBean = new QrCodeWalletBean();
+            walletCodeBean.setType("wallet_QRCode");
+            walletCodeBean.setWallet_img(MyApplication.getInstance().getUserBean().getWallet_img());
+            walletCodeBean.setWallet_name(MyApplication.getInstance().getUserBean().getWallet_name());
+            walletCodeBean.setWallet_uid(MyApplication.getInstance().getUserBean().getWallet_uid());
+            //生成的账号二维码包含的信息：
+            if (dialog == null) {
+                dialog = new WalletCodeDialog(MainActivity.this, new WalletCodeCallBack() {
+                    @Override
+                    public void goWeixinFriend(Bitmap bitmap) {
+                        WxShareAndLoginUtils.WxBitmapShare(MainActivity.this, bitmap, WxShareAndLoginUtils.WECHAT_FRIEND);
+                    }
 
-                        @Override
-                        public void goWeixinCircle(Bitmap bitmap) {
-                            WxShareAndLoginUtils.WxBitmapShare(MainActivity.this, bitmap, WxShareAndLoginUtils.WECHAT_MOMENT);
-                        }
+                    @Override
+                    public void goWeixinCircle(Bitmap bitmap) {
+                        WxShareAndLoginUtils.WxBitmapShare(MainActivity.this, bitmap, WxShareAndLoginUtils.WECHAT_MOMENT);
+                    }
 
-                        @Override
-                        public void goQQFriend(Bitmap bitmap) {
-                            Bundle params = new Bundle();
-                            params.putInt(QQShare.SHARE_TO_QQ_KEY_TYPE, QQShare.SHARE_TO_QQ_TYPE_IMAGE);
-                            params.putString(QQShare.SHARE_TO_QQ_IMAGE_LOCAL_URL, FilesUtils.savePhoto(bitmap, Environment
-                                    .getExternalStorageDirectory().getAbsolutePath() + "/pocketEos/walletCode", String
-                                    .valueOf(System.currentTimeMillis())));
-                            params.putString(QQShare.SHARE_TO_QQ_APP_NAME, "pocketEos");
-                            params.putInt(QQShare.SHARE_TO_QQ_EXT_INT, QQShare.SHARE_TO_QQ_FLAG_QZONE_ITEM_HIDE);
-                            MyApplication.getInstance().getTencent().shareToQQ(MainActivity.this, params, new BaseUIListener(MainActivity.this, true));
-                        }
+                    @Override
+                    public void goQQFriend(Bitmap bitmap) {
+                        Bundle params = new Bundle();
+                        params.putInt(QQShare.SHARE_TO_QQ_KEY_TYPE, QQShare.SHARE_TO_QQ_TYPE_IMAGE);
+                        params.putString(QQShare.SHARE_TO_QQ_IMAGE_LOCAL_URL, FilesUtils.savePhoto(bitmap, Environment
+                                .getExternalStorageDirectory().getAbsolutePath() + "/pocketEos/walletCode", String
+                                .valueOf(System.currentTimeMillis())));
+                        params.putString(QQShare.SHARE_TO_QQ_APP_NAME, "pocketEos");
+                        params.putInt(QQShare.SHARE_TO_QQ_EXT_INT, QQShare.SHARE_TO_QQ_FLAG_QZONE_ITEM_HIDE);
+                        MyApplication.getInstance().getTencent().shareToQQ(MainActivity.this, params, new BaseUIListener(MainActivity.this, true));
+                    }
 
-                        @Override
-                        public void goQzone(Bitmap bitmap) {
-                            Bundle params = new Bundle();
-                            params.putInt(QzonePublish.PUBLISH_TO_QZONE_KEY_TYPE, QzonePublish.PUBLISH_TO_QZONE_TYPE_PUBLISHMOOD);
-                            ArrayList<String> imgUrlList = new ArrayList<>();
-                            imgUrlList.add(FilesUtils.savePhoto(bitmap, Environment
-                                    .getExternalStorageDirectory().getAbsolutePath() + "/pocketEos/walletCode", String
-                                    .valueOf(System.currentTimeMillis())));// 图片地址
-                            params.putStringArrayList(QzonePublish.PUBLISH_TO_QZONE_IMAGE_URL,
-                                    imgUrlList);// 图片地址ArrayList
-                            MyApplication.getInstance().getTencent().publishToQzone(MainActivity.this, params, new BaseUIListener(MainActivity.this, true));
-                        }
-                    });
-                    dialog.setContent(new Gson().toJson(walletCodeBean));
-                    dialog.setCancelable(true);
-                    dialog.show();
-                } else {
-                    dialog.show();
-                }
+                    @Override
+                    public void goQzone(Bitmap bitmap) {
+                        Bundle params = new Bundle();
+                        params.putInt(QzonePublish.PUBLISH_TO_QZONE_KEY_TYPE, QzonePublish.PUBLISH_TO_QZONE_TYPE_PUBLISHMOOD);
+                        ArrayList<String> imgUrlList = new ArrayList<>();
+                        imgUrlList.add(FilesUtils.savePhoto(bitmap, Environment
+                                .getExternalStorageDirectory().getAbsolutePath() + "/pocketEos/walletCode", String
+                                .valueOf(System.currentTimeMillis())));// 图片地址
+                        params.putStringArrayList(QzonePublish.PUBLISH_TO_QZONE_IMAGE_URL,
+                                imgUrlList);// 图片地址ArrayList
+                        MyApplication.getInstance().getTencent().publishToQzone(MainActivity.this, params, new BaseUIListener(MainActivity.this, true));
+                    }
+                });
+                dialog.setContent(new Gson().toJson(walletCodeBean));
+                dialog.setCancelable(true);
+                dialog.show();
+            } else {
+                dialog.show();
             }
         });
     }
