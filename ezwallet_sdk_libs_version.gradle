@@ -1,0 +1,8 @@
+ext {
+    rxjavaAndroidVersion = '2.0.2'
+    rxjavaVersion = '2.1.13'
+    rxLifeCycleVersion = '2.2.1'
+    rxrelayVersion = '2.0.0'
+    rxBindingVersion = '2.1.1'
+    rxPermissions = '0.10.2'
+}

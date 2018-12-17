@@ -20,6 +20,7 @@ buildscript {
 }
 
 allprojects {
+    apply from: "${rootDir}/ezwallet_sdk_libs_version.gradle"
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }

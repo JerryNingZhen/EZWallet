@@ -145,6 +145,18 @@ dependencies {
     implementation "org.apache.commons:commons-lang3:3.5"
 
     implementation 'com.arasthel:asyncjob-library:1.0.3'
+
+    implementation "io.reactivex.rxjava2:rxandroid:$rxjavaAndroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+    implementation "com.jakewharton.rxrelay2:rxrelay:$rxrelayVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding-support-v4:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding-design:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding2:rxbinding-leanback-v17:$rxBindingVersion"
+
+
     //implementation 'com.google.zxing:zxing-parent:3.3.2' // QR
     //implementation 'com.journeyapps:zxing-android-embedded:3.6.0' // QR
 }
