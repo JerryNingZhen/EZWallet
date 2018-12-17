@@ -335,7 +335,6 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // TODO: inflate a fragment view
         View rootView = super.onCreateView(inflater, container, savedInstanceState);
         unbinder = ButterKnife.bind(this, rootView);
         return rootView;
@@ -430,103 +429,73 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
 
     @Override
     public void initEvent() {
-        mIvSeting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mOpenleft.open(1);
-            }
-        });
+        mIvSeting.setOnClickListener(v -> mOpenleft.open(1));
         mScrollView.setScrollViewListener(this);
         Bundle bundle = new Bundle();
-        mSwitchNumber.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // TODO: 2018/12/17
-                /*bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
-                bundle.putString("from", "home");
-                ActivityUtils.next(getActivity(), SwitchUserNumberActivity.class, bundle, 100);*/
-             /*   StringBuilder sb = new StringBuilder();
-                byte[] entropy = new byte[Words.TWELVE.byteLength()];
-                new SecureRandom().nextBytes(entropy);
-                new MnemonicGenerator(English.INSTANCE)
-                        .createMnemonic(entropy, sb::append);
-                System.out.println(sb.toString());
-                byte[] seed = new SeedCalculator().calculateSeed(sb.toString(), "");//种子*/
-                ActivityUtils.next(getActivity(), EZWalletManageActivity.class);
-            }
+        mSwitchNumber.setOnClickListener(v -> {
+            // TODO: 2018/12/17
+            /*bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
+            bundle.putString("from", "home");
+            ActivityUtils.next(getActivity(), SwitchUserNumberActivity.class, bundle, 100);*/
+         /*   StringBuilder sb = new StringBuilder();
+            byte[] entropy = new byte[Words.TWELVE.byteLength()];
+            new SecureRandom().nextBytes(entropy);
+            new MnemonicGenerator(English.INSTANCE)
+                    .createMnemonic(entropy, sb::append);
+            System.out.println(sb.toString());
+            byte[] seed = new SeedCalculator().calculateSeed(sb.toString(), "");//种子*/
+            ActivityUtils.next(getActivity(), EZWalletManageActivity.class);
         });
-        mHomeTitle1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
-                bundle.putString("coin", "EOS");
-                bundle.putString("from", "home");
-                ActivityUtils.next(getActivity(), TransferAccountsActivity.class, bundle);
-            }
+        mHomeTitle1.setOnClickListener(v -> {
+            bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
+            bundle.putString("coin", "EOS");
+            bundle.putString("from", "home");
+            ActivityUtils.next(getActivity(), TransferAccountsActivity.class, bundle);
         });
-        mHomeTitle2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
-                bundle.putString("coin", "EOS");
-                ActivityUtils.next(getActivity(), MakeCollectionsActivity.class, bundle);
-            }
+        mHomeTitle2.setOnClickListener(v -> {
+            bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
+            bundle.putString("coin", "EOS");
+            ActivityUtils.next(getActivity(), MakeCollectionsActivity.class, bundle);
         });
-        mHomeTitle3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
-                bundle.putString("coin", "EOS");
-                ActivityUtils.next(getActivity(), RedPacketActivity.class);
-            }
+        mHomeTitle3.setOnClickListener(v -> {
+            bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
+            bundle.putString("coin", "EOS");
+            ActivityUtils.next(getActivity(), RedPacketActivity.class);
         });
-        mUserImg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ActivityUtils.next(getActivity(), UserCenterActivity.class);
-            }
-        });
-        mUserAccountNumber.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                List<AccountInfoBean> mAccountInfoBeanList = JsonUtil.parseJsonToArrayList(MyApplication.getInstance().getUserBean().getAccount_info(), AccountInfoBean.class);
-                for (AccountInfoBean accountInfoBean : mAccountInfoBeanList) {
-                    if (accountInfoBean.getAccount_name().equals(mUserAccountNumber.getText().toString())) {
-                        bundle.putParcelable("bean", accountInfoBean);
-                        ActivityUtils.next(getActivity(), AccountDetailsActivity.class, bundle);
-                    }
+        mUserImg.setOnClickListener(v -> ActivityUtils.next(getActivity(), UserCenterActivity.class));
+        mUserAccountNumber.setOnClickListener(v -> {
+            List<AccountInfoBean> mAccountInfoBeanList = JsonUtil.parseJsonToArrayList(MyApplication.getInstance().getUserBean().getAccount_info(), AccountInfoBean.class);
+            for (AccountInfoBean accountInfoBean : mAccountInfoBeanList) {
+                if (accountInfoBean.getAccount_name().equals(mUserAccountNumber.getText().toString())) {
+                    bundle.putParcelable("bean", accountInfoBean);
+                    ActivityUtils.next(getActivity(), AccountDetailsActivity.class, bundle);
                 }
             }
         });
-        mAllMoney.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (!isOpen) {
-                    isOpen = true;
-                    Utils.getSpUtils().put("isOpenMoney", false);
-                    mUserAllProperty.setText("******");
-                    Drawable drawable = getResources().getDrawable(R.mipmap.close_eye);
-                    // 这一步必须要做,否则不会显示.
-                    drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
-                    mAllMoney.setCompoundDrawables(null, null, drawable, null);
-                } else {
-                    isOpen = false;
-                    Utils.getSpUtils().put("isOpenMoney", true);
-                    mUserAllProperty.setText(openMoney);
-                    Drawable drawable = getResources().getDrawable(R.mipmap.open_eye);
-                    // 这一步必须要做,否则不会显示.
-                    drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
-                    mAllMoney.setCompoundDrawables(null, null, drawable, null);
-                }
+        mAllMoney.setOnClickListener(v -> {
+            if (!isOpen) {
+                isOpen = true;
+                Utils.getSpUtils().put("isOpenMoney", false);
+                mUserAllProperty.setText("******");
+                Drawable drawable = getResources().getDrawable(R.mipmap.close_eye);
+                // 这一步必须要做,否则不会显示.
+                drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
+                mAllMoney.setCompoundDrawables(null, null, drawable, null);
+            } else {
+                isOpen = false;
+                Utils.getSpUtils().put("isOpenMoney", true);
+                mUserAllProperty.setText(openMoney);
+                Drawable drawable = getResources().getDrawable(R.mipmap.open_eye);
+                // 这一步必须要做,否则不会显示.
+                drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
+                mAllMoney.setCompoundDrawables(null, null, drawable, null);
             }
         });
 
-        mFab.setOnClickListener(new View.OnClickListener() {//解除质押
-            @Override
-            public void onClick(View v) {
-                bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
-                ActivityUtils.next(getActivity(), UnStakeActivity.class ,bundle);
-            }
+        //解除质押
+        mFab.setOnClickListener(v -> {
+            bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
+            ActivityUtils.next(getActivity(), UnStakeActivity.class ,bundle);
         });
     }
 
