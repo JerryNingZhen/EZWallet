@@ -26,6 +26,7 @@ import com.ezeco.ezwallet.modules.otherloginorshare.OtherLoginCallBack;
 import com.ezeco.ezwallet.modules.otherloginorshare.QQUserInfoBean;
 import com.ezeco.ezwallet.modules.otherloginorshare.WxShareAndLoginUtils;
 import com.ezeco.ezwallet.modules.wallet.createwallet.CreateWalletActivity;
+import com.ezeco.ezwallet.modules.wallet.createwallet.CreateWalletOptionActivity;
 import com.ezeco.ezwallet.modules.wallet.createwallet.bindphone.BindPhoneActivity;
 import com.ezeco.ezwallet.utils.AndroidBug5497Workaround;
 import com.ezeco.ezwallet.utils.FilesUtils;
@@ -194,7 +195,7 @@ public class LoginActivity extends BaseAcitvity<LoginView, LoginPresenter> imple
                     // TODO: 2018/12/15 暂时放这里测试
                     getCodeAuthDataHttp(new CodeAuthBean.DataBean("d553e2e94b9b888341fe1d572b6720b5"));
                     //presenter.getcodeAuthData(mMobilePhone.getText().toString(), mSmsPassword.getText().toString());
-                    ActivityUtils.next(this, LoginOptionActivity.class);
+                    ActivityUtils.next(this, CreateWalletOptionActivity.class);
                 } else {
                     hideProgress();
                     toast(getString(R.string.input_all_message));

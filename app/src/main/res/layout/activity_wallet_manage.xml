@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_project"/>
+    <View
+        style="?attr/item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_10"/>
+    <RelativeLayout
+        android:id="@+id/rl_wallet_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_46"
+        android:paddingLeft="@dimen/dimens_20"
+        android:paddingRight="@dimen/dimens_20">
+
+        <TextView
+            style="?attr/text_one_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="钱包地址"
+            android:textSize="@dimen/dimens_15"/>
+
+        <TextView
+            android:id="@+id/tv_wallet_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimens_20"
+            android:drawablePadding="@dimen/dimens_10"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimens_15"/>
+    </RelativeLayout>
+    <View
+        style="?attr/line_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_20"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_wallet_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_46"
+
+        android:paddingLeft="@dimen/dimens_20"
+        android:paddingRight="@dimen/dimens_20">
+
+        <TextView
+            style="?attr/text_one_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="钱包名称"
+            android:textSize="@dimen/dimens_15"/>
+
+        <TextView
+            android:id="@+id/tv_wallet_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/dimens_10"
+            android:drawableRight="@mipmap/more"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimens_15"/>
+    </RelativeLayout>
+    <View
+        style="?attr/line_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_1"/>
+    <RelativeLayout
+        android:id="@+id/rl_wallet_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_46"
+
+        android:paddingLeft="@dimen/dimens_20"
+        android:paddingRight="@dimen/dimens_20">
+
+        <TextView
+            style="?attr/text_one_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="钱包密码"
+            android:textSize="@dimen/dimens_15"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@mipmap/more"/>
+    </RelativeLayout>
+    <View
+        style="?attr/item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_20"/>
+    <RelativeLayout
+        android:id="@+id/rl_back_pri_key"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_46"
+        android:paddingLeft="@dimen/dimens_20"
+        android:paddingRight="@dimen/dimens_20">
+
+        <TextView
+            style="?attr/text_one_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="备份私钥"
+            android:textSize="@dimen/dimens_15"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@mipmap/more"/>
+    </RelativeLayout>
+
+    <View
+        style="?attr/line_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_20"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_delete_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_46"
+        android:paddingLeft="@dimen/dimens_20"
+        android:paddingRight="@dimen/dimens_20">
+
+        <TextView
+            style="?attr/text_one_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/red"
+            android:text="删除钱包"
+            android:textSize="@dimen/dimens_15"/>
+
+    </RelativeLayout>
+    <View
+        style="?attr/item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

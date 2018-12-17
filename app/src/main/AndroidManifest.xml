@@ -311,7 +311,9 @@
         <activity android:name=".view.resource.ResourceActivity"
             android:screenOrientation="portrait"/>
 
-        <activity android:name=".view.WalletManageActivity"
+        <activity android:name=".view.walletmanage.EZWalletManageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".view.walletmanage.ChangeWalletPwdActivity"
             android:screenOrientation="portrait"/>
     </application>
 

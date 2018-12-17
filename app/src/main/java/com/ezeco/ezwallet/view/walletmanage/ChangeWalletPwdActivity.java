@@ -1,4 +1,4 @@
-package com.ezeco.ezwallet.view;
+package com.ezeco.ezwallet.view.walletmanage;
 
 import android.os.Bundle;
 
@@ -9,19 +9,19 @@ import com.ezeco.ezwallet.modules.normalvp.NormalView;
 
 /**
  * Copyright (C) 2018, PING AN TECHNOLOGIES CO., LTD.
- * WalletManageActivity
+ * ChangeWalletPwdActivity
  * <p>
- * Description
+ * Description 修改钱包密码
  *
  * @version 1.0
  * <p>
- * Ver 1.0, 2018/12/16, tanjun, Create file
+ * Ver 1.0, 2018/12/17, tanjun, Create file
  */
-public class WalletManageActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView {
+public class ChangeWalletPwdActivity extends BaseAcitvity<NormalView, NormalPresenter> implements NormalView{
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_wallet_management;
+        return R.layout.activity_change_wallet_pwd;
     }
 
     @Override
