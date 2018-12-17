@@ -108,8 +108,8 @@ public class BaseUrl {
     // 设置主账号 post
     public final static String HTTP_set_mian_account = HTTP_ADDRESS + "user/toggleEosMain";
     // 保护隐私 post
-    public final static String HTTP_set_policy_account = HTTP_ADDRESS + "user/update_secret";
     // 系统设置 post
+    public final static String HTTP_set_policy_account = HTTP_ADDRESS + "user/update_secret";
     public final static String HTTP_get_system_info = HTTP_ADDRESS + "system/getInfo";
     // app更新 get
     public final static String HTTP_get_app_info = HTTP_ADDRESS + "get_last_info";
