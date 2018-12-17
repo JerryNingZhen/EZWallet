@@ -8,6 +8,10 @@
     <include layout="@layout/title_project"/>
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
         android:id="@+id/tv_show_key"
         android:minHeight="30dp"
         android:layout_marginTop="20dp"

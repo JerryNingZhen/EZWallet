@@ -1,14 +1,22 @@
 package com.ezeco.ezwallet.view.walletmanage;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.ezeco.ezwallet.R;
+import com.ezeco.ezwallet.app.ActivityUtils;
 import com.ezeco.ezwallet.base.BaseAcitvity;
 import com.ezeco.ezwallet.modules.normalvp.NormalPresenter;
 import com.ezeco.ezwallet.modules.normalvp.NormalView;
+import com.ezeco.ezwallet.view.dialog.passworddialog.PasswordDialog;
+
+import org.tron.common.utils.ByteArray;
+import org.tron.walletserver.Wallet;
+import org.tron.walletserver.WalletManager;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -38,6 +46,13 @@ public class EZWalletManageActivity extends BaseAcitvity<NormalView, NormalPrese
     @BindView(R.id.rl_delete_wallet)
     RelativeLayout rlDeleteWallet;
 
+    private PasswordDialog dialog;
+    // TODO: 2018/12/17 暂时用这个钱包 后面的开发中用的是上一个界面传过来的数据
+    private Wallet mWallet;
+    private String mAdress;
+    private String mPriKey;
+    private String mWalletName;
+
     @Override
     protected int getLayoutId() {
         return R.layout.activity_wallet_manage;
@@ -55,7 +70,14 @@ public class EZWalletManageActivity extends BaseAcitvity<NormalView, NormalPrese
 
     @Override
     protected void initData() {
+        mWallet = WalletManager.getSelectedWallet();
 
+        mWalletName = mWallet.getWalletName();
+        mAdress = mWallet.getAddress();
+        mPriKey = ByteArray.toHexString(mWallet.getECKey().getPrivKeyBytes());
+
+        tvWalletAddress.setText(mAdress);
+        tvWalletName.setText(mWalletName);
     }
 
     @Override
@@ -67,12 +89,19 @@ public class EZWalletManageActivity extends BaseAcitvity<NormalView, NormalPrese
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.rl_wallet_name:
+                ActivityUtils.next(this, ChangeWalletNameActivity.class);
                 break;
             case R.id.rl_wallet_pwd:
+                ActivityUtils.next(this, ChangeWalletPwdActivity.class);
                 break;
             case R.id.rl_back_pri_key:
+
+
+                ActivityUtils.next(this, BackupPrikeyActivity.class);
+
                 break;
             case R.id.rl_delete_wallet:
+
                 break;
         }
     }

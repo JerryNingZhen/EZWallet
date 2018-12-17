@@ -69,12 +69,13 @@ public class CreateWalletSuccessActivity extends BaseAcitvity<NormalView, Normal
         name = bundle.getString("name");
         password = bundle.getString("password");
 
+        /** 生成私钥 */
         mWallet = WalletManager.getWallet(name, password);
 
-        /*if(mWallet == null || !mWallet.isOpen()) {
+        if(mWallet == null || !mWallet.isOpen()) {
             finish();
             return;
-        }*/
+        }
 
         // TODO: 2018/12/15  必须是拷贝后才可以备份
         mPrivKey = ByteArray.toHexString(mWallet.getECKey().getPrivKeyBytes());

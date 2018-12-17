@@ -1,7 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
 
+    <include layout="@layout/title_project"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimens_20"
+        android:gravity="center_vertical"
+        android:text="旧的钱包密码"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/dimens_14"/>
+
+    <com.ezeco.ezwallet.view.ClearEditText
+        android:id="@+id/et_wallet_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:layout_marginRight="@dimen/dimens_20"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="请输入旧的钱包密码"
+        android:textColor="@color/title_color"
+        android:textColorHint="@color/gray_color"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="@dimen/dimens_15"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimens_20"
+        android:gravity="center_vertical"
+        android:text="新的钱包密码"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/dimens_14"/>
+
+    <com.ezeco.ezwallet.view.ClearEditText
+        android:id="@+id/et_wallet_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:layout_marginRight="@dimen/dimens_20"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="至少8位字符（包含大小写字母和数字）"
+        android:inputType="textPassword"
+        android:textColor="@color/title_color"
+        android:textColorHint="@color/gray_color"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="@dimen/dimens_15"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_1"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:layout_marginTop="@dimen/dimens_10"
+        android:background="@color/line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimens_20"
+        android:gravity="center_vertical"
+        android:text="重复新的钱包密码"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/dimens_14"/>
+
+    <com.ezeco.ezwallet.view.ClearEditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:layout_marginRight="@dimen/dimens_20"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="再次输入新的钱包密码"
+        android:inputType="textPassword"
+        android:textColor="@color/title_color"
+        android:textColorHint="@color/gray_color"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="@dimen/dimens_15"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_1"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:layout_marginTop="@dimen/dimens_10"
+        android:background="@color/line"/>
+
+    <Button
+        android:id="@+id/btn_completeC"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_42"
+        android:layout_marginLeft="@dimen/dimens_20"
+        android:layout_marginRight="@dimen/dimens_20"
+        android:layout_marginTop="@dimen/dimens_20"
+        android:background="@color/blue_button"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimens_14"/>
+
+    <TextView
+        android:id="@+id/go_import_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="@dimen/dimens_20"
+        android:text="@string/alerady_wallet"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/dimens_13"/>
 </LinearLayout>

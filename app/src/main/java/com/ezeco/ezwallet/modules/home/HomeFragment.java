@@ -22,6 +22,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.ezeco.ezwallet.view.resource.ResourceActivity;
+import com.ezeco.ezwallet.view.walletmanage.EZWalletManageActivity;
 import com.gyf.barlibrary.ImmersionBar;
 import com.liaoinstan.springview.widget.SpringView;
 import com.ezeco.ezwallet.R;
@@ -440,9 +441,10 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
         mSwitchNumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
+                // TODO: 2018/12/17
+                /*bundle.putString("account", mUserAccountNumber.getText().toString().trim().toString());
                 bundle.putString("from", "home");
-                ActivityUtils.next(getActivity(), SwitchUserNumberActivity.class, bundle, 100);
+                ActivityUtils.next(getActivity(), SwitchUserNumberActivity.class, bundle, 100);*/
              /*   StringBuilder sb = new StringBuilder();
                 byte[] entropy = new byte[Words.TWELVE.byteLength()];
                 new SecureRandom().nextBytes(entropy);
@@ -450,6 +452,7 @@ public class HomeFragment extends BaseFragment<HomeView, HomePresenter> implemen
                         .createMnemonic(entropy, sb::append);
                 System.out.println(sb.toString());
                 byte[] seed = new SeedCalculator().calculateSeed(sb.toString(), "");//种子*/
+                ActivityUtils.next(getActivity(), EZWalletManageActivity.class);
             }
         });
         mHomeTitle1.setOnClickListener(new View.OnClickListener() {

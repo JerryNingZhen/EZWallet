@@ -315,6 +315,11 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".view.walletmanage.ChangeWalletPwdActivity"
             android:screenOrientation="portrait"/>
+
+        <activity android:name=".view.walletmanage.ChangeWalletNameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".view.walletmanage.BackupPrikeyActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
