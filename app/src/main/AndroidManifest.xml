@@ -41,15 +41,21 @@
             android:name=".modules.welcome.WelcomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeSplash">
+          <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".modules.main.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".modules.main.MainActivity"
-            android:screenOrientation="portrait"/>
         <activity
             android:name=".modules.scancode.ScanCodeActivity"
             android:screenOrientation="portrait"
