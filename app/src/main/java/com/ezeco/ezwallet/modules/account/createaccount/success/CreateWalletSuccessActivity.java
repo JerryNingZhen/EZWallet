@@ -79,7 +79,8 @@ public class CreateWalletSuccessActivity extends BaseAcitvity<NormalView, Normal
         // TODO: 2018/12/15  必须是拷贝后才可以备份
         mPrivKey = ByteArray.toHexString(mWallet.getECKey().getPrivKeyBytes());
         String mAddress = mWallet.getAddress();
-        tvShowKey.setText("私钥：" + mPrivKey + "  " + "地址" + mAddress);
+        //tvShowKey.setText("私钥：" + mPrivKey + "  " + "地址" + mAddress);
+        tvShowKey.setText(mPrivKey);
     }
 
     @Override
