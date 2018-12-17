@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="4dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/switch_wallet_check_iv"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dimens_12"
+        app:srcCompat="@mipmap/ic_current_state_png" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="@dimen/spacing_default"
+        android:background="@drawable/shape_dark_cn_btn_bg"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_12"
+        android:paddingBottom="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/switch_wallet_headimg_iv"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:padding="@dimen/dp_4" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/switch_wallet_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:singleLine="true"
+                android:text="ETHA"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_default" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/switch_wallet_verify_iv"
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_16"
+                android:layout_marginLeft="@dimen/dp_2" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/switch_ent_logo_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="17.0dip"
+                android:layout_marginLeft="@dimen/dp_6"
+                android:background="@drawable/shape_blue_cn9_btn_bg"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_7"
+                android:paddingRight="@dimen/dp_7"
+                android:textColor="@color/white"
+                android:textSize="9.0sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/switch_wallet_more_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_more_grey"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+</LinearLayout>
