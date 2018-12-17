@@ -257,10 +257,6 @@
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".modules.blackbox.blackboxaccount.BlackBoxCreatAccountActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
             android:name=".modules.account.backupaccount.activity.BackUpAccountActivity"
             android:screenOrientation="portrait">
         </activity>
@@ -313,6 +309,9 @@
         </activity>
 
         <activity android:name=".view.resource.ResourceActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".view.WalletManageActivity"
             android:screenOrientation="portrait"/>
     </application>
 

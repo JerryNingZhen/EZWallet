@@ -67,7 +67,7 @@ public class LoginOptionActivity extends BaseAcitvity<NormalView, NormalPresente
 
                 break;
             case R.id.btn_phone_login:
-                ActivityUtils.next(this, CreateWalletOptionActivity.class);
+                ActivityUtils.next(this, LoginActivity.class);
                 break;
         }
     }
